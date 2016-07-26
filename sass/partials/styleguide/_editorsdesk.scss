@@ -1,0 +1,224 @@
+/* editors desk */
+
+
+/* lead page */
+
+
+
+.page-editorsdesk .l-contenttop,
+.node-type-editorsdesk .l-contenttop {
+  border-bottom: none;
+}
+
+
+
+
+
+.page-editorsdesk .standing-slug-class,
+.node-type-editorsdesk .standing-slug-class {
+  margin-bottom: .25rem;
+  font-weight:700;
+  font-family: $sanseriffont;
+  font-size: .94em;
+  color: #999;
+  letter-spacing: .02em;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+.page-editorsdesk .l-contenttop .field-name-title,
+.node-type-editorsdesk .l-contenttop .field-name-title {
+  font-family: $headlinefont;
+  margin-top: 1rem;
+  padding-bottom: .25em;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 1.26em;
+  @include breakpoint($tab) {
+  font-size: 1.59rem;
+  }
+  @include breakpoint($desk) {
+  font-size: 1.76rem;
+  }
+}
+
+
+.page-editorsdesk .field-name-body p,
+.node-type-editorsdesk .field-name-body p {
+  font-family: $seriffont;
+  margin-bottom: .5em;
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
+/*
+*/
+
+
+.page-editorsdesk .field-name-field-blog-author-display,
+.node-type-editorsdesk .field-name-field-blog-author-display {
+  font-family: $sanseriffont;
+  font-size: .82em;
+  margin-bottom: .25em;
+  clear: both;
+ @include breakpoint($desk) {
+  float: left;
+  width: $leftraillive;
+  }
+}
+
+
+
+
+.page-editorsdesk .field-name-field-blog-author-display-creden,
+.node-type-editorsdesk .field-name-field-blog-author-display-creden {
+  font-family: $sanseriffont;
+  font-size: .82em;
+  clear: both;
+ @include breakpoint($desk) {
+  float: left;
+  width: $leftraillive;
+  }
+}
+
+
+
+
+
+.page-editorsdesk .field-name-field-blog-author-photo,
+.node-type-editorsdesk .field-name-field-blog-author-photo {
+  float:left;
+  clear:both;
+}
+
+
+.page-editorsdesk .field-name-post-date,
+.node-type-editorsdesk .field-name-post-date {
+  font-family: $sanseriffont;
+  margin-top: .5em;
+  font-size: .82em;
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
+
+.page-editorsdesk .field-name-node-link,
+.node-type-editorsdesk main .field-name-node-link {
+  font-family: $seriffont;
+  margin-bottom: .5em;
+  font-weight: 700;
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
+
+
+
+
+.page-editorsdesk .field-name-field-blog-author-photo,
+.node-type-editorsdesk .field-name-field-blog-author-photo {
+  clear:both;
+  padding-right: 20px;
+  float:left;
+ @include breakpoint($desk) {
+  }
+}
+
+
+.page-editorsdesk .field-name-field-blog-author-photo,
+.node-type-editorsdesk .field-name-field-blog-author-photo {
+  clear:both;
+  padding-right: 20px;
+  float:left;
+ @include breakpoint($desk) {
+  }
+}
+
+
+.page-editorsdesk .field-name-field-embedded-image-1,
+.node-type-editorsdesk .field-name-field-embedded-image-1 {
+  clear:both;
+  padding-right: 20px;
+  float:left;
+ @include breakpoint($desk) {
+  margin-top: 3em;
+  padding-right: 0;
+  }
+}
+
+
+
+.field-name-field-embedded-image-1 .image-field-caption {
+  width: $leftraillive;
+  font-family: $sanseriffont;
+  font-size: .82em;
+  padding-right: 20px;
+}
+
+
+.field-name-field-embedded-image-2 .image-field-caption {
+  width: $leftraillive;
+  font-family: $sanseriffont;
+  font-size: .82em;
+  padding-right: 20px;
+}
+
+
+
+
+.page-editorsdesk .field-name-field-embedded-image-2,
+.node-type-editorsdesk .field-name-field-embedded-image-2 {
+  clear:both;
+  padding-right: 20px;
+  float:left;
+ @include breakpoint($desk) {
+  margin-top: 6em;
+  padding-right: 0;
+  }
+}
+
+
+
+.page-editorsdesk .field-name-body p.sourceline,
+.node-type-editorsdesk .field-name-body p.sourceline {
+  font-family: $sanseriffont;
+  font-size: .82em;
+  padding-left: 0;
+}
+
+
+
+
+
+
+/*
+Styles for the more block at the bottom
+*/
+
+#block-views-editors-desk-one-entry-block-1 {
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
+
+
+#block-views-editors-desk-one-entry-block-1 h2 {
+  font-weight: 700;
+  margin-top: 1.5em;
+}
+
+
+
+
+#block-views-editors-desk-one-entry-block-1 li {
+  margin-top: .25em;
+  font-family: $sanseriffont;
+  font-size: .82em;
+}
+

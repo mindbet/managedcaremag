@@ -1,0 +1,68 @@
+////////////////////////
+// Print File
+//
+// This file gets turned into print.css.
+// This file is styles specific to Printed files.
+////////////////////////
+
+////////////////////////
+// Base Import
+////////////////////////
+@import 'partials/global/base';
+
+
+////////////////////////
+// Custom Code
+////////////////////////
+
+
+@media print {
+  .block-views-events-block {
+  display:none;
+  }
+  .block-mostpopular {
+  display:none;
+}
+  .block-dfp {
+  display:none;
+}
+  .block-block-14 {
+  display:none;
+}
+  .block-blog-recent {
+  display:none;
+}
+  .block-block-16 {
+  display:none;
+}
+  .block-secondary-menu {
+  display:none;
+}
+  .block-block-2 {
+  display:none;
+}
+  .block-disqus-comments {
+  display:none;
+}
+  .block-nice-menus-1 {
+  display:none;
+}
+  .block-block-11 {
+  display:none;
+}
+  .block-search-form {
+  display:none;
+}
+  .block-user-menu {
+  display:none;
+}
+  .block-system-navigation {
+  display:none;
+}
+  .block-user-login {
+  display:none;
+}
+@page {
+margin: 2cm;
+}
+}

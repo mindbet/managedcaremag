@@ -1,0 +1,86 @@
+/* Top touts */
+
+
+
+#block-views-nodequeue-2-block {
+  display: none;
+ @include breakpoint($narrowdesk) {
+  display: block;
+  margin-left: $leftrailmargin;
+  background-color: white;
+  padding-top: 58px;
+  height: 183px;
+  overflow: hidden;
+  }
+}
+
+
+
+.view-id-nodequeue_2 .field-name-field-fronttocclip .field-items .field-item {
+  position: relative;
+  z-index: 25;
+}
+
+.view-id-nodequeue_2 blockquote.image-field-caption {
+  position: absolute;
+  z-index: 75;
+  bottom: 10px;
+  left: 4px;
+  width: 92px;
+  }
+
+.view-id-nodequeue_2 blockquote.image-field-caption p {
+  font-size: .7em;
+  line-height: 1.2;
+  font-family: $sanseriffont;
+  color: white;
+  text-shadow: -1px 1px 1px #000;
+}
+
+
+.view-id-nodequeue_2 .view-mode-title_and_image .field-name-title p.top-tout  {
+  font-family: $sanseriffont;
+  font-size:.88em;
+  line-height: 18px;
+  color:#333;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.view-id-nodequeue_2 .view-mode-title_and_image {
+  float: right;
+  width: 32%;
+}
+
+
+.view-id-nodequeue_2 .group-left {
+  max-width: 100px;
+}
+
+.view-id-nodequeue_2 .group-right {
+  padding-left: 15px;
+  }
+
+
+
+
+
+
+.view-id-nodequeue_2 .view-mode-title_and_image img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+
+.view-id-nodequeue_2 .view-mode-title_and_image .field-name-title p.top-tout a {
+  font-weight: normal;
+  }

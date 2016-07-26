@@ -1,0 +1,82 @@
+html {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media print {
+  .block-views-events-block {
+    display: none;
+  }
+
+  .block-mostpopular {
+    display: none;
+  }
+
+  .block-dfp {
+    display: none;
+  }
+
+  .block-block-14 {
+    display: none;
+  }
+
+  .block-blog-recent {
+    display: none;
+  }
+
+  .block-block-16 {
+    display: none;
+  }
+
+  .block-secondary-menu {
+    display: none;
+  }
+
+  .block-block-2 {
+    display: none;
+  }
+
+  .block-disqus-comments {
+    display: none;
+  }
+
+  .block-nice-menus-1 {
+    display: none;
+  }
+
+  .block-block-11 {
+    display: none;
+  }
+
+  .block-search-form {
+    display: none;
+  }
+
+  .block-user-menu {
+    display: none;
+  }
+
+  .block-system-navigation {
+    display: none;
+  }
+
+  .block-user-login {
+    display: none;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+}
