@@ -49,6 +49,28 @@
 }
 
 
+
+.page-editorsdesk .field-name-body,
+.node-type-editorsdesk .field-name-body {
+  margin-top: 1em;
+ @include breakpoint($desk) {
+  margin-top: 0;
+  }
+}
+
+
+
+
+.page-editorsdesk .field-name-field-embedded-image-1,
+.node-type-editorsdesk .field-name-field-embedded-image-1 {
+  margin-top: 1em;
+ @include breakpoint($desk) {
+  margin-top: 0;
+  }
+}
+
+
+
 .page-editorsdesk .field-name-body p,
 .node-type-editorsdesk .field-name-body p {
   font-family: $seriffont;
@@ -65,7 +87,6 @@
 .node-type-editorsdesk .field-name-field-blog-author-display {
   font-family: $sanseriffont;
   font-size: .82em;
-  margin-bottom: .25em;
   clear: both;
  @include breakpoint($desk) {
   float: left;

@@ -44,8 +44,8 @@ $lightgray: #eee;
 
 
 
-/*
 @include sgs-change('debug', true);
+/*
 */
 
 
@@ -129,7 +129,7 @@ header {
 .l-contenttop {
   @include breakpoint($tab) {
   border-bottom: solid 1px #999;
-  padding: 0 1em;
+  padding: 0;
 }
 }
 
@@ -142,13 +142,13 @@ header {
 
 
 
-.node-type-story .l-contentbody {
+.l-contentbody {
 
   padding: 15px 0 0 0;
 
   @include add-gutter(1/2);
 
-  @include add-grid(8 5 at $tab);
+  @include add-grid(11 8 at $tab);
   @include add-grid(10 5 at $narrowdesk);
   @include add-grid(12 5 at $desk);
 
@@ -160,10 +160,10 @@ header {
 
 
 
-.node-type-story .l-contentbody main {
+.l-contentbody main {
 
   @include breakpoint($tab) {
-  padding: 0 0 0 15px;
+  padding: 0 0 0 0;
   @include grid-span (1, 1);
   }
 
@@ -180,13 +180,13 @@ header {
 }
 
 
-.node-type-story .l-contentbody .sidebar--two {
+.l-contentbody .sidebar--two {
 /*   clear:both; */
   padding: 15px 15px 0 15px;
 
 @include breakpoint($tab) {
   @include grid-span (1, 2);
-  padding: 0;
+  padding: 0 15px 0 0;
 }
 
   @include breakpoint($narrowdesk) {
@@ -214,7 +214,7 @@ header {
 
   @include add-gutter(1/2);
 
-  @include add-grid(8 5 at $tab);
+  @include add-grid(11 8 at $tab);
   @include add-grid(10 5 at $narrowdesk);
   @include add-grid(12 5 at $desk);
 
@@ -279,7 +279,7 @@ header {
 
   @include add-gutter(1/2);
 
-  @include add-grid(8 5 at $tab);
+  @include add-grid(11 8 at $tab);
   @include add-grid(3 7 5 at $narrowdesk);
   @include add-grid(3 9 5 at $desk);
 
@@ -347,598 +347,12 @@ header {
 
 
 
-/* news-item page */
 
-.node-type-news-item .l-contentbody {
 
-  padding: 15px 0 0 0;
 
-  @include add-gutter(1/2);
 
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
 
-}
 
-.node-type-news-item .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.node-type-news-item .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-/* news pages */
-
-.page-news .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-
-
-}
-
-.page-news .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-news .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-/* tv page */
-
-.page-tv .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-}
-
-.page-tv .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-tv .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-/* blog page */
-
-.page-blog .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-}
-
-.page-blog .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-blog .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-/* research page */
-
-.page-research .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-
-
-}
-
-.page-research .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-research .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-/* static pages */
-
-.page-node .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-
-
-}
-
-.page-node .l-contentbody main {
-
-  @include breakpoint($tab) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-node .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-/* editors desk pages */
-
-.page-editorsdesk .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-
-
-}
-
-.page-editorsdesk .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-editorsdesk .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-
-
-
-
-/* focus pages */
-
-.page-focus .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-
-
-}
-
-.page-focus .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-focus .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-
-
-
-/* pharmD corner pages */
-
-.page-pharmdcorner .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-
-
-}
-
-.page-pharmdcorner .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-pharmdcorner .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
-
-
-
-/* linkout pages */
-
-.page-linkout .l-contentbody {
-
-  padding: 15px 0 0 0;
-
-  @include add-gutter(1/2);
-
-  @include add-grid(8 5 at $tab);
-  @include add-grid(10 5 at $narrowdesk);
-  @include add-grid(12 5 at $desk);
-
-
-
-}
-
-.page-linkout .l-contentbody main {
-  padding: 0 0 0 15px;
-
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 1);
-  }
-
-}
-
-.page-linkout .l-contentbody .sidebar--two {
-/*   clear:both; */
-  padding: 15px 15px 0 15px;
-
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
-
-  @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-  @include breakpoint($desk) {
-  padding: 0 0 0 15px;
-  @include grid-span (1, 2);
-  }
-
-}
 
 
 

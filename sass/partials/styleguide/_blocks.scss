@@ -37,3 +37,36 @@
   }
 }
 */
+
+
+
+.responsive-menus.responsified span.toggler {
+  padding: 8px 1px 1px 10px;
+  display: block;
+  background: $managedcarered;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  font-size: 1em;
+  text-align: left;
+  height: 38px;
+  cursor: pointer;
+  outline: none;
+  font-family: $sanseriffont;
+}
+
+
+.responsive-menus.responsified .responsive-menus-simple li a {
+  color: #fff;
+  display: block;
+  padding: 1em 5%;
+  margin: 0;
+  text-align: left;
+  color: #fff;
+  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  text-decoration: none;
+  text-transform: none;
+  font-family: $sanseriffont;
+  box-shadow: none;
+}

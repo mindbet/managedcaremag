@@ -92,11 +92,9 @@
 #block-dfp-mc-topbanner-728x90-1 {
   text-align:center;
   padding-top:48px;
-  margin-bottom: 0;
   @include breakpoint($tab) {
   padding-top:0;
-  margin-top: 0;
-  margin-bottom: 1em;
+  margin: 0 auto 1em auto;
 }
 }
 
@@ -107,14 +105,8 @@
 
 
 
-@media (max-width: 768px) {
-#block-dfp-mc-topbanner-728x90-1 {
-    display: none;
-  }
-}
-/*
-*/
 
+/*
 
 @media (max-width: 468px) {
 #block-dfp-mc-468x60-content-middle-1 {
@@ -133,7 +125,6 @@
     display: none;
   }
 }
-/*
 */
 
 
