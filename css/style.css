@@ -751,6 +751,15 @@ main td ul {
   }
 }
 
+main td ol {
+  padding-left: .5em;
+}
+@media (min-width: 1110px) {
+  main td ol {
+    margin-left: 0;
+  }
+}
+
 main ul li {
   padding-left: 6px;
   margin-bottom: 0;
@@ -2634,6 +2643,20 @@ span.inlinefootnote {
   margin: 0;
 }
 
+/* Search page */
+.view-id-current_issue_r6 .featureheadline {
+  font-family: "Noto Sans";
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 1em;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .featureheadline {
+    padding-left: 210px;
+  }
+}
+
 #block-dfp-mc-160x600-wideskyscraper {
   margin-bottom: 2em;
 }
@@ -2646,6 +2669,11 @@ span.inlinefootnote {
 #block-dfp-mc-300x250-6,
 #block-dfp-mc-300x250-7,
 #block-dfp-mc-300x250-8 {
+  margin: 0 auto 2em auto;
+  text-align: center;
+}
+
+#block-dfp-mc-300x600 {
   margin: 0 auto 2em auto;
   text-align: center;
 }
