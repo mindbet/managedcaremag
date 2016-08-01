@@ -197,7 +197,7 @@ header {
 
 .l-contentbody .sidebar--two {
   /*   clear:both; */
-  padding: 15px 15px 0 15px;
+  padding: 15px 15px 0 0;
 }
 @media (min-width: 768px) {
   .l-contentbody .sidebar--two {
@@ -207,7 +207,7 @@ header {
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    padding: 0 15px 0 0;
+    padding: 0 15px 0 5px;
   }
 }
 @media (min-width: 990px) {
@@ -563,7 +563,7 @@ h1 {
 /*
 Title story for Story
 */
-.node-type-story .block-ds-extras .field-name-title {
+.block-ds-extras .field-name-title {
   font-family: "Oxygen";
   padding-top: .5rem;
   padding-bottom: .25rem;
@@ -572,14 +572,22 @@ Title story for Story
   font-size: 1.24rem;
 }
 @media (min-width: 768px) {
-  .node-type-story .block-ds-extras .field-name-title {
+  .block-ds-extras .field-name-title {
     font-size: 1.59em;
   }
 }
 @media (min-width: 1110px) {
-  .node-type-story .block-ds-extras .field-name-title {
+  .block-ds-extras .field-name-title {
     font-size: 1.76rem;
   }
+}
+
+.block-ds-extras .field-name-standing-slug {
+  margin-top: 15px;
+}
+
+.block-ds-extras .field-name-standing-slug-pharmd-corner {
+  margin-top: 15px;
 }
 
 h3 {
@@ -1980,6 +1988,16 @@ blog overview
   }
 }
 
+.page-blog .field-name-field-fronttocclip .field-items .field-item {
+  margin-top: .5rem;
+  position: relative;
+  float: left;
+  margin-right: 1em;
+  width: 160px;
+  margin-bottom: 8px;
+  z-index: 25;
+}
+
 /*
 blog individual entries
 */
@@ -2017,14 +2035,14 @@ blog individual entries
 }
 
 /* blog pages */
-.node-blog .field-name-body p {
+.node-blog.node-teaser .field-name-body p {
   font-family: "PT Serif";
   margin-bottom: .5em;
-}
-@media (min-width: 1110px) {
-  .node-blog .field-name-body p {
-    padding-left: 210px;
-  }
+  /*
+    @include breakpoint($desk) {
+    padding-left: $leftrailmargin;
+    }
+  */
 }
 
 .node-blog .field-name-post-date {
@@ -2073,7 +2091,6 @@ blog individual entries
 .node-blog.node-teaser p {
   font-family: "PT Serif";
   margin-bottom: .5em;
-  padding-left: 180px;
 }
 
 /*
@@ -2221,25 +2238,23 @@ Pages
   padding-left: 0;
 }
 
+/*
 .page-linkout .block-ds-extras .field-name-title {
-  font-family: "Oxygen";
+  font-family: $headlinefont;
   padding-top: .5rem;
   padding-bottom: .25rem;
   line-height: 1.3;
   font-weight: 700;
   font-size: 1.24rem;
-}
-@media (min-width: 768px) {
-  .page-linkout .block-ds-extras .field-name-title {
-    font-size: 1.59em;
+  @include breakpoint($tab) {
+  font-size: 1.59em;
   }
-}
-@media (min-width: 1110px) {
-  .page-linkout .block-ds-extras .field-name-title {
-    font-size: 1.76rem;
+  @include breakpoint($desk) {
+  font-size: 1.76rem;
   }
 }
 
+*/
 /*
 Research listing page
 */
@@ -2631,7 +2646,19 @@ span.inlinefootnote {
 #block-dfp-mc-300x250-6,
 #block-dfp-mc-300x250-7,
 #block-dfp-mc-300x250-8 {
-  margin-bottom: 2em;
+  margin: 0 auto 2em auto;
+  text-align: center;
+}
+
+#block-dfp-mc-300x250-mobile {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.lazyadslot-mc_300x250_3_0,
+.lazyadslot-mc_300x250_4_0 {
+  margin: 0 auto 2em auto;
+  text-align: center;
 }
 
 #block-dfp-mc-728x90-fixed {
@@ -2684,12 +2711,12 @@ span.inlinefootnote {
 */
 #block-dfp-mc-topbanner-728x90-1 {
   text-align: center;
-  padding-top: 48px;
+  padding: 12px 0 6px 0;
 }
 @media (min-width: 768px) {
   #block-dfp-mc-topbanner-728x90-1 {
     padding-top: 0;
-    margin: 0 auto 1em auto;
+    margin: 0 auto 0.5em auto;
   }
 }
 
@@ -3316,12 +3343,14 @@ Styles for the more block at the bottom
   font-family: "Noto Sans";
   font-size: .82em;
   clear: both;
-  width: 180px;
+  margin-bottom: 1em;
 }
 @media (min-width: 1110px) {
   .page-pharmdcorner .field-name-field-author-bio-pharmd,
   .node-type-pharmd-corner .field-name-field-author-bio-pharmd {
     float: left;
+    width: 180px;
+    margin-bottom: 0;
   }
 }
 
@@ -4000,6 +4029,16 @@ Special for news headlines block on front
   }
 }
 */
+/*
+.responsive-menus.responsified {
+  position: fixed;
+  top: 0;
+  left: 0;
+  clear: both;
+  width: 100%;
+  height: 38px;
+}
+*/
 .responsive-menus.responsified span.toggler {
   padding: 8px 1px 1px 10px;
   display: block;
@@ -4009,8 +4048,8 @@ Special for news headlines block on front
   color: #fff;
   font-size: 1em;
   text-align: left;
-  height: 38px;
   cursor: pointer;
+  height: 38px;
   outline: none;
   font-family: "Noto Sans";
 }

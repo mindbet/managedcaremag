@@ -147,9 +147,11 @@
   font-family: $sanseriffont;
   font-size: .82em;
   clear: both;
-  width: $leftraillive;
+  margin-bottom: 1em;
  @include breakpoint($desk) {
   float:left;
+  width: $leftraillive;
+  margin-bottom: 0;
   }
 }
 

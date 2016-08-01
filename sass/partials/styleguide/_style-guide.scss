@@ -182,11 +182,11 @@ header {
 
 .l-contentbody .sidebar--two {
 /*   clear:both; */
-  padding: 15px 15px 0 15px;
+  padding: 15px 15px 0 0;
 
 @include breakpoint($tab) {
   @include grid-span (1, 2);
-  padding: 0 15px 0 0;
+  padding: 0 15px 0 5px;
 }
 
   @include breakpoint($narrowdesk) {

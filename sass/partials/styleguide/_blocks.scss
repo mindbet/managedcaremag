@@ -38,6 +38,17 @@
 }
 */
 
+/*
+.responsive-menus.responsified {
+  position: fixed;
+  top: 0;
+  left: 0;
+  clear: both;
+  width: 100%;
+  height: 38px;
+}
+*/
+
 
 
 .responsive-menus.responsified span.toggler {
@@ -49,8 +60,8 @@
   color: #fff;
   font-size: 1em;
   text-align: left;
-  height: 38px;
   cursor: pointer;
+  height: 38px;
   outline: none;
   font-family: $sanseriffont;
 }
