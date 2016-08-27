@@ -1070,7 +1070,27 @@ padding-top:.5em;
   }
 
 
+.view-id-nodequeue_1
+  .field-name-field-author9
+{
+  font-family: $sanseriffont;
+  font-size: .82em;
+  font-weight: 400;
+ @include breakpoint($desk) {
+  clear: both;
+  }
+  }
 
+.view-id-nodequeue_1
+  .field-name-field-author10
+{
+  font-family: $sanseriffont;
+  font-size: .82em;
+  font-weight: 400;
+ @include breakpoint($desk) {
+  clear: both;
+  }
+  }
 
 
 
@@ -1196,6 +1216,34 @@ padding-top:.5em;
   }
   }
 
+.view-mode-full .field-name-field-author9
+{
+  font-family: $sanseriffont;
+  font-size: .82em;
+  font-weight: 700;
+  clear: both;
+  margin-top:.5em;
+ @include breakpoint($desk) {
+  float: left;
+  clear: both;
+  width: $leftraillive;
+  }
+  }
+
+.view-mode-full .field-name-field-author10
+{
+  font-family: $sanseriffont;
+  font-size: .82em;
+  font-weight: 700;
+  clear: both;
+  margin-top:.5em;
+ @include breakpoint($desk) {
+  float: left;
+  clear: both;
+  width: $leftraillive;
+  }
+  }
+
 
 
 
@@ -1211,7 +1259,11 @@ padding-top:.5em;
 .field-name-field-authorcred5,
 .field-name-field-authorcred6,
 .field-name-field-authorcred7,
-.field-name-field-authorcred8
+.field-name-field-authorcred8,
+.field-name-field-authorcred9,
+.field-name-field-author9cred,
+.field-name-field-author10cred,
+.field-name-field-authorcred10
 {
   font-family: $sanseriffont;
   font-size: .82em;
@@ -1608,6 +1660,23 @@ Table of Contents listings
   }
   }
 
+.view-id-current_issue_r6 .views-field-field-author9 {
+  font-family: $sanseriffont;
+  font-size: .88em;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author10 {
+  font-family: $sanseriffont;
+  font-size: .88em;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+  }
 
 
 
@@ -2114,14 +2183,14 @@ Research listing page
 .page-research .view-original-research .views-field-field-author
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author2
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
@@ -2129,35 +2198,35 @@ Research listing page
 .page-research .view-original-research .views-field-field-author3
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author4
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author5
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author6
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author7
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
@@ -2165,10 +2234,23 @@ Research listing page
 .page-research .view-original-research .views-field-field-author8
 {
   font-family: $sanseriffont;
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
+.page-research .view-original-research .views-field-field-author9
+{
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  margin-bottom: 1em;
+}
+
+.page-research .view-original-research .views-field-field-author10
+{
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  margin-bottom: 1em;
+}
 
 
 
@@ -2543,7 +2625,13 @@ span.inlinefootnote {
 
 
 
-
+.imagecredit {
+  font-family: $sanseriffont;
+  margin-top: .5em;
+  font-size:.8em;
+  line-height:1.45;
+  color:#333;
+}
 
 
 

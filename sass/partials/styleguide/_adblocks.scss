@@ -47,17 +47,16 @@
 
 
 
+/*
+*/
 
 
 
 #block-dfp-mc-728x90-fixed {
-/*
     display:none;
-*/
+    @include breakpoint($tab) {
     background-color: #e7e7e7;
     bottom: 0;
-    -moz-box-shadow: 0 -4px 4px rgba(0, 0, 0, .06);
-    -webkit-box-shadow: 0 -4px 4px rgba(0, 0, 0, .06);
     box-shadow: 0 -4px 4px rgba(0, 0, 0, .06);
     height: 110px;
     margin-bottom: 0;
@@ -67,19 +66,11 @@
     width: 100%;
     z-index: 1000100;
     display: block;
-
-    @include breakpoint($tab) {
     }
-
-    @include breakpoint($narrowdesk) {
-    }
-
     @include breakpoint($desk) {
         width: calc(#{$desk} - 30px);
     }
   }
-
-
 
 
 
@@ -92,8 +83,6 @@
   padding-top:10px;
   text-align:center;
   border-top: solid 1px #656565;
-  -webkit-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
-  -moz-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
   box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
   width:960px;
   margin-bottom:0;

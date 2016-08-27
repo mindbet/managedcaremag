@@ -1369,6 +1369,32 @@ Special elements
   }
 }
 
+.view-id-nodequeue_1
+.field-name-field-author9 {
+  font-family: "Noto Sans";
+  font-size: .82em;
+  font-weight: 400;
+}
+@media (min-width: 1110px) {
+  .view-id-nodequeue_1
+  .field-name-field-author9 {
+    clear: both;
+  }
+}
+
+.view-id-nodequeue_1
+.field-name-field-author10 {
+  font-family: "Noto Sans";
+  font-size: .82em;
+  font-weight: 400;
+}
+@media (min-width: 1110px) {
+  .view-id-nodequeue_1
+  .field-name-field-author10 {
+    clear: both;
+  }
+}
+
 .view-mode-full .field-name-field-author {
   font-family: "Noto Sans";
   font-size: .82em;
@@ -1489,6 +1515,36 @@ Special elements
   }
 }
 
+.view-mode-full .field-name-field-author9 {
+  font-family: "Noto Sans";
+  font-size: .82em;
+  font-weight: 700;
+  clear: both;
+  margin-top: .5em;
+}
+@media (min-width: 1110px) {
+  .view-mode-full .field-name-field-author9 {
+    float: left;
+    clear: both;
+    width: 180px;
+  }
+}
+
+.view-mode-full .field-name-field-author10 {
+  font-family: "Noto Sans";
+  font-size: .82em;
+  font-weight: 700;
+  clear: both;
+  margin-top: .5em;
+}
+@media (min-width: 1110px) {
+  .view-mode-full .field-name-field-author10 {
+    float: left;
+    clear: both;
+    width: 180px;
+  }
+}
+
 .view-mode-full
 .field-name-field-authorcred,
 .field-name-field-authorcred2,
@@ -1497,7 +1553,11 @@ Special elements
 .field-name-field-authorcred5,
 .field-name-field-authorcred6,
 .field-name-field-authorcred7,
-.field-name-field-authorcred8 {
+.field-name-field-authorcred8,
+.field-name-field-authorcred9,
+.field-name-field-author9cred,
+.field-name-field-author10cred,
+.field-name-field-authorcred10 {
   font-family: "Noto Sans";
   font-size: .82em;
   clear: both;
@@ -1511,7 +1571,11 @@ Special elements
   .field-name-field-authorcred5,
   .field-name-field-authorcred6,
   .field-name-field-authorcred7,
-  .field-name-field-authorcred8 {
+  .field-name-field-authorcred8,
+  .field-name-field-authorcred9,
+  .field-name-field-author9cred,
+  .field-name-field-author10cred,
+  .field-name-field-authorcred10 {
     float: left;
     clear: both;
     width: 180px;
@@ -1860,6 +1924,28 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author8 {
+    padding-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author9 {
+  font-family: "Noto Sans";
+  font-size: .88em;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author9 {
+    padding-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author10 {
+  font-family: "Noto Sans";
+  font-size: .88em;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author10 {
     padding-left: 210px;
   }
 }
@@ -2295,49 +2381,61 @@ Research listing page
 
 .page-research .view-original-research .views-field-field-author {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author2 {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author3 {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author4 {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author5 {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author6 {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author7 {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
 .page-research .view-original-research .views-field-field-author8 {
   font-family: "Noto Sans";
-  font-size: .94rem;
+  font-size: .88rem;
+  margin-bottom: 1em;
+}
+
+.page-research .view-original-research .views-field-field-author9 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  margin-bottom: 1em;
+}
+
+.page-research .view-original-research .views-field-field-author10 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
   margin-bottom: 1em;
 }
 
@@ -2689,23 +2787,25 @@ span.inlinefootnote {
   text-align: center;
 }
 
+/*
+*/
 #block-dfp-mc-728x90-fixed {
-  /*
-      display:none;
-  */
-  background-color: #e7e7e7;
-  bottom: 0;
-  -moz-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
-  -webkit-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
-  box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
-  height: 110px;
-  margin-bottom: 0;
-  padding-top: 10px;
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  z-index: 1000100;
-  display: block;
+  display: none;
+}
+@media (min-width: 768px) {
+  #block-dfp-mc-728x90-fixed {
+    background-color: #e7e7e7;
+    bottom: 0;
+    box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
+    height: 110px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1000100;
+    display: block;
+  }
 }
 @media (min-width: 1110px) {
   #block-dfp-mc-728x90-fixed {
@@ -2722,8 +2822,6 @@ span.inlinefootnote {
   padding-top:10px;
   text-align:center;
   border-top: solid 1px #656565;
-  -webkit-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
-  -moz-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
   box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
   width:960px;
   margin-bottom:0;
