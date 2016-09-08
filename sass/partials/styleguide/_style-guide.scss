@@ -43,9 +43,8 @@ $warmgray:  #999;
 $lightgray: #eee;
 
 
-
-@include sgs-change('debug', true);
 /*
+@include sgs-change('debug', true);
 */
 
 
@@ -151,7 +150,6 @@ header {
   @include add-grid(11 8 at $tab);
   @include add-grid(10 5 at $narrowdesk);
   @include add-grid(12 5 at $desk);
-
 
 
 }
@@ -383,14 +381,29 @@ header {
 }
 
 
+#prefooter {
+  @include add-gutter(1/4);
+  @include add-grid(2);
+  @include add-grid(2 at $tab);
+  @include add-grid(16 at $desk);
+  @include clearfix;
+  margin-top: 2rem;
+  clear: both;
+  padding: 20px 10px 10px 20px;
+  background-color: #515151;
+}
+
 
 
 #footer {
-  margin-top: 2rem;
   clear: both;
   padding-bottom: 110px;
   padding-top: 10px;
 }
+
+
+
+
 
 
 

@@ -76,6 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* @import 'normalize'; */
 /*
+@include sgs-change('debug', true);
 */
 .l-page {
   margin: 0 auto;
@@ -164,7 +165,6 @@ header {
 @media (min-width: 768px) {
   .l-contentbody main {
     padding: 0 0 0 0;
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 11 8, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 56.41026%;
     float: left;
     margin-right: -100%;
@@ -175,7 +175,6 @@ header {
 @media (min-width: 990px) {
   .l-contentbody main {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 10 5, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 64.51613%;
     float: left;
     margin-right: -100%;
@@ -186,7 +185,6 @@ header {
 @media (min-width: 1110px) {
   .l-contentbody main {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 12 5, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 68.57143%;
     float: left;
     margin-right: -100%;
@@ -201,7 +199,6 @@ header {
 }
 @media (min-width: 768px) {
   .l-contentbody .sidebar--two {
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 11 8, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 41.02564%;
     float: right;
     margin-left: 0;
@@ -213,7 +210,6 @@ header {
 @media (min-width: 990px) {
   .l-contentbody .sidebar--two {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 10 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 32.25806%;
     float: right;
     margin-left: 0;
@@ -224,7 +220,6 @@ header {
 @media (min-width: 1110px) {
   .l-contentbody .sidebar--two {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 12 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 28.57143%;
     float: right;
     margin-left: 0;
@@ -243,7 +238,6 @@ header {
 }
 @media (min-width: 768px) {
   .page-issue- .l-contentbody main {
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 11 8, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 56.41026%;
     float: left;
     margin-right: -100%;
@@ -254,7 +248,6 @@ header {
 @media (min-width: 990px) {
   .page-issue- .l-contentbody main {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 10 5, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 64.51613%;
     float: left;
     margin-right: -100%;
@@ -265,7 +258,6 @@ header {
 @media (min-width: 1110px) {
   .page-issue- .l-contentbody main {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 12 5, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 68.57143%;
     float: left;
     margin-right: -100%;
@@ -280,7 +272,6 @@ header {
 }
 @media (min-width: 768px) {
   .page-issue- .l-contentbody .sidebar--two {
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 11 8, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 41.02564%;
     float: right;
     margin-left: 0;
@@ -292,7 +283,6 @@ header {
 @media (min-width: 990px) {
   .page-issue- .l-contentbody .sidebar--two {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 10 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 32.25806%;
     float: right;
     margin-left: 0;
@@ -303,7 +293,6 @@ header {
 @media (min-width: 1110px) {
   .page-issue- .l-contentbody .sidebar--two {
     padding: 0 0 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 12 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 28.57143%;
     float: right;
     margin-left: 0;
@@ -336,7 +325,6 @@ header {
 }
 @media (min-width: 990px) {
   .front .l-contentbody .sidebar--one {
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 3 7 5, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 18.75%;
     float: left;
     margin-right: -100%;
@@ -352,7 +340,6 @@ header {
 }
 @media (min-width: 1110px) {
   .front .l-contentbody .sidebar--one {
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 3 9 5, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 16.66667%;
     float: left;
     margin-right: -100%;
@@ -372,7 +359,6 @@ header {
 }
 @media (min-width: 768px) {
   .front .l-contentbody main {
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 11 8, "gutter": 0.5, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 56.41026%;
     float: left;
     margin-right: -100%;
@@ -383,7 +369,6 @@ header {
 @media (min-width: 990px) {
   .front .l-contentbody main {
     padding: 0;
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 3 7 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 43.75%;
     float: left;
     margin-right: -100%;
@@ -393,7 +378,6 @@ header {
 }
 @media (min-width: 1110px) {
   .front .l-contentbody main {
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 3 9 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 50%;
     float: left;
     margin-right: -100%;
@@ -409,7 +393,6 @@ header {
 @media (min-width: 768px) {
   .front .l-contentbody .sidebar--two {
     padding: 15px 15px 0 15px;
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 11 8, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 41.02564%;
     float: right;
     margin-left: 0;
@@ -420,7 +403,6 @@ header {
 @media (min-width: 990px) {
   .front .l-contentbody .sidebar--two {
     padding: 0;
-    -sgs-span-settings: ("span": 1, "location": 3, "grid": 3 7 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 31.25%;
     float: right;
     margin-left: 0;
@@ -430,7 +412,6 @@ header {
 }
 @media (min-width: 1110px) {
   .front .l-contentbody .sidebar--two {
-    -sgs-span-settings: ("span": 1, "location": 3, "grid": 3 9 5, "gutter": 0.5, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 27.77778%;
     float: right;
     margin-left: 0;
@@ -449,8 +430,19 @@ header {
   opacity: .4;
 }
 
-#footer {
+#prefooter {
   margin-top: 2rem;
+  clear: both;
+  padding: 20px 10px 10px 20px;
+  background-color: #515151;
+}
+#prefooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#footer {
   clear: both;
   padding-bottom: 110px;
   padding-top: 10px;
@@ -659,6 +651,10 @@ h4 {
   .page-node main pre {
     padding-left: 210px;
   }
+}
+
+#block-views-wire-list-block-1 {
+  margin-bottom: 2em;
 }
 
 .node-type-wire-feed main .field-name-field-pub-date {
@@ -1736,6 +1732,19 @@ Table of Contents listings
   }
 }
 
+/* Digital edition link */
+.view-id-current_issue_r6 .views-field-field-digital-edition {
+  float: none;
+  width: 180px;
+  clear: both;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-digital-edition {
+    float: left;
+    margin-bottom: 1rem;
+  }
+}
+
 .view-id-current_issue_r6 .field-name-field-slug {
   font-weight: 700;
   font-family: "Noto Sans";
@@ -1983,6 +1992,17 @@ aside.sidebar--two li {
 
 aside.sidebar--two p {
   margin-left: 0;
+}
+
+#prefooter h2 {
+  font-family: "Noto Sans";
+  font-size: 1.24rem;
+  line-height: 1.3;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .06rem;
+  color: #999;
+  margin-bottom: .5rem;
 }
 
 /*
@@ -2753,6 +2773,14 @@ span.inlinefootnote {
 
 .field-group-inline-separator {
   margin: 0;
+}
+
+.imagecredit {
+  font-family: "Noto Sans";
+  margin-top: .5em;
+  font-size: .8em;
+  line-height: 1.45;
+  color: #333;
 }
 
 #block-dfp-mc-160x600-wideskyscraper {
@@ -4200,22 +4228,140 @@ Special for news headlines block on front
   font-weight: normal;
 }
 
-.block-staff-contacts {
+/* SOCIAL MEDIA LINKS */
+#prefooter .block-social-media-links {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 768px) {
+  #prefooter .block-social-media-links {
+    width: 44.44444%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1110px) {
+  #prefooter .block-social-media-links {
+    width: 24.05063%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+
+.block-social-media-links a {
+  font-family: "Noto Sans";
+  font-size: .82rem;
+  line-height: 1.4;
+  color: white;
+}
+
+/* STAFF CONTACTS */
+#prefooter .block-staff-contacts {
   margin-bottom: 2em;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+#prefooter .block-staff-contacts:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 768px) {
+  #prefooter .block-staff-contacts {
+    width: 44.44444%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1110px) {
+  #prefooter .block-staff-contacts {
+    width: 36.70886%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 37.97468%;
+    clear: none;
+  }
+}
+
+.block-staff-contacts p {
+  padding-left: 0;
+  margin-left: 0;
+  font-family: "Noto Sans";
+  font-size: .82rem;
+  line-height: 1.4;
+  padding-top: .4rem;
+  color: white;
+}
+
+#prefooter .block-staff-contacts a {
+  padding-top: .2rem;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: .82rem;
+  line-height: 1.4;
+  color: white;
+}
+
+/* USEFUL LINKS */
+#prefooter #block-menu-secondary-menu {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+#prefooter #block-menu-secondary-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 768px) {
+  #prefooter #block-menu-secondary-menu {
+    width: 44.44444%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1110px) {
+  #prefooter #block-menu-secondary-menu {
+    width: 36.70886%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+
+#block-menu-secondary-menu li a {
+  font-family: "Noto Sans";
+  font-size: .82rem;
+  color: white;
+  line-height: 1.4;
 }
 
 .block-latest-issue {
   margin-top: 2em;
 }
 
-.block-pain-report-download {
-  margin-top: 2em;
-}
-
+/*
 .block-menu {
   margin-top: 2em;
 }
 
+*/
 /*
 .field-name-field-full-width-hero-image {
 

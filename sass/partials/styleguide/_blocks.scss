@@ -1,13 +1,82 @@
-.block-social-media-links {
+/* SOCIAL MEDIA LINKS */
 
+
+#prefooter .block-social-media-links {
+  @include grid-span (2, 1);
+  @include breakpoint($tab) {
+  @include float-span (1, 2);
+  }
+  @include breakpoint($desk) {
+  @include grid-span (4, 13);
+  }
+}
+
+.block-social-media-links a {
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  line-height: 1.4;
+  color: white;
 }
 
 
+/* STAFF CONTACTS */
 
-.block-staff-contacts {
+
+#prefooter .block-staff-contacts {
   margin-bottom: 2em;
+  @include clearfix;
+  @include grid-span (2, 1);
+  @include breakpoint($tab) {
+  @include grid-span (1, 2);
+  }
+  @include breakpoint($desk) {
+  @include grid-span (6, 7);
+  }
 }
 
+.block-staff-contacts p {
+  padding-left: 0;
+  margin-left: 0;
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  line-height: 1.4;
+  padding-top: .4rem;
+  color: white;
+}
+
+
+#prefooter .block-staff-contacts a {
+  padding-top: .2rem;
+  font-family: $sanseriffont;
+  font-weight: 400;
+  font-size: .82rem;
+  line-height: 1.4;
+  color: white;
+}
+
+
+/* USEFUL LINKS */
+
+
+#prefooter #block-menu-secondary-menu {
+  @include clearfix;
+  @include grid-span (2, 1);
+  @include breakpoint($tab) {
+  @include grid-span (1, 1);
+  }
+  @include breakpoint($desk) {
+    @include grid-span (6, 1);
+    }
+}
+
+
+
+#block-menu-secondary-menu li a {
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  color: white;
+  line-height: 1.4;
+}
 
 
 
@@ -16,14 +85,17 @@
 }
 
 
-.block-pain-report-download {
-  margin-top: 2em;
-}
 
-
+/*
 .block-menu {
   margin-top: 2em;
 }
+
+*/
+
+
+
+
 
 
 /*

@@ -124,6 +124,12 @@
 
 </div>
 
+<?php if ($page['prefooter']): ?>
+  <footer id="prefooter" role="contentinfo">
+  <?php print render($page['prefooter']); ?>
+  </footer>
+<?php endif; ?>
+
 <?php if ($page['footer']): ?>
   <footer id="footer" role="contentinfo">
   <?php print render($page['footer']); ?>
