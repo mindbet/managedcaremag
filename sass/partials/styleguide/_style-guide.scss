@@ -166,12 +166,12 @@ header {
   }
 
   @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
+  padding: 0 15px 0 0;
   @include grid-span (1, 1);
   }
 
   @include breakpoint($desk) {
-  padding: 0 0 0 15px;
+  padding: 0 15px 0 0;
   @include grid-span (1, 1);
   }
 
@@ -188,12 +188,12 @@ header {
 }
 
   @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
+  padding: 0 0 0 0;
   @include grid-span (1, 2);
   }
 
   @include breakpoint($desk) {
-  padding: 0 0 0 15px;
+  padding: 0 0 0 0;
   @include grid-span (1, 2);
   }
 
@@ -222,19 +222,19 @@ header {
 
 
 .page-issue- .l-contentbody main {
-  padding: 0 0 0 15px;
+  padding: 0 15px 0 0;
 
   @include breakpoint($tab) {
   @include grid-span (1, 1);
   }
 
   @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
+  padding: 0 15px 0 0;
   @include grid-span (1, 1);
   }
 
   @include breakpoint($desk) {
-  padding: 0 0 0 15px;
+  padding: 0 15px 0 0;
   @include grid-span (1, 1);
   }
 

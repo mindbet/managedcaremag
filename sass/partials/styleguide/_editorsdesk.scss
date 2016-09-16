@@ -213,14 +213,39 @@
   padding-left: 0;
 }
 
+.node-type-editorsdesk .block-views h2 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
+
+
+.view-more-from-the-editors-desk ul {
+  padding-left: 0;
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
 
 
 
+.view-more-from-the-editors-desk .views-field-title {
+  font-family: $sanseriffont;
+  font-size: .82rem;
+}
+
+.view-more-from-the-editors-desk .views-field-title a {
+  font-weight: 400;
+}
 
 
 /*
 Styles for the more block at the bottom
-*/
 
 #block-views-editors-desk-one-entry-block-1 {
  @include breakpoint($desk) {
@@ -242,4 +267,5 @@ Styles for the more block at the bottom
   font-family: $sanseriffont;
   font-size: .82em;
 }
+*/
 

@@ -1305,20 +1305,6 @@ padding-top:.5em;
 
 
 
-.view-mode-full
-.field-name-field-major-source img {
-/*  width: 100%; */
-}
-
-
-
-
-.view-mode-full
-.field-name-field-major-source img {
-/*  width: 100%; */
-}
-
-
 
 .field-name-field-full-width-hero-image {
     margin-left: 0;
@@ -1328,6 +1314,10 @@ padding-top:.5em;
 }
 
 
+.view-mode-full
+.field-name-field-major-source img {
+  /*  width: 100%; */
+}
 
 
 
@@ -1503,7 +1493,9 @@ Table of Contents listings
   }
 
 
-
+.node-daily-news.node-teaser {
+  margin-bottom: 1.5em;
+}
 
 
 
