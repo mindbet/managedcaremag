@@ -282,7 +282,7 @@ header {
 }
 @media (min-width: 990px) {
   .page-issue- .l-contentbody .sidebar--two {
-    padding: 0 0 0 15px;
+    padding: 0 0 0 0;
     width: 32.25806%;
     float: right;
     margin-left: 0;
@@ -292,7 +292,7 @@ header {
 }
 @media (min-width: 1110px) {
   .page-issue- .l-contentbody .sidebar--two {
-    padding: 0 0 0 15px;
+    padding: 0 0 0 0;
     width: 28.57143%;
     float: right;
     margin-left: 0;

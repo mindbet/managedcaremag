@@ -251,12 +251,12 @@ header {
 }
 
   @include breakpoint($narrowdesk) {
-  padding: 0 0 0 15px;
+  padding: 0 0 0 0;
   @include grid-span (1, 2);
   }
 
   @include breakpoint($desk) {
-  padding: 0 0 0 15px;
+  padding: 0 0 0 0;
   @include grid-span (1, 2);
   }
 
