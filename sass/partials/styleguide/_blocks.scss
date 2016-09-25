@@ -85,6 +85,12 @@
 }
 
 
+.block-user h2 {
+  margin-top: 2em;
+}
+
+
+
 
 /*
 .block-menu {
@@ -110,28 +116,24 @@
 }
 */
 
-/*
-.responsive-menus.responsified {
-  position: fixed;
-  top: 0;
-  left: 0;
-  clear: both;
-  width: 100%;
-  height: 38px;
+.responsive-menus-0-0.responsified:before {
+  content: 'MANAGED CARE';
+  float: left;
+  color: white;
+  padding: 10px 0 0 10px;
+  font-family: $sanseriffont;
 }
-*/
-
 
 
 .responsive-menus.responsified span.toggler {
-  padding: 8px 1px 1px 10px;
+  padding: 10px 10px 1px 10px;
   display: block;
   background: $managedcarered;
   border-radius: 0;
   box-shadow: none;
   color: #fff;
   font-size: 1em;
-  text-align: left;
+  text-align: right;
   cursor: pointer;
   height: 38px;
   outline: none;

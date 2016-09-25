@@ -74,6 +74,10 @@
     <?php print render($page['topband']); ?>
   </div>
 
+  <div class="l-navband">
+    <?php print render($page['navband']); ?>
+  </div>
+
 <?php if ($page['header']): ?>
   <header id="header" role="banner">
   <?php print render($page['header']); ?>

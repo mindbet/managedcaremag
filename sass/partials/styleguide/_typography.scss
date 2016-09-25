@@ -80,7 +80,7 @@ Blocks
 
 .block-login-register {
   display: none;
-  @include breakpoint($tab) {
+  @include breakpoint($smalltab) {
   display: block;
   width: 300px;
   float: left;

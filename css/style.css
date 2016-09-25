@@ -98,16 +98,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 header {
   max-width: 1090px;
 }
+@media (min-width: 550px) {
+  header {
+    height: 203px;
+  }
+}
 
 .l-main_menu {
   clear: both;
 }
 
 #block-nice-menus-1 {
+  clear: both;
   width: 100%;
   max-width: 1080px;
+  height: 30px;
   margin-bottom: 1em;
-  background-color: #b4193f;
 }
 #block-nice-menus-1:after {
   content: "";
@@ -123,34 +129,68 @@ header {
 .l-topband {
   display: none;
 }
+@media (min-width: 550px) {
+  .l-topband {
+    background-color: #515151;
+    height: 40px;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 8px 5px;
+    width: 100%;
+  }
+}
 @media (min-width: 768px) {
   .l-topband {
-    display: block;
-    position: fixed;
-    height: 38px;
-    width: 100%;
+    left: auto;
     max-width: 1080px;
-    z-index: 100;
-    background-color: #515151;
-    padding: 8px 5px;
   }
 }
 
-#sidr-wrapper-0 {
-  width: 100%;
-  position: fixed;
-  padding: 10px 0 0 8px;
-  height: 38px;
-  background-color: #b4193f;
+.l-navband {
+  display: block;
   z-index: 100;
+  background-color: #b4193f;
+  position: fixed;
+  height: 40px;
+  left: 0;
+  width: 100%;
 }
-
-#sidr-wrapper-0 a {
-  font-family: "Noto Sans";
-  color: white;
+@media (min-width: 550px) {
+  .l-navband {
+    top: 40px;
+    padding: 0;
+  }
 }
-
 @media (min-width: 768px) {
+  .l-navband {
+    left: auto;
+    max-width: 1080px;
+  }
+}
+
+.l-main_menu {
+  display: none;
+}
+@media (min-width: 550px) {
+  .l-main_menu {
+    margin-top: 10px;
+    display: block;
+    height: 32px;
+    width: 100%;
+    max-width: 1080px;
+    z-index: 100;
+    background-color: #dedede;
+    padding: 0;
+  }
+}
+
+.l-contenttop {
+  clear: both;
+}
+@media (min-width: 550px) {
   .l-contenttop {
     border-bottom: solid 1px #999;
     padding: 0;
@@ -451,10 +491,10 @@ header {
 .block-logo-block {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 550px) {
   .block-logo-block {
     display: block;
-    padding-top: 58px;
+    padding-top: 100px;
     height: 158px;
     width: 210px;
     float: left;
@@ -464,7 +504,7 @@ header {
 #block-search-form {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 550px) {
   #block-search-form {
     display: block;
     float: right;
@@ -524,7 +564,7 @@ Blocks
 .block-login-register {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 550px) {
   .block-login-register {
     display: block;
     width: 300px;
@@ -2809,7 +2849,9 @@ span.inlinefootnote {
 }
 
 .lazyadslot-mc_300x250_3_0,
-.lazyadslot-mc_300x250_4_0 {
+.lazyadslot-mc_300x250_4_0,
+.lazyadslot-mc_300x250_5_0,
+.lazyadslot-mc_300x600_0 {
   margin: 0 auto 2em auto;
   text-align: center;
 }
@@ -2840,35 +2882,18 @@ span.inlinefootnote {
   }
 }
 
-/*
-.block-dfp-mc-728x90-fixed {
-  background-color:#ffffff;
-  position: fixed;
-  bottom:0;
-  height:110px;
-  padding-top:10px;
-  text-align:center;
-  border-top: solid 1px #656565;
-  box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.06);
-  width:960px;
-  margin-bottom:0;
-  z-index: 1100000;
-}
-*/
-/*
-@media (max-width: 768px) {
-#block-dfp-mc-728x90-fixed {
-    display: none;
-  }
-}
-*/
 #block-dfp-mc-topbanner-728x90-1 {
+  padding-top: 48px;
   text-align: center;
-  padding: 12px 0 6px 0;
+}
+@media (min-width: 550px) {
+  #block-dfp-mc-topbanner-728x90-1 {
+    padding: 12px 0 6px 0;
+  }
 }
 @media (min-width: 768px) {
   #block-dfp-mc-topbanner-728x90-1 {
-    padding-top: 0;
+    padding-top: 10px;
     margin: 0 auto 0.5em auto;
   }
 }
@@ -2933,17 +2958,9 @@ ul.nice-menu ul {
 }
 
 ul.nice-menu li {
-  border: 1px solid #ccc;
   border-top: 0;
   float: left;
   /* LTR */
-  background-color: #b4193f;
-}
-
-ul.nice-menu a {
-  padding: 0.3em 8px 0.3em 8px;
-  color: white;
-  font-family: "Noto Sans";
 }
 
 ul.nice-menu ul {
@@ -2951,13 +2968,125 @@ ul.nice-menu ul {
   left: -1px;
   /* LTR */
   border: 0;
-  border-top: 1px solid #ccc;
   margin-right: 0;
   /* LTR */
 }
 
 ul.nice-menu ul li {
   width: 12.5em;
+}
+
+/******************************
+ Top sticky menu
+******************************/
+.l-navband ul.nice-menu a {
+  color: white;
+  font-size: 14px;
+}
+
+.l-navband ul.nice-menu a {
+  padding: 9px 12px 9px 12px;
+  font-family: "Noto Sans";
+}
+
+/******************************
+ Secondary nav menu
+******************************/
+.l-main_menu ul.nice-menu a {
+  color: #333;
+  font-size: 14px;
+}
+
+.l-main_menu ul.nice-menu a {
+  padding: 6px 12px 6px 12px;
+  font-family: "Noto Sans";
+}
+
+/******************************
+ HORIZONTAL (down) menus
+******************************/
+ul.nice-menu-down {
+  float: left;
+  /* LTR */
+  border: 0;
+}
+
+ul.nice-menu-down li li {
+  border-top: 0;
+}
+
+ul.nice-menu-down ul {
+  left: 0;
+  /* LTR */
+}
+
+ul.nice-menu-down ul li {
+  clear: both;
+}
+
+ul.nice-menu-down li ul li ul {
+  left: 12.5em;
+  /* LTR */
+  top: -1px;
+}
+
+ul.nice-menu-down .menuparent a {
+  padding-right: 15px;
+  /* LTR */
+}
+
+ul.nice-menu-down li.menuparent {
+  background: url("../images/arrow-down.png") right center no-repeat;
+  /* LTR */
+}
+
+ul.nice-menu-down li.menuparent:hover {
+  background: #ababab url("../images/arrow-down.png") right center no-repeat;
+  /* LTR */
+}
+
+ul.nice-menu-down li li.menuparent {
+  background: #eee url("../images/arrow-right.png") right center no-repeat;
+  /* LTR */
+}
+
+ul.nice-menu-down li li.menuparent:hover {
+  background: #ccc url("../images/arrow-right.png") right center no-repeat;
+  /* LTR */
+}
+
+/**
+ * HORIZONTAL (down) menus
+ */
+.l-main_menu ul.nice-menu-down li ul li ul {
+  left: 12.5em;
+  /* LTR */
+  top: -1px;
+}
+
+.l-main_menu ul.nice-menu-down li.menuparent {
+  background: #dedede url("../images/arrow-down.png") right center no-repeat;
+  /* LTR */
+}
+
+.l-main_menu ul.nice-menu-down li.menuparent ul li {
+  background-color: #dedede;
+  /* LTR */
+}
+
+.l-main_menu ul.nice-menu-down li.menuparent:hover {
+  background: #ccc url("../images/arrow-down.png") right center no-repeat;
+  /* LTR */
+}
+
+.l-main_menu ul.nice-menu-down li li.menuparent {
+  background: #eee url("../images/arrow-right.png") right center no-repeat;
+  /* LTR */
+}
+
+.l-main_menu ul.nice-menu-down li li.menuparent:hover {
+  background: #ccc url("../images/arrow-right.png") right center no-repeat;
+  /* LTR */
 }
 
 /******************************
@@ -3023,12 +3152,38 @@ ul.nice-menu-left ul a {
 }
 
 /******************************
- HORIZONTAL (down) menus
+ Garland-specific CSS
 ******************************/
-ul.nice-menu-down {
-  float: left;
+/**
+ * Global CSS for ALL menu types
+ */
+ul.nice-menu li {
+  margin: 0;
+  padding-left: 0;
+  /* LTR */
+  background-image: none;
+}
+
+#header-region ul.nice-menu li {
+  margin: 0;
+  /* Padding rules are needed to deal with Garland's header line-height. */
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  background: #eee;
+}
+
+#header-region ul.nice-menu ul {
+  top: 1.8em;
+  left: -1px;
   /* LTR */
   border: 0;
+  /*  border-top: 1px solid #ccc; */
+  margin-right: 0;
+  /* LTR */
+}
+
+#header-region ul.nice-menu ul {
+  top: 1.7em;
 }
 
 /******************************
@@ -3058,114 +3213,6 @@ ul.nice-menu-down {
 /******************************
  AMGEN biosimilars menu tab end
 ******************************/
-ul.nice-menu-down li li {
-  border-top: 0;
-}
-
-ul.nice-menu-down ul {
-  left: 0;
-  /* LTR */
-}
-
-ul.nice-menu-down ul li {
-  clear: both;
-}
-
-ul.nice-menu-down li ul li ul {
-  left: 12.5em;
-  /* LTR */
-  top: -1px;
-}
-
-ul.nice-menu-down .menuparent a {
-  padding-right: 15px;
-  /* LTR */
-}
-
-ul.nice-menu-down li.menuparent {
-  background: #b4193f url("../images/arrow-down.png") right center no-repeat;
-  /* LTR */
-}
-
-ul.nice-menu-down li.menuparent:hover {
-  background: #f9cc46 url("../images/arrow-down.png") right center no-repeat;
-  /* LTR */
-}
-
-ul.nice-menu-down li li.menuparent {
-  background: #eee url("../images/arrow-right.png") right center no-repeat;
-  /* LTR */
-}
-
-ul.nice-menu-down li li.menuparent:hover {
-  background: #ccc url("../images/arrow-right.png") right center no-repeat;
-  /* LTR */
-}
-
-/******************************
- Garland-specific CSS
-******************************/
-/**
- * Global CSS for ALL menu types
- */
-ul.nice-menu li {
-  margin: 0;
-  padding-left: 0;
-  /* LTR */
-  background-image: none;
-}
-
-#header-region ul.nice-menu li {
-  margin: 0;
-  /* Padding rules are needed to deal with Garland's header line-height. */
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
-  background: #eee;
-}
-
-#header-region ul.nice-menu ul {
-  top: 1.8em;
-  left: -1px;
-  /* LTR */
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin-right: 0;
-  /* LTR */
-}
-
-#header-region ul.nice-menu ul {
-  top: 1.7em;
-}
-
-/**
- * HORIZONTAL (down) menus
- */
-#header-region ul.nice-menu-down li ul li ul {
-  left: 12.5em;
-  /* LTR */
-  top: -1px;
-}
-
-#header-region ul.nice-menu-down li.menuparent {
-  background: #eee url("../images/arrow-down.png") right center no-repeat;
-  /* LTR */
-}
-
-#header-region ul.nice-menu-down li.menuparent:hover {
-  background: #ccc url("../images/arrow-down.png") right center no-repeat;
-  /* LTR */
-}
-
-#header-region ul.nice-menu-down li li.menuparent {
-  background: #eee url("../images/arrow-right.png") right center no-repeat;
-  /* LTR */
-}
-
-#header-region ul.nice-menu-down li li.menuparent:hover {
-  background: #ccc url("../images/arrow-right.png") right center no-repeat;
-  /* LTR */
-}
-
 /* editors desk */
 /* lead page */
 .page-editorsdesk .l-contenttop,
@@ -3582,7 +3629,7 @@ Styles for the more block at the bottom
   }
 }
 
-/* editors desk */
+/* TV page */
 /* lead page */
 .page-tv .l-contenttop .field-name-title {
   font-family: "Oxygen";
@@ -4206,8 +4253,8 @@ Special for news headlines block on front
     display: block;
     margin-left: 210px;
     background-color: white;
-    padding-top: 58px;
-    height: 183px;
+    padding-top: 100px;
+    height: 203px;
     overflow: hidden;
   }
 }
@@ -4390,6 +4437,10 @@ Special for news headlines block on front
   margin-top: 2em;
 }
 
+.block-user h2 {
+  margin-top: 2em;
+}
+
 /*
 .block-menu {
   margin-top: 2em;
@@ -4407,25 +4458,23 @@ Special for news headlines block on front
   }
 }
 */
-/*
-.responsive-menus.responsified {
-  position: fixed;
-  top: 0;
-  left: 0;
-  clear: both;
-  width: 100%;
-  height: 38px;
+.responsive-menus-0-0.responsified:before {
+  content: 'MANAGED CARE';
+  float: left;
+  color: white;
+  padding: 10px 0 0 10px;
+  font-family: "Noto Sans";
 }
-*/
+
 .responsive-menus.responsified span.toggler {
-  padding: 8px 1px 1px 10px;
+  padding: 10px 10px 1px 10px;
   display: block;
   background: #b4193f;
   border-radius: 0;
   box-shadow: none;
   color: #fff;
   font-size: 1em;
-  text-align: left;
+  text-align: right;
   cursor: pointer;
   height: 38px;
   outline: none;
