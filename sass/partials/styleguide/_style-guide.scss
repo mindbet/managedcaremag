@@ -459,8 +459,9 @@ header {
 #block-search-form {
   display: none;
   @include breakpoint($smalltab) {
+  @include grid-span (1, 2);
   display: block;
-  float:right;
+  text-align: right;
   }
   }
 

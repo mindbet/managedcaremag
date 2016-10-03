@@ -91,7 +91,7 @@ Blocks
 
 .block-login-register a {
   font-family: $sanseriffont;
-  font-size: .94em;
+  font-size: 14px;
   text-transform: uppercase;
   color: white;
 }
@@ -455,7 +455,7 @@ h3.deck {
 Special for front page of site
 */
 
-.view-id-nodequeue_1 h5 {
+.view-front-page-view h5 {
   font-family: $sanseriffont;
   font-size: 1em;
   padding-top: 1em;
@@ -464,7 +464,7 @@ Special for front page of site
 }
 
 
-.view-id-nodequeue_1 h2.story-title {
+.view-front-page-view h2.story-title {
   font-family: $headlinefont;
   font-size: 1.41em;
   font-weight: 700;
@@ -472,13 +472,13 @@ Special for front page of site
 }
 
 
-.view-id-nodequeue_1 h2.story-title a {
+.view-front-page-view h2.story-title a {
   color:black;
 }
 
 
 
-.view-id-nodequeue_1 .field-name-field-fronttocclip .field-items .field-item {
+.view-front-page-view .field-name-field-fronttocclip .field-items .field-item {
   margin-top: .5rem;
   position: relative;
   float: left;
@@ -492,7 +492,7 @@ Special for front page of site
 
 
 
-.view-id-nodequeue_1 .field-name-field-fronttocclip blockquote.image-field-caption {
+.view-front-page-view .field-name-field-fronttocclip blockquote.image-field-caption {
   position: absolute;
   z-index: 75;
   bottom: 10px;
@@ -505,7 +505,7 @@ Special for front page of site
 */
 
 
-.view-id-nodequeue_1 blockquote.image-field-caption p {
+.view-front-page-view blockquote.image-field-caption p {
   font-size: .7em;
   line-height: 1.2;
   font-family: $sanseriffont;
@@ -989,7 +989,7 @@ padding-top:.5em;
 }
 
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author
 {
   font-family: $sanseriffont;
@@ -1000,7 +1000,7 @@ padding-top:.5em;
   }
   }
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author2
 {
   font-family: $sanseriffont;
@@ -1011,7 +1011,7 @@ padding-top:.5em;
   }
   }
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author3
 {
   font-family: $sanseriffont;
@@ -1022,7 +1022,7 @@ padding-top:.5em;
   }
   }
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author4
 {
   font-family: $sanseriffont;
@@ -1033,7 +1033,7 @@ padding-top:.5em;
   }
   }
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author5
 {
   font-family: $sanseriffont;
@@ -1044,7 +1044,7 @@ padding-top:.5em;
   }
   }
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author6
 {
   font-family: $sanseriffont;
@@ -1055,7 +1055,7 @@ padding-top:.5em;
   }
   }
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author7
 {
   font-family: $sanseriffont;
@@ -1068,7 +1068,7 @@ padding-top:.5em;
 
 
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author8
 {
   font-family: $sanseriffont;
@@ -1080,7 +1080,7 @@ padding-top:.5em;
   }
 
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author9
 {
   font-family: $sanseriffont;
@@ -1091,7 +1091,7 @@ padding-top:.5em;
   }
   }
 
-.view-id-nodequeue_1
+.view-front-page-view
   .field-name-field-author10
 {
   font-family: $sanseriffont;
@@ -1373,7 +1373,7 @@ padding-top:.5em;
 
 
 
-.view-id-nodequeue_1 .field-name-title {
+.view-front-page-view .field-name-title {
   font-family: $headlinefont;
   font-weight: 700;
   padding-bottom: .25em;
@@ -1403,11 +1403,11 @@ padding-top:.5em;
 
 
 
-
+/*
 .field-name-continue-reading {
   margin-bottom: 1.5rem;
 }
-
+*/
 
 
 
@@ -1493,10 +1493,9 @@ Table of Contents listings
   }
 
 
-.node-daily-news.node-teaser {
+.view-mode-teaser {
   margin-bottom: 1.5em;
 }
-
 
 
 
