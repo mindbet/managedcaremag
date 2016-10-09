@@ -902,20 +902,43 @@ main .sidebar1 ol {
 
 
 
-.node-type-story  main .sidebar ul,ol {
+.node-type-story  main .sidebar ul {
   font-family: $sanseriffont;
   margin-left: 1em;
 }
 
-.node-type-story  main .sidebar1 ul,ol {
+.node-type-story  main .sidebar1 ul {
   font-family: $sanseriffont;
   margin-left: 1em;
 }
 
-.node-type-story  main .sidebar2 ul,ol {
+.node-type-story  main .sidebar2 ul {
   font-family: $sanseriffont;
   margin-left: 1em;
 }
+
+
+
+.node-type-story  main .sidebar ol {
+  font-family: $sanseriffont;
+  margin-left: 1em;
+}
+
+.node-type-story  main .sidebar1 ol {
+  font-family: $sanseriffont;
+  margin-left: 1em;
+}
+
+.node-type-story  main .sidebar2 ol {
+  font-family: $sanseriffont;
+  margin-left: 1em;
+}
+
+
+
+
+
+
 
 
 .node-type-story  main .sidebar li {

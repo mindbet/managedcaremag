@@ -1232,17 +1232,32 @@ main .sidebar1 ol {
   margin: .5em 0 .25em 0;
 }
 
-.node-type-story main .sidebar ul, ol {
+.node-type-story main .sidebar ul {
   font-family: "Noto Sans";
   margin-left: 1em;
 }
 
-.node-type-story main .sidebar1 ul, ol {
+.node-type-story main .sidebar1 ul {
   font-family: "Noto Sans";
   margin-left: 1em;
 }
 
-.node-type-story main .sidebar2 ul, ol {
+.node-type-story main .sidebar2 ul {
+  font-family: "Noto Sans";
+  margin-left: 1em;
+}
+
+.node-type-story main .sidebar ol {
+  font-family: "Noto Sans";
+  margin-left: 1em;
+}
+
+.node-type-story main .sidebar1 ol {
+  font-family: "Noto Sans";
+  margin-left: 1em;
+}
+
+.node-type-story main .sidebar2 ol {
   font-family: "Noto Sans";
   margin-left: 1em;
 }
