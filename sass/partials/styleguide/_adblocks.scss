@@ -78,6 +78,17 @@
 
 
 
+#block-dfp-mc-banner-728x90-logo-side {
+  display: none;
+ @include breakpoint($narrowdesk) {
+  display: block;
+  float: right;
+  background-color: white;
+  padding-top: 100px;
+  height: 203px;
+  overflow: hidden;
+  }
+}
 
 
 
@@ -141,3 +152,12 @@
 }
 
 
+/*  Colorbox overlay for interstitial */
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000200;
+  overflow: hidden;
+}

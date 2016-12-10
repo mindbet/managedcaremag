@@ -137,7 +137,7 @@ header {
     display: block;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 1000300;
     padding: 8px 5px;
     width: 100%;
   }
@@ -151,7 +151,7 @@ header {
 
 .l-navband {
   display: block;
-  z-index: 100;
+  z-index: 1000300;
   background-color: #b4193f;
   position: fixed;
   height: 40px;
@@ -181,7 +181,7 @@ header {
     height: 32px;
     width: 100%;
     max-width: 1080px;
-    z-index: 100;
+    z-index: 1000300;
     background-color: #dedede;
     padding: 0;
   }
@@ -516,6 +516,11 @@ header {
   }
 }
 
+#admin-menu,
+#admin-menu .dropdown {
+  z-index: 1000400;
+}
+
 html {
   font-family: "PT Serif";
   font-size: 17px;
@@ -650,6 +655,14 @@ h4 {
   h4 {
     margin-left: 210px;
   }
+}
+
+.page-front-page-view h4 {
+  font-family: "Oxygen";
+  font-size: 1.18rem;
+  padding-top: 1em;
+  padding-bottom: .25em;
+  font-weight: 700;
 }
 
 .node-story h5 {
@@ -1107,17 +1120,6 @@ Sidebars in main story
   }
 }
 
-.node-type-story main .sidebar2 {
-  padding: 1em;
-  background-color: #f7f7f7;
-  margin: 0 0 1em 0;
-}
-@media (min-width: 1110px) {
-  .node-type-story main .sidebar2 {
-    margin-left: 210px;
-  }
-}
-
 .node-type-story main .sidebar h2 {
   font-family: "Noto Sans";
   padding-top: 0;
@@ -1136,19 +1138,10 @@ Sidebars in main story
   font-weight: 700;
 }
 
-.node-type-story main .sidebar2 h2 {
-  font-family: "Noto Sans";
-  padding-top: 0;
-  margin-top: 0;
-  margin-left: 0;
-  font-size: 1.41em;
-  font-weight: 700;
-}
-
 .node-type-story main .sidebar p {
   font-family: "Noto Sans";
-  font-size: .82em;
-  font-weight: 300;
+  font-size: .88em;
+  font-weight: 400;
   margin: 0 0 1em 0;
 }
 @media (min-width: 1110px) {
@@ -1159,24 +1152,12 @@ Sidebars in main story
 
 .node-type-story main .sidebar1 p {
   font-family: "Noto Sans";
-  font-size: .82em;
-  font-weight: 300;
+  font-size: .88em;
+  font-weight: 400;
   margin: 0 0 1em 0;
 }
 @media (min-width: 1110px) {
   .node-type-story main .sidebar1 p {
-    padding-left: 0;
-  }
-}
-
-.node-type-story main .sidebar2 p {
-  font-family: "Noto Sans";
-  font-size: .82em;
-  font-weight: 300;
-  margin: 0 0 1em 0;
-}
-@media (min-width: 1110px) {
-  .node-type-story main .sidebar2 p {
     padding-left: 0;
   }
 }
@@ -1204,13 +1185,6 @@ main .sidebar1 ol {
   padding-left: 0;
 }
 
-.node-type-story main .sidebar2 blockquote {
-  font-family: "Noto Sans";
-  font-size: .88em;
-  margin: .5em 0 .25em .25em;
-  padding-left: 0;
-}
-
 .node-type-story main .sidebar h4 {
   font-family: "Noto Sans";
   font-size: .88em;
@@ -1219,13 +1193,6 @@ main .sidebar1 ol {
 }
 
 .node-type-story main .sidebar1 h4 {
-  font-family: "Noto Sans";
-  font-size: .88em;
-  font-weight: 700;
-  margin: .5em 0 .25em 0;
-}
-
-.node-type-story main .sidebar2 h4 {
   font-family: "Noto Sans";
   font-size: .88em;
   font-weight: 700;
@@ -1242,22 +1209,12 @@ main .sidebar1 ol {
   margin-left: 1em;
 }
 
-.node-type-story main .sidebar2 ul {
-  font-family: "Noto Sans";
-  margin-left: 1em;
-}
-
 .node-type-story main .sidebar ol {
   font-family: "Noto Sans";
   margin-left: 1em;
 }
 
 .node-type-story main .sidebar1 ol {
-  font-family: "Noto Sans";
-  margin-left: 1em;
-}
-
-.node-type-story main .sidebar2 ol {
   font-family: "Noto Sans";
   margin-left: 1em;
 }
@@ -1269,12 +1226,6 @@ main .sidebar1 ol {
 }
 
 .node-type-story main .sidebar1 li {
-  font-family: "Noto Sans";
-  font-size: .88em;
-  margin-left: 0;
-}
-
-.node-type-story main .sidebar2 li {
   font-family: "Noto Sans";
   font-size: .88em;
   margin-left: 0;
@@ -1705,16 +1656,16 @@ Special elements
   font-weight: 700;
   padding-bottom: .25em;
   line-height: 1.3;
-  font-size: 1.24rem;
+  font-size: 1.0rem;
 }
 @media (min-width: 768px) {
   .view-front-page-view .field-name-title {
-    font-size: 1.41em;
+    font-size: 1.24em;
   }
 }
 @media (min-width: 1110px) {
   .view-front-page-view .field-name-title {
-    font-size: 1.59em;
+    font-size: 1.41em;
   }
 }
 
@@ -1767,7 +1718,7 @@ Table of Contents listings
 .view-id-current_issue_r6 .view-header {
   font-family: "PT Serif";
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .view-header {
@@ -2341,10 +2292,6 @@ Pages
   padding-left: 0;
 }
 
-.page-node .field-name-body .sidebar2 dl {
-  padding-left: 0;
-}
-
 /* Linkout pages
 */
 .page-linkout .l-contentbody .field-name-title {
@@ -2522,23 +2469,24 @@ Research listing page
 /*
 Large display numbers
 */
-p.displaynumeral {
+.node-type-story main p.displaynumeral {
   text-align: center;
   font-size: 4.5em;
-  font-family: Oxygen;
+  font-family: "Oxygen";
   margin-bottom: 1px;
   margin-top: 2px;
   line-height: 1;
   color: #b4193f;
 }
 
-p.displaytexthed {
+.node-type-story main .displaytexthed {
   text-align: center;
-  font-family: Oxygen;
+  font-family: "Oxygen";
   font-size: 1.59rem;
   margin-top: 1px;
   margin-bottom: 8px;
   border-bottom: solid 1px #b4193f;
+  padding-top: 0px;
   padding-bottom: 4px;
 }
 
@@ -2903,6 +2851,20 @@ span.inlinefootnote {
   }
 }
 
+#block-dfp-mc-banner-728x90-logo-side {
+  display: none;
+}
+@media (min-width: 990px) {
+  #block-dfp-mc-banner-728x90-logo-side {
+    display: block;
+    float: right;
+    background-color: white;
+    padding-top: 100px;
+    height: 203px;
+    overflow: hidden;
+  }
+}
+
 #block-dfp-mc-topbanner-728x90-1 {
   padding-top: 48px;
   text-align: center;
@@ -2956,6 +2918,15 @@ span.inlinefootnote {
 #block-dfp-mc-468x60-content-middle-3 {
   text-align: center;
   margin: 1rem auto 1rem auto;
+}
+
+/*  Colorbox overlay for interstitial */
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000200;
+  overflow: hidden;
 }
 
 /*
@@ -3505,8 +3476,7 @@ Styles for the more block at the bottom
   clear: both;
 }
 
-.page-pharmdcorner .field-name-standing-slug-pharmd-corner,
-.node-type-pharmd-corner .field-name-standing-slug-pharmd-corner {
+.field-name-standing-slug-pharmd-corner {
   margin-bottom: .25rem;
   font-weight: 700;
   font-family: "Noto Sans";
@@ -3648,6 +3618,37 @@ Styles for the more block at the bottom
   .node-type-pharmd-corner .field-name-node-link {
     padding-left: 210px;
   }
+}
+
+.node-type-pharmd-corner .block-views h2 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+@media (min-width: 1110px) {
+  .node-type-pharmd-corner .block-views h2 {
+    padding-left: 210px;
+  }
+}
+
+.view-more-pharmd ul {
+  padding-left: 0;
+}
+@media (min-width: 1110px) {
+  .view-more-pharmd ul {
+    padding-left: 210px;
+  }
+}
+
+.view-more-pharmd .views-field-title {
+  font-family: "Noto Sans";
+  font-size: .82rem;
+}
+
+.view-more-pharmd .views-field-title a {
+  font-weight: 400;
 }
 
 /* TV page */
@@ -4127,7 +4128,7 @@ News Story Title at top of page
   font-size: 1em;
   padding-top: 0;
   padding-bottom: .5em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3;
   color: #333;
 }
@@ -4183,7 +4184,7 @@ News Story more headlines
   font-size: .82em;
   padding-top: 0;
   padding-bottom: .5em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3;
   color: #333;
 }
@@ -4236,7 +4237,7 @@ Special for news headlines block on front
   font-size: .82em;
   padding-top: 0;
   padding-bottom: .5em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3;
   color: #333;
 }
@@ -4266,19 +4267,21 @@ Special for news headlines block on front
 }
 
 /* Top touts */
+/*
+
 #block-views-nodequeue-2-block {
   display: none;
-}
-@media (min-width: 990px) {
-  #block-views-nodequeue-2-block {
-    display: block;
-    margin-left: 210px;
-    background-color: white;
-    padding-top: 100px;
-    height: 203px;
-    overflow: hidden;
+ @include breakpoint($narrowdesk) {
+  display: block;
+  margin-left: $leftrailmargin;
+  background-color: white;
+  padding-top: 100px;
+  height: 203px;
+  overflow: hidden;
   }
 }
+
+
 
 .view-id-nodequeue_2 .field-name-field-fronttocclip .field-items .field-item {
   position: relative;
@@ -4291,27 +4294,31 @@ Special for news headlines block on front
   bottom: 10px;
   left: 4px;
   width: 92px;
-}
+  }
 
 .view-id-nodequeue_2 blockquote.image-field-caption p {
   font-size: .7em;
   line-height: 1.2;
-  font-family: "Noto Sans";
+  font-family: $sanseriffont;
   color: white;
   text-shadow: -1px 1px 1px #000;
 }
 
-.view-id-nodequeue_2 .view-mode-title_and_image .field-name-title p.top-tout {
-  font-family: "Noto Sans";
-  font-size: .82em;
+
+.view-id-nodequeue_2 .view-mode-title_and_image .field-name-title p.top-tout  {
+  font-family: $sanseriffont;
+  font-size:.82em;
   line-height: 17px;
-  color: #333;
-}
+  color:#333;
+  }
+
+
 
 .view-id-nodequeue_2 .view-mode-title_and_image {
   float: right;
   width: 32%;
 }
+
 
 .view-id-nodequeue_2 .group-left {
   max-width: 100px;
@@ -4319,17 +4326,22 @@ Special for news headlines block on front
 
 .view-id-nodequeue_2 .group-right {
   padding-left: 15px;
-}
+  }
+
+
 
 .view-id-nodequeue_2 .view-mode-title_and_image img {
   max-width: 100px;
   max-height: 100px;
 }
 
+
+
 .view-id-nodequeue_2 .view-mode-title_and_image .field-name-title p.top-tout a {
   font-weight: normal;
-}
+  }
 
+*/
 /* SOCIAL MEDIA LINKS */
 #prefooter .block-social-media-links {
   width: 100%;

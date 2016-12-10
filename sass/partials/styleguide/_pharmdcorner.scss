@@ -25,8 +25,7 @@
 }
 
 
-.page-pharmdcorner .field-name-standing-slug-pharmd-corner,
-.node-type-pharmd-corner .field-name-standing-slug-pharmd-corner {
+.field-name-standing-slug-pharmd-corner {
   margin-bottom: .25rem;
   font-weight:700;
   font-family: $sanseriffont;
@@ -35,6 +34,12 @@
   letter-spacing: .02em;
   clear: both;
 }
+
+
+
+
+
+
 
 
 
@@ -200,9 +205,36 @@
   }
 }
 
+.node-type-pharmd-corner .block-views h2 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
 
 
 
+.view-more-pharmd ul {
+  padding-left: 0;
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
+
+
+
+.view-more-pharmd .views-field-title {
+  font-family: $sanseriffont;
+  font-size: .82rem;
+}
+
+.view-more-pharmd .views-field-title a {
+  font-weight: 400;
+}
 
 
 

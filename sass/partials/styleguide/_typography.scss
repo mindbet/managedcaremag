@@ -182,6 +182,13 @@ h4 {
   }
 }
 
+.page-front-page-view h4 {
+  font-family: $headlinefont;
+  font-size: 1.18rem;
+  padding-top: 1em;
+  padding-bottom: .25em;
+  font-weight: 700;
+}
 
 
 .node-story h5 {
@@ -763,14 +770,6 @@ Sidebars in main story
    }
   }
 
-.node-type-story  main .sidebar2 {
-  padding:1em;
-  background-color: #f7f7f7;
-  margin: 0 0 1em 0;
-@include breakpoint($desk) {
-  margin-left: $leftrailmargin;
-   }
-  }
 
 
 
@@ -795,22 +794,14 @@ Sidebars in main story
   font-weight: 700;
   }
 
-.node-type-story  main .sidebar2 h2 {
-  font-family: $sanseriffont;
-  padding-top: 0;
-  margin-top: 0;
-  margin-left: 0;
-  font-size: 1.41em;
-  font-weight: 700;
-  }
 
 
 
 
 .node-type-story  main .sidebar p {
   font-family: $sanseriffont;
-  font-size: .82em;
- font-weight: 300;
+  font-size: .88em;
+ font-weight: 400;
  margin: 0 0 1em 0;
    @include breakpoint($desk) {
    padding-left: 0;
@@ -819,23 +810,14 @@ Sidebars in main story
 
 .node-type-story  main .sidebar1 p {
   font-family: $sanseriffont;
-  font-size: .82em;
- font-weight: 300;
+  font-size: .88em;
+ font-weight: 400;
  margin: 0 0 1em 0;
    @include breakpoint($desk) {
    padding-left: 0;
    }
 }
 
-.node-type-story  main .sidebar2 p {
-  font-family: $sanseriffont;
-  font-size: .82em;
- font-weight: 300;
- margin: 0 0 1em 0;
-   @include breakpoint($desk) {
-   padding-left: 0;
-   }
-}
 
 
 
@@ -868,12 +850,6 @@ main .sidebar1 ol {
   padding-left: 0;
 }
 
-.node-type-story  main .sidebar2 blockquote {
-  font-family: $sanseriffont;
-  font-size: .88em;
-  margin: .5em 0 .25em .25em;
-  padding-left: 0;
-}
 
 
 
@@ -886,13 +862,6 @@ main .sidebar1 ol {
 }
 
 .node-type-story  main .sidebar1 h4 {
-  font-family: $sanseriffont;
-  font-size: .88em;
- font-weight: 700;
- margin: .5em 0 .25em 0;
-}
-
-.node-type-story  main .sidebar2 h4 {
   font-family: $sanseriffont;
   font-size: .88em;
  font-weight: 700;
@@ -912,10 +881,6 @@ main .sidebar1 ol {
   margin-left: 1em;
 }
 
-.node-type-story  main .sidebar2 ul {
-  font-family: $sanseriffont;
-  margin-left: 1em;
-}
 
 
 
@@ -929,10 +894,6 @@ main .sidebar1 ol {
   margin-left: 1em;
 }
 
-.node-type-story  main .sidebar2 ol {
-  font-family: $sanseriffont;
-  margin-left: 1em;
-}
 
 
 
@@ -953,11 +914,6 @@ main .sidebar1 ol {
   margin-left: 0;
 }
 
-.node-type-story  main .sidebar2 li {
-  font-family: $sanseriffont;
-  font-size: .88em;
-  margin-left: 0;
-}
 
 
 
@@ -1401,12 +1357,12 @@ padding-top:.5em;
   font-weight: 700;
   padding-bottom: .25em;
   line-height: 1.3;
-  font-size: 1.24rem;
+  font-size: 1.0rem;
   @include breakpoint($tab) {
-  font-size: 1.41em;
+  font-size: 1.24em;
   }
   @include breakpoint($desk) {
-  font-size: 1.59em;
+  font-size: 1.41em;
   }
 }
 
@@ -1484,7 +1440,7 @@ Table of Contents listings
 .view-id-current_issue_r6 .view-header {
   font-family: $seriffont;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   @include breakpoint($desk) {
   padding-left: $leftrailmargin;
   }
@@ -2102,9 +2058,6 @@ Pages
   padding-left: 0;
 }
 
-.page-node .field-name-body .sidebar2 dl {
-  padding-left: 0;
-}
 
 
 
@@ -2317,24 +2270,25 @@ Research listing page
 /*
 Large display numbers
 */
-p.displaynumeral {
+.node-type-story main p.displaynumeral {
 text-align:center;
 font-size: 4.5em;
-font-family:Oxygen;
+font-family: $headlinefont;
 margin-bottom:1px;
 margin-top:2px;
 line-height:1;
 color:$managedcarered;
 }
 
-p.displaytexthed {
+.node-type-story main .displaytexthed {
 text-align:center;
-font-family:Oxygen;
+font-family: $headlinefont;
 font-size: 1.59rem;
 margin-top:1px;
 margin-bottom:8px;
 border-bottom:solid 1px $managedcarered;
-padding-bottom:4px;
+padding-top: 0px;
+padding-bottom: 4px;
 }
 
 
