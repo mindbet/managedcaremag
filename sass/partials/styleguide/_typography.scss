@@ -975,6 +975,20 @@ padding-top:.5em;
 }
 
 
+
+.page-node .field-name-body p.footnotelike {
+font-size: .82em;
+font-family: $sanseriffont;
+margin-top: 1.5em;
+padding-top:.5em;
+/* border-top: solid 1px $managedcarered; */
+ @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+}
+}
+
+
+
 .dropcap {
   float: left;
   color: $managedcarered;

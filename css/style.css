@@ -488,34 +488,6 @@ header {
   padding-top: 10px;
 }
 
-.block-logo-block {
-  display: none;
-}
-@media (min-width: 550px) {
-  .block-logo-block {
-    display: block;
-    padding-top: 100px;
-    height: 158px;
-    width: 210px;
-    float: left;
-  }
-}
-
-#block-search-form {
-  display: none;
-}
-@media (min-width: 550px) {
-  #block-search-form {
-    width: 44.44444%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    display: block;
-    text-align: right;
-  }
-}
-
 #admin-menu,
 #admin-menu .dropdown {
   z-index: 1000400;
@@ -1274,6 +1246,19 @@ Special elements
   }
 }
 
+.page-node .field-name-body p.footnotelike {
+  font-size: .82em;
+  font-family: "Noto Sans";
+  margin-top: 1.5em;
+  padding-top: .5em;
+  /* border-top: solid 1px $managedcarered; */
+}
+@media (min-width: 1110px) {
+  .page-node .field-name-body p.footnotelike {
+    padding-left: 210px;
+  }
+}
+
 .dropcap {
   float: left;
   color: #b4193f;
@@ -1773,7 +1758,7 @@ Table of Contents listings
   font-size: .82em;
   text-transform: uppercase;
   margin-top: 1.5em;
-  color: #999;
+  color: #999999;
   margin-bottom: 0;
 }
 @media (min-width: 1110px) {
@@ -1788,7 +1773,7 @@ Table of Contents listings
   font-size: .82em;
   text-transform: uppercase;
   margin-top: 1.5em;
-  color: #999;
+  color: #999999;
   margin-bottom: 0;
 }
 @media (min-width: 1110px) {
@@ -2002,7 +1987,7 @@ aside.sidebar--two h2 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .06rem;
-  color: #999;
+  color: #999999;
   margin-bottom: .25rem;
 }
 
@@ -2023,7 +2008,7 @@ aside.sidebar--two p {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .06rem;
-  color: #999;
+  color: #999999;
   margin-bottom: .5rem;
 }
 
@@ -2033,7 +2018,7 @@ blog overview
 .page-blog .node-teaser .field-name-title {
   font-family: "Oxygen";
   margin-top: 1em;
-  border-top: solid 1px #999;
+  border-top: solid 1px #999999;
   padding-top: .5em;
   padding-bottom: .25em;
   line-height: 1.3;
@@ -4232,7 +4217,7 @@ news stories list most recent
 .page-news .view-id-news_reports_list h2 {
   font-family: "Oxygen";
   margin-top: 1em;
-  border-top: solid 1px #999;
+  border-top: solid 1px #999999;
   padding-top: .5em;
   padding-bottom: .25em;
   line-height: 1.3;
@@ -4757,4 +4742,92 @@ Most popular stories of the year 2016
   font-family: "Noto Sans";
   color: white;
   text-shadow: -1px 1px 1px #000;
+}
+
+/*
+Newsletter signups
+*/
+.block-newsletter-signups {
+  display: none;
+}
+@media (min-width: 768px) {
+  .block-newsletter-signups {
+    display: block;
+    padding-top: 100px;
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 33.89831%;
+    clear: none;
+    font-family: "Noto Sans";
+    font-size: .88em;
+    line-height: 1.4;
+  }
+}
+
+.block-newsletter-signups li {
+  margin-bottom: 0;
+}
+
+.block-newsletter-signups a {
+  text-decoration: none;
+}
+
+/*
+Social media links at top
+*/
+.block-social-media-links-top {
+  display: none;
+}
+@media (min-width: 768px) {
+  .block-social-media-links-top {
+    display: block;
+    padding-top: 120px;
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    font-family: "Noto Sans";
+    font-size: .88em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: #999999;
+  }
+}
+
+/*
+logo
+*/
+.block-logo-block {
+  display: none;
+}
+@media (min-width: 550px) {
+  .block-logo-block {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    display: block;
+    padding-top: 100px;
+    height: 158px;
+    width: 210px;
+  }
+}
+
+#block-search-form {
+  display: none;
+}
+@media (min-width: 550px) {
+  #block-search-form {
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    display: block;
+    text-align: right;
+  }
 }
