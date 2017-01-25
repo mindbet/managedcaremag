@@ -76,6 +76,22 @@ video {
     display: none;
   }
 
+  .l-topband {
+    display: none;
+  }
+
+  .l-navband {
+    display: none;
+  }
+
+  #block-views-nodequeue-3-block {
+    display: none;
+  }
+
+  #prefooter {
+    display: none;
+  }
+
   @page {
     margin: 2cm;
   }

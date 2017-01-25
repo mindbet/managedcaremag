@@ -914,12 +914,20 @@ Special for front page of site
 /*
 Display quotes and source quotes in left rail
 */
+.node-type-page main .imagebundleright,
+.node-type-pharmd-corner main .imagebundleright,
+.node-type-editorsdesk main .imagebundleright,
+.node-type-blog main .imagebundleright,
 .node-type-story main .imagebundleright {
   width: 197px;
   padding-left: 17px;
   float: right;
 }
 
+.node-type-page main .imagebundleright,
+.node-type-pharmd-corner main .imagebundleright,
+.node-type-editorsdesk main .imagebundleright,
+.node-type-blog main .imagebundleright,
 .node-type-story main .imagebundleright p {
   font-family: "Noto Sans";
   margin-left: 0;
@@ -934,9 +942,78 @@ Display quotes and source quotes in left rail
   width: 197px;
   padding-right: 17px;
   float: left;
+  padding-left: 0;
+}
+
+.node-type-editorsdesk main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right: 17px;
+  float: left;
+  padding-left: 0;
+}
+
+.node-type-pharmd-corner main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right: 17px;
+  float: left;
+  padding-left: 0;
+}
+
+.node-type-blog main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right: 17px;
+  float: left;
+  padding-left: 0;
+}
+
+.node-type-page main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right: 17px;
+  float: left;
+  padding-left: 0;
 }
 
 .node-type-story main .imagebundleleft p {
+  font-family: "Noto Sans";
+  margin-left: 0;
+  float: left;
+  font-size: .88em;
+  clear: both;
+  padding-left: 0;
+}
+
+.node-type-blog main .imagebundleleft p {
+  font-family: "Noto Sans";
+  margin-left: 0;
+  float: left;
+  font-size: .88em;
+  clear: both;
+  padding-left: 0;
+}
+
+.node-type-pharmd-corner main .imagebundleleft p {
+  font-family: "Noto Sans";
+  margin-left: 0;
+  float: left;
+  font-size: .88em;
+  clear: both;
+  padding-left: 0;
+}
+
+.node-type-editorsdesk main .imagebundleleft p {
+  font-family: "Noto Sans";
+  margin-left: 0;
+  float: left;
+  font-size: .88em;
+  clear: both;
+  padding-left: 0;
+}
+
+.node-type-page main .imagebundleleft p {
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
@@ -1028,6 +1105,50 @@ Other type styles for story mainbar
   .node-type-story .l-contentbody blockquote p {
     padding: 1em 1em 1em 227px;
   }
+}
+
+/* Simple landing page */
+@media (min-width: 768px) {
+  .l-contentbody-simple .field-name-title {
+    margin: 0 4em;
+  }
+}
+@media (min-width: 768px) {
+  .l-contentbody-simple .field-name-title {
+    margin: 0 14em;
+  }
+}
+
+@media (min-width: 768px) {
+  .l-contentbody-simple .field-name-body {
+    margin: 0 4em;
+  }
+}
+@media (min-width: 768px) {
+  .l-contentbody-simple .field-name-body {
+    margin: 0 14em;
+  }
+}
+
+.page-node .l-contentbody-simple .field-name-body p {
+  padding-left: 0;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-node .l-contentbody-simple .field-name-body ul {
+  margin-left: 0;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-node .l-contentbody-simple .field-name-body li {
+  padding-left: 0;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /*
@@ -1603,6 +1724,7 @@ Special elements
 
 .field-name-field-full-width-hero-image {
   margin-left: 0;
+  background-color: #eeeeee;
 }
 @media (min-width: 1110px) {
   .field-name-field-full-width-hero-image {
@@ -1613,6 +1735,15 @@ Special elements
 .view-mode-full
 .field-name-field-major-source img {
   /*  width: 100%; */
+}
+
+.field-name-field-full-width-hero-image blockquote.image-field-caption {
+  font-family: "Noto Sans";
+  padding: 6px 17px 15px 17px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 15px;
+  background-color: #eeeeee;
 }
 
 .node-type-story main p.disclaimer {

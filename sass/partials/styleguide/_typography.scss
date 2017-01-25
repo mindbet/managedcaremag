@@ -547,13 +547,20 @@ Special for front page of site
 Display quotes and source quotes in left rail
 */
 
-
+.node-type-page  main .imagebundleright,
+.node-type-pharmd-corner  main .imagebundleright,
+.node-type-editorsdesk  main .imagebundleright,
+.node-type-blog  main .imagebundleright,
 .node-type-story  main .imagebundleright  {
   width: 197px;
   padding-left:17px;
   float:right;
 }
 
+.node-type-page  main .imagebundleright,
+.node-type-pharmd-corner  main .imagebundleright,
+.node-type-editorsdesk  main .imagebundleright,
+.node-type-blog  main .imagebundleright,
 .node-type-story  main .imagebundleright p {
   font-family: $sanseriffont;
   margin-left: 0;
@@ -564,6 +571,10 @@ Display quotes and source quotes in left rail
 }
 
 
+.node-type-page  main .imagebundleright,
+.node-type-pharmd-corner  main .imagebundleright,
+.node-type-editorsdesk  main .imagebundleright,
+.node-type-blog  main .imagebundleright,
 .node-type-story  main .imagebundleright img {
 }
 
@@ -576,7 +587,48 @@ Display quotes and source quotes in left rail
   width: 197px;
   padding-right:17px;
   float:left;
+  padding-left: 0;
 }
+
+
+
+.node-type-editorsdesk main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right:17px;
+  float:left;
+  padding-left: 0;
+}
+
+
+.node-type-pharmd-corner main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right:17px;
+  float:left;
+  padding-left: 0;
+}
+
+
+
+.node-type-blog main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right:17px;
+  float:left;
+  padding-left: 0;
+}
+
+.node-type-page main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right:17px;
+  float:left;
+  padding-left: 0;
+}
+
+
+
 
 .node-type-story  main .imagebundleleft p {
   font-family: $sanseriffont;
@@ -588,6 +640,52 @@ Display quotes and source quotes in left rail
 }
 
 
+.node-type-blog  main .imagebundleleft  p {
+  font-family: $sanseriffont;
+  margin-left: 0;
+  float:left;
+  font-size: .88em;
+  clear: both;
+  padding-left:0;
+}
+
+
+.node-type-pharmd-corner  main .imagebundleleft  p {
+  font-family: $sanseriffont;
+  margin-left: 0;
+  float:left;
+  font-size: .88em;
+  clear: both;
+  padding-left:0;
+}
+
+
+.node-type-editorsdesk  main .imagebundleleft  p {
+  font-family: $sanseriffont;
+  margin-left: 0;
+  float:left;
+  font-size: .88em;
+  clear: both;
+  padding-left:0;
+}
+
+
+.node-type-page main .imagebundleleft  p {
+  font-family: $sanseriffont;
+  margin-left: 0;
+  float:left;
+  font-size: .88em;
+  clear: both;
+  padding-left:0;
+}
+
+
+
+
+.node-type-page  main .imagebundleleft,
+.node-type-pharmd-corner  main .imagebundleleft,
+.node-type-editorsdesk  main .imagebundleleft,
+.node-type-blog  main .imagebundleleft,
 .node-type-story  main .imagebundleleft img {
 }
 
@@ -693,6 +791,70 @@ Other type styles for story mainbar
   padding: 1em 1em 1em 227px;
 }
 }
+
+
+
+
+/* Simple landing page */
+
+
+
+.l-contentbody-simple .field-name-title {
+  @include breakpoint($tab) {
+  margin: 0 4em;
+}
+  @include breakpoint($tab) {
+  margin: 0 14em;
+}
+}
+
+
+
+
+.l-contentbody-simple .field-name-body {
+  @include breakpoint($tab) {
+  margin: 0 4em;
+}
+  @include breakpoint($tab) {
+  margin: 0 14em;
+}
+}
+
+
+
+
+
+
+
+.page-node .l-contentbody-simple .field-name-body p {
+  padding-left: 0;
+  font-family: $sanseriffont;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+.page-node .l-contentbody-simple .field-name-body ul {
+  margin-left: 0;
+  font-family: $sanseriffont;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.page-node .l-contentbody-simple .field-name-body li {
+  padding-left: 0;
+  font-family: $sanseriffont;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
 
 
 
@@ -1318,6 +1480,7 @@ padding-top:.5em;
 
 .field-name-field-full-width-hero-image {
     margin-left: 0;
+    background-color: $lightgray;
   @include breakpoint($desk) {
     margin-left: $leftrailmargin;
 }
@@ -1334,6 +1497,14 @@ padding-top:.5em;
 
 
 
+.field-name-field-full-width-hero-image blockquote.image-field-caption {
+    font-family: $sanseriffont;
+    padding: 6px 17px 15px 17px;
+    margin-top:0;
+    margin-bottom: 16px;
+    font-size: 15px;
+    background-color: $lightgray;
+}
 
 
 
