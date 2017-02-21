@@ -596,6 +596,44 @@ Title story for Story
   }
 }
 
+.block-ds-extras .story-title {
+  font-family: "Oxygen";
+  padding-top: .5rem;
+  padding-bottom: .25rem;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 1.24rem;
+}
+@media (min-width: 768px) {
+  .block-ds-extras .story-title {
+    font-size: 1.59rem;
+  }
+}
+@media (min-width: 1110px) {
+  .block-ds-extras .story-title {
+    font-size: 1.76rem;
+  }
+}
+
+h1.story-title {
+  font-family: "Oxygen";
+  padding-top: .5rem;
+  padding-bottom: .25rem;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 1.24rem;
+}
+@media (min-width: 768px) {
+  h1.story-title {
+    font-size: 1.59rem;
+  }
+}
+@media (min-width: 1110px) {
+  h1.story-title {
+    font-size: 1.76rem;
+  }
+}
+
 .block-ds-extras .field-name-standing-slug {
   margin-top: 15px;
 }
@@ -985,6 +1023,15 @@ Display quotes and source quotes in left rail
   padding-left: 0;
 }
 
+.node-type-story main .imagebundleleft p {
+  font-family: "Noto Sans";
+  margin-left: 0;
+  float: left;
+  font-size: .88em;
+  clear: both;
+  padding-left: 0;
+}
+
 .node-type-blog main .imagebundleleft p {
   font-family: "Noto Sans";
   margin-left: 0;
@@ -1232,7 +1279,7 @@ Sidebars in main story
   font-weight: 700;
 }
 
-.node-type-story main .sidebar1 h2 {
+main .sidebar1 h2 {
   font-family: "Noto Sans";
   padding-top: 0;
   margin-top: 0;
@@ -2266,6 +2313,21 @@ blog individual entries
 }
 
 /*
+Standalone style, not part of a page type
+*/
+.field-name-post-date {
+  font-family: "Noto Sans";
+  margin-top: 1em;
+  font-size: .82em;
+}
+@media (min-width: 1110px) {
+  .field-name-post-date {
+    float: left;
+    width: 210px;
+  }
+}
+
+/*
 Pages
 */
 .page-node .l-contentbody .field-name-title {
@@ -2338,91 +2400,6 @@ Pages
   padding-left: 0;
 }
 
-/* Linkout pages
-*/
-.page-linkout .l-contentbody .field-name-title {
-  font-family: "Oxygen";
-  padding-top: 1em;
-  padding-bottom: .25em;
-  line-height: 1.3;
-  font-weight: 700;
-  font-size: 1.24rem;
-}
-@media (min-width: 768px) {
-  .page-linkout .l-contentbody .field-name-title {
-    font-size: 1.59rem;
-  }
-}
-@media (min-width: 1110px) {
-  .page-linkout .l-contentbody .field-name-title {
-    font-size: 1.76rem;
-  }
-}
-
-.page-linkout .field-name-body p {
-  font-family: "PT Serif";
-  margin-bottom: .5em;
-}
-@media (min-width: 1110px) {
-  .page-linkout .field-name-body p {
-    padding-left: 210px;
-  }
-}
-
-.page-linkout .field-name-node-link {
-  font-family: "PT Serif";
-  margin-bottom: .5em;
-  font-weight: 700;
-}
-@media (min-width: 1110px) {
-  .page-linkout .field-name-node-link {
-    padding-left: 210px;
-  }
-}
-
-.page-linkout .field-name-field-blog-author-photo {
-  float: right;
-  padding-left: 10px;
-  width: 8em;
-}
-@media (min-width: 1110px) {
-  .page-linkout .field-name-field-blog-author-photo {
-    float: left;
-    width: 180px;
-  }
-}
-
-.page-linkout .field-name-body dl {
-  font-family: "PT Serif";
-  margin-bottom: .5em;
-}
-@media (min-width: 1110px) {
-  .page-linkout .field-name-body dl {
-    padding-left: 210px;
-  }
-}
-
-.page-linkout .field-name-body .sidebar1 dl {
-  padding-left: 0;
-}
-
-/*
-.page-linkout .block-ds-extras .field-name-title {
-  font-family: $headlinefont;
-  padding-top: .5rem;
-  padding-bottom: .25rem;
-  line-height: 1.3;
-  font-weight: 700;
-  font-size: 1.24rem;
-  @include breakpoint($tab) {
-  font-size: 1.59em;
-  }
-  @include breakpoint($desk) {
-  font-size: 1.76rem;
-  }
-}
-
-*/
 /*
 Research listing page
 */
@@ -5118,4 +5095,174 @@ Sidebar announcement block
   border-radius: 6px;
   text-align: center;
   padding: 6px;
+}
+
+/* Linkout pages
+*/
+.page-linkout .l-contentbody .field-name-title {
+  font-family: "Oxygen";
+  padding-top: 1em;
+  padding-bottom: .25em;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 1.24rem;
+}
+@media (min-width: 768px) {
+  .page-linkout .l-contentbody .field-name-title {
+    font-size: 1.59rem;
+  }
+}
+@media (min-width: 1110px) {
+  .page-linkout .l-contentbody .field-name-title {
+    font-size: 1.76rem;
+  }
+}
+
+.page-linkout .field-name-body p {
+  font-family: "PT Serif";
+  margin-bottom: .5em;
+}
+@media (min-width: 1110px) {
+  .page-linkout .field-name-body p {
+    padding-left: 210px;
+  }
+}
+
+.page-linkout .field-name-node-link {
+  font-family: "PT Serif";
+  margin-bottom: .5em;
+  font-weight: 700;
+}
+@media (min-width: 1110px) {
+  .page-linkout .field-name-node-link {
+    padding-left: 210px;
+  }
+}
+
+.page-linkout .field-name-field-blog-author-photo {
+  float: right;
+  padding-left: 10px;
+  width: 8em;
+}
+@media (min-width: 1110px) {
+  .page-linkout .field-name-field-blog-author-photo {
+    float: left;
+    width: 180px;
+  }
+}
+
+.page-linkout .field-name-body dl {
+  font-family: "PT Serif";
+  margin-bottom: .5em;
+}
+@media (min-width: 1110px) {
+  .page-linkout .field-name-body dl {
+    padding-left: 210px;
+  }
+}
+
+/* sidebars */
+.page-linkout main .sidebar1 {
+  padding: 1em;
+  background-color: #f7f7f7;
+  margin: 0 0 1em 0;
+}
+@media (min-width: 1110px) {
+  .page-linkout main .sidebar1 {
+    margin-left: 210px;
+  }
+}
+
+.page-linkout main .sidebar1 h2 {
+  font-family: "Noto Sans";
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 1.41em;
+  font-weight: 700;
+}
+
+.page-linkout main .sidebar1 p {
+  font-family: "Noto Sans";
+  font-size: .88em;
+  font-weight: 400;
+  margin: 0 0 1em 0;
+}
+@media (min-width: 1110px) {
+  .page-linkout main .sidebar1 p {
+    padding-left: 0;
+  }
+}
+
+.page-linkout main .sidebar1 ol {
+  padding-left: 17px;
+}
+@media (min-width: 1110px) {
+  .page-linkout main .sidebar1 ol {
+    margin-left: 0px;
+  }
+}
+
+.page-linkout .field-name-body .sidebar1 dl {
+  padding-left: 0;
+}
+
+.page-linkout main .sidebar1 blockquote {
+  font-family: "Noto Sans";
+  font-size: .88em;
+  margin: .5em 0 .25em .25em;
+  padding-left: 0;
+}
+
+.page-linkout main .sidebar1 h4 {
+  font-family: "Noto Sans";
+  font-size: .88em;
+  font-weight: 700;
+  margin: .5em 0 .25em 0;
+}
+
+.page-linkout main .sidebar1 ul {
+  font-family: "Noto Sans";
+  margin-left: 1em;
+}
+
+.page-linkout main .sidebar1 ol {
+  font-family: "Noto Sans";
+  margin-left: 1em;
+}
+
+.page-linkout main .sidebar1 li {
+  font-family: "Noto Sans";
+  font-size: .88em;
+  margin-left: 0;
+}
+
+.page-linkout main p.authorbio {
+  font-size: .82em;
+  font-family: "Noto Sans";
+  margin-top: 1.5em;
+  padding-top: .5em;
+  /* border-top: solid 1px $managedcarered; */
+}
+@media (min-width: 1110px) {
+  .page-linkout main p.authorbio {
+    padding-left: 210px;
+  }
+}
+
+.page-linkout main .imagebundleleft {
+  margin-left: 0;
+  width: 197px;
+  padding-right: 17px;
+  float: left;
+  padding-left: 0;
+}
+
+.page-linkout main .imagebundleleft p {
+  font-family: "Noto Sans";
+  margin-left: 0;
+  float: left;
+  font-size: .88em;
+  clear: both;
+  padding-left: 0;
 }

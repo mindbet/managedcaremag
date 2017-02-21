@@ -137,6 +137,35 @@ Title story for Story
   }
 }
 
+.block-ds-extras .story-title {
+  font-family: $headlinefont;
+  padding-top: .5rem;
+  padding-bottom: .25rem;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 1.24rem;
+  @include breakpoint($tab) {
+  font-size: 1.59rem;
+  }
+  @include breakpoint($desk) {
+  font-size: 1.76rem;
+  }
+}
+
+h1.story-title {
+  font-family: $headlinefont;
+  padding-top: .5rem;
+  padding-bottom: .25rem;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 1.24rem;
+  @include breakpoint($tab) {
+  font-size: 1.59rem;
+  }
+  @include breakpoint($desk) {
+  font-size: 1.76rem;
+  }
+}
 
 
 
@@ -581,6 +610,7 @@ Display quotes and source quotes in left rail
 
 
 
+
 .node-type-story  main .imagebundleleft  {
   margin-left: 0;
   width: 197px;
@@ -627,6 +657,14 @@ Display quotes and source quotes in left rail
 }
 
 
+.node-type-story  main .imagebundleleft p {
+  font-family: $sanseriffont;
+  margin-left: 0;
+  float:left;
+  font-size: .88em;
+  clear: both;
+  padding-left:0;
+}
 
 
 .node-type-story  main .imagebundleleft p {
@@ -929,7 +967,7 @@ line-height:0;
 Sidebars in main story
 */
 
-.node-type-story  main .sidebar {
+.node-type-story main .sidebar {
   padding:1em;
   margin-left: $leftrailmargin;
   background-color: #f7f7f7;
@@ -939,7 +977,7 @@ Sidebars in main story
    }
   }
 
-.node-type-story  main .sidebar1 {
+.node-type-story main .sidebar1 {
   padding:1em;
   background-color: #f7f7f7;
   margin: 0 0 1em 0;
@@ -963,7 +1001,7 @@ Sidebars in main story
   }
 
 
-.node-type-story  main .sidebar1 h2 {
+main .sidebar1 h2 {
   font-family: $sanseriffont;
   padding-top: 0;
   margin-top: 0;
@@ -2089,9 +2127,20 @@ blog individual entries
 
 
 
+/*
+Standalone style, not part of a page type
+*/
 
 
-
+.field-name-post-date {
+  font-family: $sanseriffont;
+  margin-top: 1em;
+  font-size: .82em;
+ @include breakpoint($desk) {
+  float: left;
+  width: $leftrailmargin;
+  }
+}
 
 
 
@@ -2168,95 +2217,6 @@ Pages
 .page-node .field-name-body .sidebar1 dl {
   padding-left: 0;
 }
-
-
-
-
-
-/* Linkout pages
-*/
-
-
-.page-linkout .l-contentbody .field-name-title {
-  font-family: $headlinefont;
-  padding-top: 1em;
-  padding-bottom: .25em;
-  line-height: 1.3;
-  font-weight: 700;
-  font-size: 1.24rem;
-  @include breakpoint($tab) {
-  font-size: 1.59rem;
-  }
-  @include breakpoint($desk) {
-  font-size: 1.76rem;
-  }
-}
-
-
-
-
-.page-linkout .field-name-body p {
-  font-family: $seriffont;
-  margin-bottom: .5em;
-  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
-  }
-}
-
-
-
-
-.page-linkout .field-name-node-link {
-  font-family: $seriffont;
-  margin-bottom: .5em;
-  font-weight: 700;
-  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
-  }
-}
-
-.page-linkout .field-name-field-blog-author-photo {
-  float:right;
-  padding-left: 10px;
-  width: 8em;
-  @include breakpoint($desk) {
-  float:left;
-  width: $leftraillive;
-  }
-}
-
-
-.page-linkout .field-name-body dl {
-  font-family: $seriffont;
-  margin-bottom: .5em;
-  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
-  }
-}
-
-
-
-.page-linkout .field-name-body .sidebar1 dl {
-  padding-left: 0;
-}
-
-/*
-.page-linkout .block-ds-extras .field-name-title {
-  font-family: $headlinefont;
-  padding-top: .5rem;
-  padding-bottom: .25rem;
-  line-height: 1.3;
-  font-weight: 700;
-  font-size: 1.24rem;
-  @include breakpoint($tab) {
-  font-size: 1.59em;
-  }
-  @include breakpoint($desk) {
-  font-size: 1.76rem;
-  }
-}
-
-*/
 
 
 
