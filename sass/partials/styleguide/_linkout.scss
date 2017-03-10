@@ -81,14 +81,14 @@
   padding-top: 0;
   margin-top: 0;
   margin-left: 0;
-  font-size: 1.41em;
+  font-size: 1.41rem;
   font-weight: 700;
   }
 
 
 .page-linkout  main .sidebar1 p {
   font-family: $sanseriffont;
-  font-size: .88em;
+  font-size: .88rem;
  font-weight: 400;
  margin: 0 0 1em 0;
    @include breakpoint($desk) {
@@ -111,7 +111,7 @@
 
 .page-linkout  main .sidebar1 blockquote {
   font-family: $sanseriffont;
-  font-size: .88em;
+  font-size: .88rem;
   margin: .5em 0 .25em .25em;
   padding-left: 0;
 }
@@ -120,7 +120,7 @@
 
 .page-linkout  main .sidebar1 h4 {
   font-family: $sanseriffont;
-  font-size: .88em;
+  font-size: .88rem;
  font-weight: 700;
  margin: .5em 0 .25em 0;
 }
@@ -142,7 +142,7 @@
 
 .page-linkout  main .sidebar1 li {
   font-family: $sanseriffont;
-  font-size: .88em;
+  font-size: .88rem;
   margin-left: 0;
 }
 
@@ -154,7 +154,7 @@
 
 
 .page-linkout main p.authorbio {
-font-size: .82em;
+font-size: .82rem;
 font-family: $sanseriffont;
 margin-top: 1.5em;
 padding-top:.5em;
@@ -187,7 +187,7 @@ padding-top:.5em;
   font-family: $sanseriffont;
   margin-left: 0;
   float:left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left:0;
 }

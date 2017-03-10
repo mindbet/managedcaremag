@@ -9,9 +9,9 @@
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
   @include breakpoint($tab) {
-  font-size: 1.41em;
+  font-size: 1.41rem;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -30,7 +30,7 @@
 .page-focus .field-name-post-date {
   font-family: $sanseriffont;
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
  @include breakpoint($desk) {
   padding-left: $leftrailmargin;
   }
@@ -51,7 +51,7 @@
 
 .page-focus .field-name-field-blog-author-display {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
  @include breakpoint($desk) {
   float: left;
@@ -62,7 +62,7 @@
 
 .page-focus .field-name-field-blog-author-display-creden {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
  @include breakpoint($desk) {
   float: left;
@@ -81,7 +81,7 @@
   font-family: $sanseriffont;
   margin-bottom: .5em;
   font-weight: 700;
-  font-size:.94em;
+  font-size:.94rem;
  @include breakpoint($desk) {
   padding-left: $leftrailmargin;
   }
@@ -107,9 +107,9 @@
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
   @include breakpoint($tab) {
-  font-size: 1.41em;
+  font-size: 1.41rem;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -131,7 +131,7 @@
 .node-type-topic main .field-name-post-date {
   font-family: $sanseriffont;
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
  @include breakpoint($desk) {
   padding-left: $leftrailmargin;
   }
@@ -165,7 +165,7 @@
 
 .node-type-topic main .field-name-field-blog-author-display {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   margin-bottom: .5em;
   clear: both;
  @include breakpoint($desk) {
@@ -177,7 +177,7 @@
 
 .node-type-topic main .field-name-field-blog-author-display-creden {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
  @include breakpoint($desk) {
   float: left;

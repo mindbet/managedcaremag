@@ -539,7 +539,7 @@ Blocks
 */
 #block-block-23 p {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.5em;
 }
 
@@ -587,7 +587,7 @@ Title story for Story
 }
 @media (min-width: 768px) {
   .block-ds-extras .field-name-title {
-    font-size: 1.59em;
+    font-size: 1.59rem;
   }
 }
 @media (min-width: 1110px) {
@@ -643,7 +643,7 @@ h1.story-title {
 }
 
 h3 {
-  font-size: 1.41em;
+  font-size: 1.41rem;
   padding-top: 1em;
   padding-bottom: .25em;
   font-weight: 700;
@@ -677,7 +677,7 @@ h4 {
 
 .node-story h5 {
   font-family: "Noto Sans";
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 1em;
   padding-bottom: .25em;
   font-weight: 700;
@@ -702,7 +702,7 @@ h4 {
 }
 
 .node-type-story main p {
-  font-size: 1em;
+  font-size: 1rem;
   margin-bottom: .5em;
 }
 @media (min-width: 1110px) {
@@ -712,7 +712,7 @@ h4 {
 }
 
 .page-node main pre {
-  font-size: 1em;
+  font-size: 1rem;
   margin-bottom: .5em;
 }
 @media (min-width: 1110px) {
@@ -726,7 +726,7 @@ h4 {
 }
 
 .node-type-wire-feed main .field-name-field-pub-date {
-  font-size: .94em;
+  font-size: .94rem;
   font-family: "Noto Sans";
   margin-bottom: .5em;
 }
@@ -752,7 +752,7 @@ h4 {
 
 main
 address {
-  font-size: .94em;
+  font-size: .94rem;
   margin-bottom: .5em;
 }
 @media (min-width: 1110px) {
@@ -766,21 +766,20 @@ address {
 Lists
 */
 ul {
-  font-size: 1em;
+  font-size: 1rem;
   margin-bottom: 1em;
   margin-left: 1em;
   list-style-position: outside;
 }
 
 ol {
-  font-size: 1em;
+  font-size: 1rem;
   margin-bottom: 1em;
   margin-left: 1em;
   list-style-position: outside;
 }
 
 ul li {
-  font-size: 1em;
   margin-bottom: 1em;
   margin-left: 1em;
   font-size: 1em;
@@ -788,8 +787,11 @@ ul li {
   list-style-type: disc;
 }
 
+#admin-menu-wrapper ul li a {
+  font-size: 14px;
+}
+
 ol li {
-  font-size: 1em;
   margin-bottom: 1em;
   margin-left: 1em;
   font-size: 1em;
@@ -852,7 +854,7 @@ Node display
 */
 .field-name-field-deck {
   font-family: "Noto Sans";
-  font-size: 1.06em;
+  font-size: 1.06rem;
   margin-left: 0;
   margin-bottom: .5em;
   line-height: 1.5;
@@ -895,7 +897,7 @@ Special for front page of site
 */
 .view-front-page-view h5 {
   font-family: "Noto Sans";
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 1em;
   padding-bottom: 0em;
   font-weight: 400;
@@ -903,7 +905,7 @@ Special for front page of site
 
 .view-front-page-view h2.story-title {
   font-family: "Oxygen";
-  font-size: 1.41em;
+  font-size: 1.41rem;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -968,7 +970,7 @@ Display quotes and source quotes in left rail
 .node-type-story main .imagebundleright p {
   font-family: "Noto Sans";
   margin-left: 0;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   line-height: 1.5;
   padding-left: 0;
@@ -1018,7 +1020,7 @@ Display quotes and source quotes in left rail
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }
@@ -1027,7 +1029,7 @@ Display quotes and source quotes in left rail
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }
@@ -1036,7 +1038,7 @@ Display quotes and source quotes in left rail
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }
@@ -1045,7 +1047,7 @@ Display quotes and source quotes in left rail
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }
@@ -1054,7 +1056,7 @@ Display quotes and source quotes in left rail
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }
@@ -1063,7 +1065,7 @@ Display quotes and source quotes in left rail
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }
@@ -1079,7 +1081,7 @@ figure.align-left figcaption {
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }
@@ -1092,7 +1094,7 @@ figure.align-right {
 
 figure.align-left figcaption {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
 }
 
@@ -1103,7 +1105,7 @@ figure.align-left figcaption {
 .field-name-monthline {
   padding-top: 56px;
   font-family: "Noto Sans";
-  font-size: .76em;
+  font-size: .76rem;
   margin-bottom: .75rem;
   clear: both;
 }
@@ -1135,7 +1137,7 @@ Other type styles for story mainbar
 
 .node-type-story .l-contentbody blockquote {
   padding: 1rem;
-  font-size: .94em;
+  font-size: .94rem;
 }
 @media (min-width: 1110px) {
   .node-type-story .l-contentbody blockquote {
@@ -1145,7 +1147,7 @@ Other type styles for story mainbar
 
 .node-type-story .l-contentbody blockquote p {
   padding: 1em;
-  font-size: .94em;
+  font-size: .94rem;
 }
 @media (min-width: 1110px) {
   .node-type-story .l-contentbody blockquote p {
@@ -1208,7 +1210,7 @@ table {
 
 th {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   font-weight: 700;
   border: solid 1px gray;
   padding: 3px;
@@ -1219,7 +1221,7 @@ th {
 td {
   font-family: "Noto Sans";
   vertical-align: top;
-  font-size: .82em;
+  font-size: .82rem;
   border: solid 1px gray;
   padding: 3px 5px;
   text-align: left;
@@ -1275,7 +1277,7 @@ Sidebars in main story
   padding-top: 0;
   margin-top: 0;
   margin-left: 0;
-  font-size: 1.41em;
+  font-size: 1.41rem;
   font-weight: 700;
 }
 
@@ -1284,13 +1286,13 @@ main .sidebar1 h2 {
   padding-top: 0;
   margin-top: 0;
   margin-left: 0;
-  font-size: 1.41em;
+  font-size: 1.41rem;
   font-weight: 700;
 }
 
 .node-type-story main .sidebar p {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   font-weight: 400;
   margin: 0 0 1em 0;
 }
@@ -1302,7 +1304,7 @@ main .sidebar1 h2 {
 
 .node-type-story main .sidebar1 p {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   font-weight: 400;
   margin: 0 0 1em 0;
 }
@@ -1323,28 +1325,28 @@ main .sidebar1 ol {
 
 .node-type-story main .sidebar blockquote {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   margin: .5em 0 .25em .25em;
   padding-left: 0;
 }
 
 .node-type-story main .sidebar1 blockquote {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   margin: .5em 0 .25em .25em;
   padding-left: 0;
 }
 
 .node-type-story main .sidebar h4 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   font-weight: 700;
   margin: .5em 0 .25em 0;
 }
 
 .node-type-story main .sidebar1 h4 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   font-weight: 700;
   margin: .5em 0 .25em 0;
 }
@@ -1371,13 +1373,13 @@ main .sidebar1 ol {
 
 .node-type-story main .sidebar li {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   margin-left: 0;
 }
 
 .node-type-story main .sidebar1 li {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   margin-left: 0;
 }
 
@@ -1394,14 +1396,14 @@ Static pages
 
 .node-type-page .l-contentbody h4 {
   font-weight: 700;
-  font-size: 1.18em;
+  font-size: 1.18rem;
 }
 
 /*
 Special elements
 */
 .node-type-story main p.authorbio {
-  font-size: .82em;
+  font-size: .82rem;
   font-family: "Noto Sans";
   margin-top: 1.5em;
   padding-top: .5em;
@@ -1414,7 +1416,7 @@ Special elements
 }
 
 .page-node .field-name-body p.footnotelike {
-  font-size: .82em;
+  font-size: .82rem;
   font-family: "Noto Sans";
   margin-top: 1.5em;
   padding-top: .5em;
@@ -1438,7 +1440,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1451,7 +1453,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author2 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1464,7 +1466,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author3 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1477,7 +1479,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author4 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1490,7 +1492,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author5 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1503,7 +1505,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author6 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1516,7 +1518,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author7 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1529,7 +1531,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author8 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1542,7 +1544,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author9 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1555,7 +1557,7 @@ Special elements
 .view-front-page-view
 .field-name-field-author10 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 400;
 }
 @media (min-width: 1110px) {
@@ -1567,7 +1569,7 @@ Special elements
 
 .view-mode-full .field-name-field-author {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1582,7 +1584,7 @@ Special elements
 
 .view-mode-full .field-name-field-author2 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1597,7 +1599,7 @@ Special elements
 
 .view-mode-full .field-name-field-author3 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1612,7 +1614,7 @@ Special elements
 
 .view-mode-full .field-name-field-author4 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1627,7 +1629,7 @@ Special elements
 
 .view-mode-full .field-name-field-author5 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1642,7 +1644,7 @@ Special elements
 
 .view-mode-full .field-name-field-author6 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1657,7 +1659,7 @@ Special elements
 
 .view-mode-full .field-name-field-author7 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1672,7 +1674,7 @@ Special elements
 
 .view-mode-full .field-name-field-author8 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1687,7 +1689,7 @@ Special elements
 
 .view-mode-full .field-name-field-author9 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1702,7 +1704,7 @@ Special elements
 
 .view-mode-full .field-name-field-author10 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   clear: both;
   margin-top: .5em;
@@ -1729,7 +1731,7 @@ Special elements
 .field-name-field-author10cred,
 .field-name-field-authorcred10 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -1755,7 +1757,7 @@ Special elements
 .view-mode-full
 .field-name-field-pdf-version {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   font-weight: 700;
   margin-top: 2em;
   clear: both;
@@ -1795,7 +1797,7 @@ Special elements
 .node-type-story main p.disclaimer {
   font-family: "Noto Sans";
   line-height: 1.45;
-  font-size: .82em;
+  font-size: .82rem;
   padding: .5em;
   border: solid 1px gray;
 }
@@ -1810,7 +1812,7 @@ Special elements
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Noto Sans";
-  font-size: .94em;
+  font-size: .94rem;
   color: #999;
   letter-spacing: .02em;
   clear: both;
@@ -1833,12 +1835,12 @@ Special elements
 }
 @media (min-width: 768px) {
   .view-front-page-view .field-name-title {
-    font-size: 1.24em;
+    font-size: 1.24rem;
   }
 }
 @media (min-width: 1110px) {
   .view-front-page-view .field-name-title {
-    font-size: 1.41em;
+    font-size: 1.41rem;
   }
 }
 
@@ -1874,7 +1876,7 @@ Special elements
 
 .block-menu-secondary-menu li {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
 }
 
 /*
@@ -1932,7 +1934,7 @@ Table of Contents listings
 .view-id-current_issue_r6 .field-name-field-slug {
   font-weight: 700;
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   text-transform: uppercase;
   margin-top: 1.5em;
   color: #999999;
@@ -1947,7 +1949,7 @@ Table of Contents listings
 .view-id-current_issue_r6 .views-field-field-slug {
   font-weight: 700;
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   text-transform: uppercase;
   margin-top: 1.5em;
   color: #999999;
@@ -1987,7 +1989,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 h2.deptheadline {
   font-family: "Noto Sans";
-  font-size: 1.18em;
+  font-size: 1.18rem;
   font-weight: 700;
   line-height: 1.3;
   margin-top: .25em;
@@ -1999,7 +2001,7 @@ Table of Contents listings
 }
 
 .view-id-current_issue_r6 .field-name-field-deck {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "PT Serif";
   line-height: 1.4;
 }
@@ -2010,7 +2012,7 @@ Table of Contents listings
 }
 
 .view-id-current_issue_r6 .views-field-field-deck {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "PT Serif";
   line-height: 1.4;
 }
@@ -2022,7 +2024,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .group-author-string-list {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
   margin-top: .25em;
   margin-bottom: 1em;
@@ -2035,7 +2037,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2046,7 +2048,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author2 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2057,7 +2059,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author3 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2068,7 +2070,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author4 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2079,7 +2081,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author5 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2090,7 +2092,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author6 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2101,7 +2103,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author7 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2112,7 +2114,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author8 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2123,7 +2125,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author9 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2134,7 +2136,7 @@ Table of Contents listings
 
 .view-id-current_issue_r6 .views-field-field-author10 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   line-height: 1.4;
 }
 @media (min-width: 1110px) {
@@ -2144,7 +2146,7 @@ Table of Contents listings
 }
 
 .view-id-current_issue_r6 .newsheadline {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: "PT Serif";
   line-height: 1.4;
 }
@@ -2204,7 +2206,7 @@ blog overview
 }
 @media (min-width: 768px) {
   .page-blog .node-teaser .field-name-title {
-    font-size: 1.59em;
+    font-size: 1.59rem;
   }
 }
 @media (min-width: 1110px) {
@@ -2223,7 +2225,7 @@ blog overview
 }
 @media (min-width: 768px) {
   .page-blog .node-teaser:first-of-type .field-name-title {
-    font-size: 1.59em;
+    font-size: 1.59rem;
   }
 }
 @media (min-width: 1110px) {
@@ -2255,7 +2257,7 @@ blog individual entries
 }
 @media (min-width: 768px) {
   .node-type-blog .l-contentbody .field-name-title {
-    font-size: 1.59em;
+    font-size: 1.59rem;
   }
 }
 @media (min-width: 1110px) {
@@ -2278,7 +2280,7 @@ blog individual entries
 .node-blog .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .node-blog .field-name-post-date {
@@ -2318,7 +2320,7 @@ Standalone style, not part of a page type
 .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: 1em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .field-name-post-date {
@@ -2413,7 +2415,7 @@ Research listing page
 }
 @media (min-width: 768px) {
   .page-research .view-id-original_research .field-name-title {
-    font-size: 1.59em;
+    font-size: 1.59rem;
   }
 }
 @media (min-width: 1110px) {
@@ -2592,45 +2594,110 @@ span.count {
   margin-top: .25rem;
 }
 
-/*
-*/
-.field-name-service-links-displays-linkedin-share-button {
+a.a2a_button_facebook {
   display: inline-block;
   margin-right: 9px;
 }
 @media (min-width: 1110px) {
-  .field-name-service-links-displays-linkedin-share-button {
+  a.a2a_button_facebook {
     margin-top: 2rem;
     float: left;
     clear: both;
-    width: 180px;
+    width: 32px;
+  }
+}
+
+a.a2a_button_twitter {
+  display: inline-block;
+  margin-right: 9px;
+}
+@media (min-width: 1110px) {
+  a.a2a_button_twitter {
+    margin-top: .5rem;
+    float: left;
+    clear: both;
+    width: 32px;
+  }
+}
+
+a.a2a_button_linkedin {
+  display: inline-block;
+  margin-right: 9px;
+}
+@media (min-width: 1110px) {
+  a.a2a_button_linkedin {
+    margin-top: .5rem;
+    float: left;
+    clear: both;
+    width: 32px;
+  }
+}
+
+a.a2a_button_email {
+  display: inline-block;
+  margin-right: 9px;
+}
+@media (min-width: 1110px) {
+  a.a2a_button_email {
+    margin-top: .5rem;
+    float: left;
+    clear: both;
+    width: 32px;
+  }
+}
+
+a.a2a_dd {
+  display: inline-block;
+  margin-right: 9px;
+}
+@media (min-width: 1110px) {
+  a.a2a_dd {
+    margin-top: .5rem;
+    float: left;
+    clear: both;
+    width: 32px;
+  }
+}
+
+/*
+
+
+.field-name-service-links-displays-linkedin-share-button
+ {
+  display: inline-block;
+  margin-right: 9px;
+  @include breakpoint($desk) {
+  margin-top: 2rem;
+  float: left;
+  clear: both;
+  width: $leftraillive;
   }
 }
 
 .field-name-service-links-displays-twitter-widget {
   display: inline-block;
   margin-right: 9px;
-}
-@media (min-width: 1110px) {
-  .field-name-service-links-displays-twitter-widget {
-    float: left;
-    clear: both;
-    width: 180px;
+  @include breakpoint($desk) {
+  float: left;
+  clear: both;
+  width: $leftraillive;
   }
 }
 
-.field-name-service-links-displays-facebook-share {
-  padding-top: 3px;
+
+
+.field-name-service-links-displays-facebook-share
+ {
+  padding-top:3px;
   display: inline-block;
-}
-@media (min-width: 1110px) {
-  .field-name-service-links-displays-facebook-share {
-    float: left;
-    clear: both;
-    width: 180px;
+  @include breakpoint($desk) {
+  float: left;
+  clear: both;
+  width: $leftraillive;
   }
 }
 
+*/
 .field-name-field-pretitle p {
   color: white;
   text-transform: uppercase;
@@ -3240,7 +3307,7 @@ ul.nice-menu li {
   margin-bottom: .25rem;
   font-weight: 700;
   font-family: "Noto Sans";
-  font-size: .94em;
+  font-size: .94rem;
   color: #999;
   letter-spacing: .02em;
   clear: both;
@@ -3253,7 +3320,7 @@ ul.nice-menu li {
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
 }
 @media (min-width: 768px) {
   .page-editorsdesk .l-contenttop .field-name-title,
@@ -3307,7 +3374,7 @@ ul.nice-menu li {
 .page-editorsdesk .field-name-field-blog-author-display,
 .node-type-editorsdesk .field-name-field-blog-author-display {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -3321,7 +3388,7 @@ ul.nice-menu li {
 .page-editorsdesk .field-name-field-blog-author-display-creden,
 .node-type-editorsdesk .field-name-field-blog-author-display-creden {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -3342,7 +3409,7 @@ ul.nice-menu li {
 .node-type-editorsdesk .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .page-editorsdesk .field-name-post-date,
@@ -3395,14 +3462,14 @@ ul.nice-menu li {
 .field-name-field-embedded-image-1 .image-field-caption {
   width: 180px;
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   padding-right: 20px;
 }
 
 .field-name-field-embedded-image-2 .image-field-caption {
   width: 180px;
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   padding-right: 20px;
 }
 
@@ -3423,7 +3490,7 @@ ul.nice-menu li {
 .page-editorsdesk .field-name-body p.sourceline,
 .node-type-editorsdesk .field-name-body p.sourceline {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   padding-left: 0;
 }
 
@@ -3479,7 +3546,7 @@ Styles for the more block at the bottom
 #block-views-editors-desk-one-entry-block-1 li {
   margin-top: .25em;
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
 }
 */
 /* pharmd corner */
@@ -3493,7 +3560,7 @@ Styles for the more block at the bottom
   margin-bottom: .25rem;
   font-weight: 700;
   font-family: "Noto Sans";
-  font-size: .94em;
+  font-size: .94rem;
   color: #999;
   letter-spacing: .02em;
   clear: both;
@@ -3503,7 +3570,7 @@ Styles for the more block at the bottom
   margin-bottom: .25rem;
   font-weight: 700;
   font-family: "Noto Sans";
-  font-size: .94em;
+  font-size: .94rem;
   color: #999;
   letter-spacing: .02em;
   clear: both;
@@ -3516,12 +3583,12 @@ Styles for the more block at the bottom
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
 }
 @media (min-width: 768px) {
   .page-pharmdcorner .l-contenttop .field-name-title,
   .node-type-pharmd-corner .l-contenttop .field-name-title {
-    font-size: 1.41em;
+    font-size: 1.41rem;
   }
 }
 @media (min-width: 1110px) {
@@ -3546,7 +3613,7 @@ Styles for the more block at the bottom
 .page-pharmdcorner .field-name-field-author-display-name,
 .node-type-pharmd-corner .field-name-field-author-display-name {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   margin-bottom: .25em;
   clear: both;
   font-weight: bold;
@@ -3562,7 +3629,7 @@ Styles for the more block at the bottom
 .page-pharmdcorner .field-name-field-author-display-credential,
 .node-type-pharmd-corner .field-name-field-author-display-credential {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -3590,7 +3657,7 @@ Styles for the more block at the bottom
 .page-pharmdcorner .field-name-field-author-bio-pharmd,
 .node-type-pharmd-corner .field-name-field-author-bio-pharmd {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
   margin-bottom: 1em;
 }
@@ -3621,7 +3688,7 @@ Styles for the more block at the bottom
 .node-type-pharmd-corner .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .page-pharmdcorner .field-name-post-date,
@@ -3697,7 +3764,7 @@ Special for teaser compact
 
 .view-viewpoints-all .story-title, .view-viewpoints-all h2 {
   font-family: "Oxygen";
-  font-size: 1.41em;
+  font-size: 1.41rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 8px;
@@ -3738,12 +3805,12 @@ Special for teaser compact
 
 .field-name-field-blog-author-display, .field-name-field-author, .field-name-field-author2, .field-name-field-author3 {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
 }
 
 .field-name-field-blog-author-display-creden {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
 }
 
 .field-name-field-blog-author-display + .field-name-field-blog-author-display-creden {
@@ -3768,7 +3835,7 @@ Special for teaser compact
 .view-viewpoints-all .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .view-viewpoints-all .field-name-post-date {
@@ -3816,11 +3883,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
 }
 @media (min-width: 768px) {
   .page-tv .l-contenttop .field-name-title {
-    font-size: 1.41em;
+    font-size: 1.41rem;
   }
 }
 @media (min-width: 1110px) {
@@ -3842,7 +3909,7 @@ Special for teaser compact
 .page-tv .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .page-tv .field-name-post-date {
@@ -3863,7 +3930,7 @@ Special for teaser compact
 
 .page-tv .field-name-field-blog-author-display {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -3875,7 +3942,7 @@ Special for teaser compact
 
 .page-tv .field-name-field-blog-author-display-creden {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -3910,11 +3977,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
 }
 @media (min-width: 768px) {
   .node-type-tv main .field-name-title {
-    font-size: 1.41em;
+    font-size: 1.41rem;
   }
 }
 @media (min-width: 1110px) {
@@ -3940,7 +4007,7 @@ Special for teaser compact
 .node-type-tv main .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .node-type-tv main .field-name-post-date {
@@ -3961,7 +4028,7 @@ Special for teaser compact
 
 .node-type-tv main .field-name-field-blog-author-display {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   margin-bottom: .5em;
   clear: both;
 }
@@ -3974,7 +4041,7 @@ Special for teaser compact
 
 .node-type-tv main .field-name-field-blog-author-display-creden {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -4014,7 +4081,7 @@ Special for teaser compact
 
 .page-search main .field-name-month-and-year {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   margin-top: .25em;
   font-weight: 400;
   font-style: italic;
@@ -4026,7 +4093,7 @@ Special for teaser compact
   margin-top: .25em;
   font-weight: 400;
   font-style: italic;
-  font-size: .82em;
+  font-size: .82rem;
 }
 
 .page-search main .field-name-body p {
@@ -4042,13 +4109,13 @@ Special for teaser compact
 
 .page-search main .field-name-field-blog-author-display {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 
 .page-search main .field-name-field-blog-author-display-creden {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 
@@ -4069,11 +4136,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
 }
 @media (min-width: 768px) {
   .page-focus .view-focus-rev .field-name-title {
-    font-size: 1.41em;
+    font-size: 1.41rem;
   }
 }
 @media (min-width: 1110px) {
@@ -4095,7 +4162,7 @@ Special for teaser compact
 .page-focus .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .page-focus .field-name-post-date {
@@ -4116,7 +4183,7 @@ Special for teaser compact
 
 .page-focus .field-name-field-blog-author-display {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -4128,7 +4195,7 @@ Special for teaser compact
 
 .page-focus .field-name-field-blog-author-display-creden {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -4147,7 +4214,7 @@ Special for teaser compact
   font-family: "Noto Sans";
   margin-bottom: .5em;
   font-weight: 700;
-  font-size: .94em;
+  font-size: .94rem;
 }
 @media (min-width: 1110px) {
   .page-focus .field-name-continue-reading p {
@@ -4162,11 +4229,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
 }
 @media (min-width: 768px) {
   .node-type-topic main .field-name-title {
-    font-size: 1.41em;
+    font-size: 1.41rem;
   }
 }
 @media (min-width: 1110px) {
@@ -4192,7 +4259,7 @@ Special for teaser compact
 .node-type-topic main .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .node-type-topic main .field-name-post-date {
@@ -4224,7 +4291,7 @@ Special for teaser compact
 
 .node-type-topic main .field-name-field-blog-author-display {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   margin-bottom: .5em;
   clear: both;
 }
@@ -4237,7 +4304,7 @@ Special for teaser compact
 
 .node-type-topic main .field-name-field-blog-author-display-creden {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
 }
 @media (min-width: 1110px) {
@@ -4266,12 +4333,12 @@ News Story Title at top of page
   font-weight: 700;
   line-height: 1.3;
   color: #333;
-  font-size: 1.26em;
+  font-size: 1.26rem;
 }
 @media (min-width: 768px) {
   .node-type-news-item, .node-type-news-report .l-contenttop .field-name-title {
     padding-top: 0;
-    font-size: 1.41em;
+    font-size: 1.41rem;
   }
 }
 @media (min-width: 1110px) {
@@ -4282,7 +4349,7 @@ News Story Title at top of page
 
 .node-type-news-item, .node-type-news-report .field-name-field-b-head, .field-name-field-subtitle {
   font-family: "Noto Sans";
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 0;
   padding-bottom: .5em;
   font-weight: 400;
@@ -4309,7 +4376,7 @@ News Story Title Body Text
 .node-type-news-report .node-news-report .field-name-post-date {
   font-family: "Noto Sans";
   margin-top: 1em;
-  font-size: .82em;
+  font-size: .82rem;
 }
 @media (min-width: 1110px) {
   .node-type-news-report .node-news-report .field-name-post-date {
@@ -4368,7 +4435,7 @@ news stories list most recent
 
 .page-news .view-id-news_reports_list .field-name-node-link {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   margin-bottom: .5em;
   font-weight: 700;
 }
@@ -4378,7 +4445,7 @@ News Story more headlines
 */
 .node-type-news-report .view-id-news_reports_list .views-field-title {
   font-family: "Noto Sans";
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 1em;
   padding-bottom: 0;
   font-weight: 700;
@@ -4393,7 +4460,7 @@ News Story more headlines
 
 .node-type-news-report .view-id-news_reports_list .views-field-field-subtitle {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   padding-top: 0;
   padding-bottom: .5em;
   font-weight: 400;
@@ -4432,7 +4499,7 @@ Special for news headlines block on front
 
 .view-ptcomm-news-2 .views-field-title {
   font-family: "Noto Sans";
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 1em;
   padding-bottom: 0;
   font-weight: 700;
@@ -4446,7 +4513,7 @@ Special for news headlines block on front
 
 .view-ptcomm-news-2 .field-name-field-b-head, .views-field-field-subtitle {
   font-family: "Noto Sans";
-  font-size: .82em;
+  font-size: .82rem;
   padding-top: 0;
   padding-bottom: .5em;
   font-weight: 400;
@@ -4509,7 +4576,7 @@ Special for news headlines block on front
   }
 
 .view-id-nodequeue_2 blockquote.image-field-caption p {
-  font-size: .7em;
+  font-size: .7rem;
   line-height: 1.2;
   font-family: $sanseriffont;
   color: white;
@@ -4519,7 +4586,7 @@ Special for news headlines block on front
 
 .view-id-nodequeue_2 .view-mode-title_and_image .field-name-title p.top-tout  {
   font-family: $sanseriffont;
-  font-size:.82em;
+  font-size:.82rem;
   line-height: 17px;
   color:#333;
   }
@@ -4737,7 +4804,7 @@ Special for news headlines block on front
   border-radius: 0;
   box-shadow: none;
   color: #fff;
-  font-size: 1em;
+  font-size: 1rem;
   text-align: right;
   cursor: pointer;
   height: 38px;
@@ -4807,7 +4874,7 @@ Most popular stories of the year 2016
 }
 
 #block-views-nodequeue-3-block .group-right .field-name-title {
-  font-size: 1.176em;
+  font-size: 1.176rem;
   font-weight: 700;
   margin-bottom: 0;
   font-family: "PT Serif";
@@ -4878,17 +4945,28 @@ Read next -- recent popular stories
 }
 
 #block-views-recent-popular-block-1 .ds-2col-fluid > .group-left {
-  float: left;
-  /* LTR */
-  width: 160px;
-  position: relative;
+  float: none;
+}
+@media (min-width: 550px) {
+  #block-views-recent-popular-block-1 .ds-2col-fluid > .group-left {
+    float: left;
+    /* LTR */
+    width: 160px;
+    position: relative;
+  }
 }
 
 #block-views-recent-popular-block-1 .ds-2col-fluid > .group-right {
-  float: right;
-  /* LTR */
-  padding-left: 16px;
-  width: calc(100% - 160px);
+  float: none;
+  width: 100%;
+}
+@media (min-width: 550px) {
+  #block-views-recent-popular-block-1 .ds-2col-fluid > .group-right {
+    float: right;
+    /* LTR */
+    padding-left: 16px;
+    width: calc(100% - 160px);
+  }
 }
 
 #block-views-recent-popular-block-1
@@ -4977,7 +5055,7 @@ Newsletter signups
     margin-left: 33.89831%;
     clear: none;
     font-family: "Noto Sans";
-    font-size: .88em;
+    font-size: .88rem;
     line-height: 1.4;
   }
 }
@@ -5006,7 +5084,7 @@ Social media links at top
     margin-right: 0;
     clear: none;
     font-family: "Noto Sans";
-    font-size: .88em;
+    font-size: .88rem;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.4;
@@ -5178,13 +5256,13 @@ Sidebar announcement block
   padding-top: 0;
   margin-top: 0;
   margin-left: 0;
-  font-size: 1.41em;
+  font-size: 1.41rem;
   font-weight: 700;
 }
 
 .page-linkout main .sidebar1 p {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   font-weight: 400;
   margin: 0 0 1em 0;
 }
@@ -5209,14 +5287,14 @@ Sidebar announcement block
 
 .page-linkout main .sidebar1 blockquote {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   margin: .5em 0 .25em .25em;
   padding-left: 0;
 }
 
 .page-linkout main .sidebar1 h4 {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   font-weight: 700;
   margin: .5em 0 .25em 0;
 }
@@ -5233,12 +5311,12 @@ Sidebar announcement block
 
 .page-linkout main .sidebar1 li {
   font-family: "Noto Sans";
-  font-size: .88em;
+  font-size: .88rem;
   margin-left: 0;
 }
 
 .page-linkout main p.authorbio {
-  font-size: .82em;
+  font-size: .82rem;
   font-family: "Noto Sans";
   margin-top: 1.5em;
   padding-top: .5em;
@@ -5262,7 +5340,7 @@ Sidebar announcement block
   font-family: "Noto Sans";
   margin-left: 0;
   float: left;
-  font-size: .88em;
+  font-size: .88rem;
   clear: both;
   padding-left: 0;
 }

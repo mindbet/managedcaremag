@@ -18,7 +18,7 @@
   margin-bottom: .25rem;
   font-weight:700;
   font-family: $sanseriffont;
-  font-size: .94em;
+  font-size: .94rem;
   color: #999;
   letter-spacing: .02em;
   clear: both;
@@ -29,7 +29,7 @@
   margin-bottom: .25rem;
   font-weight:700;
   font-family: $sanseriffont;
-  font-size: .94em;
+  font-size: .94rem;
   color: #999;
   letter-spacing: .02em;
   clear: both;
@@ -52,9 +52,9 @@
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26em;
+  font-size: 1.26rem;
   @include breakpoint($tab) {
-  font-size: 1.41em;
+  font-size: 1.41rem;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -80,7 +80,7 @@
 .page-pharmdcorner .field-name-field-author-display-name,
 .node-type-pharmd-corner .field-name-field-author-display-name  {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   margin-bottom: .25em;
   clear: both;
   font-weight: bold;
@@ -102,7 +102,7 @@
 .page-pharmdcorner .field-name-field-author-display-credential,
 .node-type-pharmd-corner .field-name-field-author-display-credential {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
  @include breakpoint($desk) {
   float: left;
@@ -150,7 +150,7 @@
 .page-pharmdcorner .field-name-field-author-bio-pharmd,
 .node-type-pharmd-corner .field-name-field-author-bio-pharmd {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   clear: both;
   margin-bottom: 1em;
  @include breakpoint($desk) {
@@ -182,7 +182,7 @@
 .node-type-pharmd-corner .field-name-post-date  {
   font-family: $sanseriffont;
   margin-top: .5em;
-  font-size: .82em;
+  font-size: .82rem;
  @include breakpoint($desk) {
   padding-left: $leftrailmargin;
   }

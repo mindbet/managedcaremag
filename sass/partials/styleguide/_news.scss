@@ -17,10 +17,10 @@ News Story Title at top of page
   font-weight: 700;
   line-height: 1.3;
   color: #333;
-  font-size: 1.26em;
+  font-size: 1.26rem;
   @include breakpoint($tab) {
   padding-top: 0;
-  font-size: 1.41em;
+  font-size: 1.41rem;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -31,7 +31,7 @@ News Story Title at top of page
 
 .node-type-news-item,.node-type-news-report .field-name-field-b-head,.field-name-field-subtitle {
   font-family: $sanseriffont;
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 0;
   padding-bottom: .5em;
   font-weight: 400;
@@ -63,7 +63,7 @@ News Story Title Body Text
 .node-type-news-report .node-news-report .field-name-post-date {
   font-family: $sanseriffont;
   margin-top: 1em;
-  font-size: .82em;
+  font-size: .82rem;
  @include breakpoint($desk) {
   float: left;
   width: $leftrailmargin;
@@ -134,7 +134,7 @@ news stories list most recent
 
 .page-news .view-id-news_reports_list .field-name-node-link {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   margin-bottom: .5em;
   font-weight: 700;
 }
@@ -158,7 +158,7 @@ News Story more headlines
 
 .node-type-news-report .view-id-news_reports_list .views-field-title {
   font-family: $sanseriffont;
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 1em;
   padding-bottom: 0;
   font-weight: 700;
@@ -172,7 +172,7 @@ News Story more headlines
 
 .node-type-news-report .view-id-news_reports_list .views-field-field-subtitle {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   padding-top: 0;
   padding-bottom: .5em;
   font-weight: 400;
@@ -216,7 +216,7 @@ Special for news headlines block on front
 
 .view-ptcomm-news-2 .views-field-title {
   font-family: $sanseriffont;
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 1em;
   padding-bottom: 0;
   font-weight: 700;
@@ -231,7 +231,7 @@ Special for news headlines block on front
 
 .view-ptcomm-news-2 .field-name-field-b-head,.views-field-field-subtitle {
   font-family: $sanseriffont;
-  font-size: .82em;
+  font-size: .82rem;
   padding-top: 0;
   padding-bottom: .5em;
   font-weight: 400;
