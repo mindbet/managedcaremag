@@ -128,7 +128,7 @@ Title story for Story
   padding-bottom: .25rem;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }
@@ -143,7 +143,7 @@ Title story for Story
   padding-bottom: .25rem;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }
@@ -158,7 +158,7 @@ h1.story-title {
   padding-bottom: .25rem;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }
@@ -1606,7 +1606,7 @@ padding-top:.5em;
   line-height: 1.3;
   font-size: 1.0rem;
   @include breakpoint($tab) {
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   }
   @include breakpoint($desk) {
   font-size: 1.41rem;
@@ -2001,7 +2001,7 @@ blog overview
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }
@@ -2017,7 +2017,7 @@ blog overview
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }
@@ -2061,7 +2061,7 @@ blog individual entries
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }
@@ -2165,7 +2165,7 @@ Pages
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }
@@ -2254,7 +2254,7 @@ Research listing page
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.24rem;
+  font-size: $headlinemobile;
   @include breakpoint($tab) {
   font-size: 1.59rem;
   }

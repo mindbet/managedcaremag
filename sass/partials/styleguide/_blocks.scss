@@ -470,17 +470,18 @@ Newsletter signups
 
 .block-newsletter-signups {
   display: none;
-  @include breakpoint($tab) {
+  @include breakpoint($desk) {
+  padding: 16px 0 0 32px;
+  font-size: 14px;
   display: block;
-  padding-top:100px;
-  @include grid-span (4, 5, 12);
+  @include grid-span (4, 9, 12);
   font-family: $sanseriffont;
-  font-size: .88rem;
   line-height: 1.4;
   }
 }
 
 .block-newsletter-signups li {
+  font-size: 14px;
   margin-bottom: 0;
 }
 

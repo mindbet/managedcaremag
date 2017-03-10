@@ -28,6 +28,7 @@ $tab: 768px;
 $narrowdesk: 990px;
 $desk: 1110px;
 
+$headlinemobile: 1.35rem;
 
 $leftraillive: 180px;
 $leftrailmargin: 210px;
@@ -151,6 +152,17 @@ header {
 }
 
 
+.l-ad_strip {
+  display: none;
+  @include breakpoint($smalltab) {
+  height: 122px;
+  display: block;
+  width: 100%;
+  padding-bottom: 32px;
+  border-bottom: solid 1px #636363;
+  }
+}
+
 
 
 
@@ -176,6 +188,8 @@ header {
 .l-contentbody {
 
   padding: 15px 0 0 0;
+
+  clear: both;
 
   @include add-gutter(1/2);
 

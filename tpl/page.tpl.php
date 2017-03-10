@@ -88,6 +88,10 @@
     <?php print render($page['main_menu']); ?>
   </div>
 
+  <div class="l-ad_strip">
+    <?php print render($page['ad_strip']); ?>
+  </div>
+
 <?php if ($page['main_prefix']): ?>
   <div class="l-contenttop">
   <?php print render($page['main_prefix']); ?>

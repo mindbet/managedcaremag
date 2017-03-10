@@ -97,11 +97,17 @@
   padding-top: 48px;
   text-align:center;
   @include breakpoint($smalltab) {
-  padding: 12px 0 6px 0;
+  padding: 16px 0 16px 0;
   }
   @include breakpoint($tab) {
-  padding-top:10px;
-  margin: 0 auto 0.5em auto;
+  padding: 16px 0 16px 0;
+  margin: 0 auto 0 auto;
+}
+  @include breakpoint($desk) {
+  @include grid-span (8, 1, 12);
+  text-align:left;
+  padding-top:16px;
+  margin-bottom: 0.5em;
 }
 }
 
