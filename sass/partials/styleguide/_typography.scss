@@ -120,6 +120,11 @@ h1 {
 Title story for Story
 */
 
+.block-ds-extras {
+  @include breakpoint($tab) {
+  padding-top: 0;
+  }
+}
 
 
 .block-ds-extras .field-name-title {
@@ -130,7 +135,7 @@ Title story for Story
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -145,7 +150,7 @@ Title story for Story
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -160,7 +165,7 @@ h1.story-title {
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -170,13 +175,13 @@ h1.story-title {
 
 
 .block-ds-extras .field-name-standing-slug {
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 
 
 .block-ds-extras .field-name-standing-slug-pharmd-corner {
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 
@@ -244,8 +249,11 @@ h4 {
 }
 
 .node-type-story main p {
-  font-size: 1rem;
+  font-size: 16px;
   margin-bottom: .5em;
+ @include breakpoint($tab) {
+  font-size: 1rem;
+  }
  @include breakpoint($desk) {
   padding-left: $leftrailmargin;
   }
@@ -1544,7 +1552,7 @@ padding-top:.5em;
 
 .field-name-field-full-width-hero-image blockquote.image-field-caption {
     font-family: $sanseriffont;
-    padding: 6px 17px 15px 17px;
+    padding: 6px 17px 16px 17px;
     margin-top:0;
     margin-bottom: 16px;
     font-size: 15px;
@@ -1603,13 +1611,13 @@ padding-top:.5em;
   font-family: $headlinefont;
   font-weight: 700;
   padding-bottom: .25em;
-  line-height: 1.3;
-  font-size: 1.0rem;
-  @include breakpoint($tab) {
+  line-height: 1.35;
   font-size: $headlinemobile;
+  @include breakpoint($tab) {
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.41rem;
+  font-size: 21px;
   }
 }
 
@@ -2003,7 +2011,7 @@ blog overview
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -2019,7 +2027,7 @@ blog overview
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -2063,7 +2071,7 @@ blog individual entries
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -2167,7 +2175,7 @@ Pages
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -2256,7 +2264,7 @@ Research listing page
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;
@@ -2467,7 +2475,9 @@ padding-right: 8px;
 a.a2a_button_facebook  {
   display: inline-block;
   margin-right: 9px;
+  padding-bottom: 8px;
   @include breakpoint($desk) {
+  padding-bottom: 0;
   margin-top: 2rem;
   float: left;
   clear: both;
@@ -2479,7 +2489,9 @@ a.a2a_button_facebook  {
 a.a2a_button_twitter  {
   display: inline-block;
   margin-right: 9px;
+  padding-bottom: 8px;
   @include breakpoint($desk) {
+  padding-bottom: 0;
   margin-top: .5rem;
   float: left;
   clear: both;
@@ -2491,7 +2503,9 @@ a.a2a_button_twitter  {
 a.a2a_button_linkedin  {
   display: inline-block;
   margin-right: 9px;
+  padding-bottom: 8px;
   @include breakpoint($desk) {
+  padding-bottom: 0;
   margin-top: .5rem;
   float: left;
   clear: both;
@@ -2503,7 +2517,9 @@ a.a2a_button_linkedin  {
 a.a2a_button_email  {
   display: inline-block;
   margin-right: 9px;
+  padding-bottom: 8px;
   @include breakpoint($desk) {
+  padding-bottom: 0;
   margin-top: .5rem;
   float: left;
   clear: both;
@@ -2515,7 +2531,9 @@ a.a2a_button_email  {
 a.a2a_dd  {
   display: inline-block;
   margin-right: 9px;
+  padding-bottom: 8px;
   @include breakpoint($desk) {
+  padding-bottom: 0;
   margin-top: .5rem;
   float: left;
   clear: both;

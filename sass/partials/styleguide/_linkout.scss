@@ -10,7 +10,7 @@
   font-weight: 700;
   font-size: $headlinemobile;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;

@@ -35,13 +35,14 @@
 .page-editorsdesk .l-contenttop .field-name-title,
 .node-type-editorsdesk .l-contenttop .field-name-title {
   font-family: $headlinefont;
-  margin-top: 1rem;
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26rem;
+  font-size: $headlinemobile;
+  margin-top: 0;
   @include breakpoint($tab) {
-  font-size: 1.59rem;
+  margin-top: 1rem;
+  font-size: $headlinetab;
   }
   @include breakpoint($desk) {
   font-size: 1.76rem;

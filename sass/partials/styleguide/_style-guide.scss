@@ -28,7 +28,8 @@ $tab: 768px;
 $narrowdesk: 990px;
 $desk: 1110px;
 
-$headlinemobile: 1.35rem;
+$headlinemobile: 19px;
+$headlinetab: 22px;
 
 $leftraillive: 180px;
 $leftrailmargin: 210px;
@@ -57,12 +58,10 @@ $lightgray: #eeeeee;
   @include add-gutter(1/4);
   $output: 'isolation';
   margin: 0 auto;
-  @include background-grid($color: blue);
   width:100%;
   background: white;
-  padding: 0 8px;
+  padding: 0px 16px 0 16px;
   @include breakpoint($tab) {
-    padding:0 15px;
   }
   @include breakpoint($desk) {
     width: $desk;
@@ -173,6 +172,7 @@ header {
   @include breakpoint($smalltab) {
   border-bottom: solid 1px #999;
   padding: 0;
+  margin-bottom: 8px;
 }
 }
 
@@ -187,7 +187,7 @@ header {
 
 .l-contentbody {
 
-  padding: 15px 0 0 0;
+  padding: 0 0 0 0;
 
   clear: both;
 
@@ -205,18 +205,20 @@ header {
 
 .l-contentbody main {
 
+  padding: 0 0 0 0;
+
   @include breakpoint($tab) {
   padding: 0 0 0 0;
   @include grid-span (1, 1);
   }
 
   @include breakpoint($narrowdesk) {
-  padding: 0 15px 0 0;
+  padding: 0 16px 0 0;
   @include grid-span (1, 1);
   }
 
   @include breakpoint($desk) {
-  padding: 0 15px 0 0;
+  padding: 0 16px 0 0;
   @include grid-span (1, 1);
   }
 
@@ -225,11 +227,11 @@ header {
 
 .l-contentbody .sidebar--two {
 /*   clear:both; */
-  padding: 15px 15px 0 0;
+  padding: 16px 16px 0 0;
 
 @include breakpoint($tab) {
   @include grid-span (1, 2);
-  padding: 0 15px 0 5px;
+  padding: 0 16px 0 0;
 }
 
   @include breakpoint($narrowdesk) {
@@ -253,7 +255,7 @@ header {
 
 .page-issue- .l-contentbody {
 
-  padding: 15px 0 0 0;
+  padding: 16px 0 0 0;
 
   @include add-gutter(1/2);
 
@@ -267,19 +269,19 @@ header {
 
 
 .page-issue- .l-contentbody main {
-  padding: 0 15px 0 0;
+  padding: 0 16px 0 0;
 
   @include breakpoint($tab) {
   @include grid-span (1, 1);
   }
 
   @include breakpoint($narrowdesk) {
-  padding: 0 15px 0 0;
+  padding: 0 16px 0 0;
   @include grid-span (1, 1);
   }
 
   @include breakpoint($desk) {
-  padding: 0 15px 0 0;
+  padding: 0 16px 0 0;
   @include grid-span (1, 1);
   }
 
@@ -288,7 +290,7 @@ header {
 
 .page-issue- .l-contentbody .sidebar--two {
 /*   clear:both; */
-  padding: 15px 15px 0 15px;
+  padding: 16px 16px 0 16px;
 
 @include breakpoint($tab) {
   @include grid-span (1, 2);
@@ -314,7 +316,7 @@ header {
 /* Frontpage layout */
 
 .front .l-contentbody {
-  padding-top: 15px;
+  padding-top: 16px;
 
 /*
   @include background-grid($color: blue);
@@ -329,7 +331,7 @@ header {
 
 .front .l-contentbody .sidebar--one {
   clear: both;
-  padding: 0 15px;
+  padding: 0 16px;
 
   @include breakpoint($tab) {
   display: block;
@@ -341,7 +343,7 @@ header {
 }
   @include breakpoint($narrowdesk) {
     @include grid-span (1, 1);
-    padding: 15px 0 0 0;
+    padding: 0 0 0 0;
 /*
 -webkit-columns: 1;
    -moz-columns: 1;
@@ -350,7 +352,7 @@ header {
 }
   @include breakpoint($desk) {
     @include grid-span (1, 1);
-    padding: 15px 0 0 0;
+    padding: 0 0 0 0;
 }
 }
 
@@ -370,10 +372,10 @@ header {
 }
 
 .front .l-contentbody .sidebar--two {
-  padding: 15px 15px 0 15px;
+  padding: 16px 16px 0 0;
   clear: both;
   @include breakpoint($tab) {
-  padding: 15px 15px 0 15px;
+  padding: 16px 16px 0 0;
     @include grid-span (1, 2);
   }
   @include breakpoint($narrowdesk) {
