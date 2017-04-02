@@ -89,12 +89,11 @@ News Story Title Body Text
 
 
 /*
-news stories list most recent
+news stories list page
 */
 
 
 .page-news l-contentbody {
-  padding-top: 40px;
   @include breakpoint($tab) {
   padding-top: 0;
   }
@@ -127,6 +126,7 @@ news stories list most recent
 
 
 .page-news .view-id-news_reports_list .views-row-1 h2 {
+  padding: 56px 0 0 0;
   font-family: $headlinefont;
   border-top: none;
   padding-bottom: .25em;
@@ -135,6 +135,7 @@ news stories list most recent
   font-size: 18px;
   @include breakpoint($tab) {
   font-size: 21px;
+  padding: 0 0 0 0;
   }
   @include breakpoint($desk) {
   font-size: 24px;
@@ -233,7 +234,7 @@ Special for news headlines block on front
 */
 
 #block-views-ptcomm-news-2-block {
-  padding: .5em;
+  padding: 16px;
   background-color: #cceffe;
   margin-bottom: 2rem;
 }

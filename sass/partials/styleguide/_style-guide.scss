@@ -28,7 +28,7 @@ $tab: 768px;
 $narrowdesk: 990px;
 $desk: 1110px;
 
-$headlinemobile: 19px;
+$headlinemobile: 21px;
 $headlinetab: 22px;
 
 $leftraillive: 180px;
@@ -123,6 +123,7 @@ header {
   z-index: 1000300;
   background-color: $managedcarered;
   position: fixed;
+  top: 0px;
   height: 40px;
   left: 0;
   width: 100%;
@@ -331,7 +332,6 @@ header {
 
 .front .l-contentbody .sidebar--one {
   clear: both;
-  padding: 0 16px;
 
   @include breakpoint($tab) {
   display: block;
@@ -357,7 +357,7 @@ header {
 }
 
 .front .l-contentbody main {
-  padding: 30px 0;
+  padding: 32px 0;
   @include clearfix;
   @include breakpoint($tab) {
     @include grid-span (1, 1);

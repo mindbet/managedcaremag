@@ -137,6 +137,7 @@
 }
 */
 
+/*
 .responsive-menus-0-0.responsified:before {
   content: 'MANAGED CARE';
   float: left;
@@ -144,8 +145,12 @@
   padding: 10px 0 0 10px;
   font-family: $sanseriffont;
 }
+*/
 
 
+
+
+/*
 .responsive-menus.responsified span.toggler {
   padding: 10px 10px 1px 10px;
   display: block;
@@ -160,6 +165,29 @@
   outline: none;
   font-family: $sanseriffont;
 }
+*/
+
+
+.responsive-menus.responsified span.toggler {
+  display: block;
+  background: $managedcarered;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  font-size: 15px;
+  position: fixed;
+  left: 16px;
+  top: 9px;
+  cursor: pointer;
+  height: 28px;
+  outline: none;
+  font-family: $sanseriffont;
+}
+/*
+*/
+
+
+
 
 
 .responsive-menus.responsified .responsive-menus-simple li a {
