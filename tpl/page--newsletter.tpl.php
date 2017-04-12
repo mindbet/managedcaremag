@@ -80,21 +80,21 @@
 
 <?php if ($page['header']): ?>
   <header id="header" role="banner">
-  <?php print render($page['header']); ?>
+  <?php print hide($page['header']); ?>
   </header>
 <?php endif; ?>
 
   <div class="l-main_menu">
-    <?php print render($page['main_menu']); ?>
+    <?php print hide($page['main_menu']); ?>
   </div>
 
   <div class="l-ad_strip">
-    <?php print render($page['ad_strip']); ?>
+    <?php print hide($page['ad_strip']); ?>
   </div>
 
 <?php if ($page['main_prefix']): ?>
   <div class="l-contenttop">
-  <?php print render($page['main_prefix']); ?>
+  <?php print hide($page['main_prefix']); ?>
   </div>
 <?php endif; ?>
 
@@ -117,13 +117,13 @@
 
 <?php if ($page['sidebar_second']): ?>
   <aside class="sidebar--two" role="complementary">
-  <?php print render($page['sidebar_second']); ?>
+  <?php print hide($page['sidebar_second']); ?>
   </aside>
 <?php endif; ?>
 
 <?php if ($page['sidebar_first']): ?>
   <aside class="sidebar--one" role="complementary">
-  <?php print render($page['sidebar_first']); ?>
+  <?php print hide($page['sidebar_first']); ?>
   </aside>
 <?php endif; ?>
 
@@ -131,19 +131,19 @@
 
 
   <div class="l-bottom_adstrip">
-    <?php print render($page['bottom_adstrip']); ?>
+    <?php print hide($page['bottom_adstrip']); ?>
   </div>
 
 
 <?php if ($page['prefooter']): ?>
   <footer id="prefooter" role="contentinfo">
-  <?php print render($page['prefooter']); ?>
+  <?php print hide($page['prefooter']); ?>
   </footer>
 <?php endif; ?>
 
 <?php if ($page['footer']): ?>
   <footer id="footer" role="contentinfo">
-  <?php print render($page['footer']); ?>
+  <?php print hide($page['footer']); ?>
   </footer>
 <?php endif; ?>
 

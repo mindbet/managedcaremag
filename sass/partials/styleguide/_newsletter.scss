@@ -1,0 +1,110 @@
+/* newsletter */
+
+
+
+
+
+ .node-type-newsletter  header {
+    height: 0;
+  }
+
+
+ .node-type-newsletter  .l-page {
+  background-color: #f6f6f6;
+  @include add-gutter(1/4);
+  @include add-grid(12);
+  }
+
+
+ .node-type-newsletter  .l-contentbody {
+  background-color: #f6f6f6;
+  @include add-gutter(1/4);
+  @include add-grid(12);
+  }
+
+
+ .node-type-newsletter  main {
+  @include grid-span (8, 3);
+  margin-top: 72px;
+  }
+
+
+ .node-type-newsletter  #block-dfp-mc-banner-728x90-logo-side {
+  display: none;
+}
+
+ .node-type-newsletter  .l-ad_strip {
+  display: none;
+  }
+
+
+ .node-type-newsletter  header {
+  display: none;
+  }
+
+
+.node-type-newsletter .node-unpublished {
+    background-color: #f6f6f6;
+}
+
+
+
+
+.node-type-newsletter  .node-newsletter {
+  width: 600px;
+  background-color: #ffffff;
+  padding: 20px 3.5%;
+  margin: 0 auto;
+}
+
+
+
+
+.node-type-newsletter .field-name-body p {
+  padding-left: 0;
+  font-family: Georgia, serif;
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+
+
+
+
+.node-type-newsletter  h1 {
+  padding-left: 0;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222222;
+  letter-spacing: -0.1px;
+  line-height: 1.5;
+}
+
+
+.node-type-newsletter  .field-name-title p {
+  padding-left: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #888888;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+
+
+.node-type-newsletter .field-name-body a {
+  font-weight: normal;
+  color: #008dc8;
+  border-bottom: 1px solid #008dc8;
+  text-decoration: none;
+}
+
+
+.node-type-newsletter footer {
+  display: none;
+}
+
+
+
+
+
+
