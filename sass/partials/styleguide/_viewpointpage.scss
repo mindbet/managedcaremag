@@ -33,6 +33,9 @@ Special for teaser compact
 
 .view-viewpoints-all .views-row .views-row-1 {
   padding: 56px 0 16px 0;
+  @include breakpoint($smalltab) {
+  padding: 0 0 16px 0;
+  }
 }
 
 

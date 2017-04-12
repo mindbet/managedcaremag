@@ -37,7 +37,12 @@
 
 
 
-
+.field-name-pharmd-corner-graphic {
+  display: none;
+  @include breakpoint($desk) {
+  display: block;
+  }
+}
 
 
 

@@ -154,7 +154,7 @@ header {
 
 .l-ad_strip {
   display: none;
-  @include breakpoint($smalltab) {
+  @include breakpoint($tab) {
   height: 122px;
   display: block;
   width: 100%;
@@ -232,7 +232,7 @@ header {
 
 @include breakpoint($tab) {
   @include grid-span (1, 2);
-  padding: 0 16px 0 0;
+  padding: 16px 16px 0 0;
 }
 
   @include breakpoint($narrowdesk) {
@@ -246,6 +246,27 @@ header {
   }
 
 }
+
+
+
+
+
+
+
+.l-bottom_adstrip {
+  display: none;
+  @include breakpoint($tab) {
+  clear: both;
+  height: 122px;
+  display: block;
+  width: 100%;
+  padding: 16px 0;
+  }
+}
+
+
+
+
 
 
 

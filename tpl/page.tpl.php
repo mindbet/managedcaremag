@@ -107,13 +107,13 @@
   <?php print render($tabs); ?>
   <?php print render($page['help']); ?>
   <?php print render($page['content']); ?>
+<?php if ($page['main_suffix']): ?>
+  <?php print render($page['main_suffix']); ?>
+<?php endif; ?>
   </main>
 <?php endif; ?>
 
 
-<?php if ($page['main_suffix']): ?>
-  <?php print render($page['main_suffix']); ?>
-<?php endif; ?>
 
 
 
@@ -131,6 +131,12 @@
 <?php endif; ?>
 
 </div>
+
+
+  <div class="l-bottom_adstrip">
+    <?php print render($page['bottom_adstrip']); ?>
+  </div>
+
 
 <?php if ($page['prefooter']): ?>
   <footer id="prefooter" role="contentinfo">
