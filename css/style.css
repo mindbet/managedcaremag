@@ -5096,7 +5096,7 @@ Read next -- recent popular stories
 
 #block-views-recent-popular-block-1
 .ds-2col-fluid.group-one-column > .group-left,
-.ds-2col-fluid.group-one-column > .group-right {
+#block-views-recent-popular-block-1 .ds-2col-fluid.group-one-column > .group-right {
   width: 100%;
   float: none;
 }
@@ -5136,16 +5136,6 @@ Read next -- recent popular stories
   z-index: 25;
 }
 
-/*
-#block-views-recent-popular-block-1 blockquote.image-field-caption p {
-  position: absolute;
-  z-index: 75;
-  bottom: 40px;
-  left: 8px;
-  width: 152px;
-  padding: 0;
-  }
-*/
 #block-views-recent-popular-block-1 .group-left blockquote.image-field-caption {
   position: absolute;
   z-index: 75;
@@ -5550,6 +5540,167 @@ Sidebar announcement block
 
 .node-type-newsletter footer {
   display: none;
+}
+
+/*
+Taxonomy page layout
+
+*/
+.page-taxonomy-term {
+  padding: 16px;
+  background-color: #efefef;
+}
+
+.page-taxonomy-term field-name-title {
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "Noto Sans";
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #667667;
+  margin-bottom: 16px;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.page-taxonomy-term .views-row {
+  padding: 16px 0 16px 0;
+  border-top: solid 2px white;
+}
+
+.page-taxonomy-term .ds-2col-fluid > .group-left {
+  float: none;
+}
+@media (min-width: 550px) {
+  .page-taxonomy-term .ds-2col-fluid > .group-left {
+    float: left;
+    /* LTR */
+    width: 160px;
+    position: relative;
+  }
+}
+
+.page-taxonomy-term .ds-2col-fluid > .group-right {
+  float: none;
+  width: 100%;
+}
+@media (min-width: 550px) {
+  .page-taxonomy-term .ds-2col-fluid > .group-right {
+    float: right;
+    /* LTR */
+    padding-left: 16px;
+    width: calc(100% - 160px);
+  }
+}
+
+.page-taxonomy-term
+.ds-2col-fluid.group-one-column > .group-left,
+.page-taxonomy-term
+.ds-2col-fluid.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+.page-taxonomy-term .field-name-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-family: "PT Serif";
+  padding-top: 0;
+  line-height: 1.3;
+}
+
+.page-taxonomy-term .field-name-field-frontblurb {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Noto Sans";
+  padding-left: 0;
+}
+
+.page-taxonomy-term .field-name-field-frontblurb p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Noto Sans";
+  padding-left: 0;
+}
+
+.page-taxonomy-term .field-name-body p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Noto Sans";
+  padding-left: 0;
+}
+
+.page-taxonomy-term .field-name-field-fronttocclip .field-items .field-item {
+  position: relative;
+  z-index: 25;
+}
+
+/*
+.page-taxonomy-term blockquote.image-field-caption p {
+  position: absolute;
+  z-index: 75;
+  bottom: 40px;
+  left: 8px;
+  width: 152px;
+  padding: 0;
+  }
+*/
+.page-taxonomy-term .group-left blockquote.image-field-caption {
+  position: absolute;
+  z-index: 75;
+  bottom: 16px;
+  left: 8px;
+  width: 152px;
+  padding: 0;
+}
+
+.page-taxonomy-term blockquote.image-field-caption {
+  font-size: .7em;
+  line-height: 1.2;
+  font-family: "Noto Sans";
+  color: white;
+  text-shadow: -1px 1px 1px #000;
+  padding: 0;
+}
+
+.field-name-taxonomy-vocabulary-5 {
+  font-family: "Noto Sans";
+  font-size: .82em;
+}
+
+/*
+Event calendar
+
+*/
+#block-views-event-calendar-block-1 {
+  background-color: #fffae5;
+  padding: 16px;
+  margin-bottom: 2em;
+}
+
+.view-event-calendar .views-field-title {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.view-event-calendar .views-field-title a {
+  color: #333333;
+}
+
+.view-event-calendar .views-field-field-location {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.view-event-calendar .views-field-field-start-date {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  line-height: 1.45;
 }
 
 /*

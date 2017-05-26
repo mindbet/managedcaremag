@@ -1,0 +1,41 @@
+
+
+/*
+Event calendar
+
+*/
+
+
+
+#block-views-event-calendar-block-1 {
+  background-color: #fffae5;
+  padding: 16px;
+  margin-bottom: 2em;
+}
+
+
+
+.view-event-calendar .views-field-title {
+  font-family: $sanseriffont;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.view-event-calendar .views-field-title a {
+  color: #333333;
+  }
+
+.view-event-calendar .views-field-field-location {
+  font-family: $sanseriffont;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+
+.view-event-calendar .views-field-field-start-date {
+  font-family: $sanseriffont;
+  font-size: 14px;
+  line-height: 1.45;
+}

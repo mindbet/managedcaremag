@@ -386,7 +386,7 @@ Read next -- recent popular stories
 
 #block-views-recent-popular-block-1
 .ds-2col-fluid.group-one-column > .group-left,
-.ds-2col-fluid.group-one-column > .group-right {
+#block-views-recent-popular-block-1 .ds-2col-fluid.group-one-column > .group-right {
   width: 100%;
   float: none;
 }
@@ -442,16 +442,6 @@ Read next -- recent popular stories
 }
 
 
-/*
-#block-views-recent-popular-block-1 blockquote.image-field-caption p {
-  position: absolute;
-  z-index: 75;
-  bottom: 40px;
-  left: 8px;
-  width: 152px;
-  padding: 0;
-  }
-*/
 
 #block-views-recent-popular-block-1 .group-left blockquote.image-field-caption {
   position: absolute;
