@@ -5746,3 +5746,70 @@ Wire full node listing
     padding-left: 210px;
   }
 }
+
+@supports (display: grid) {
+  body.node-type-page .l-page {
+    display: grid;
+    grid-template-columns: 180px 1fr 332px;
+    grid-template-rows: 48px 48px 100px 32px 112px min-content 112px min-content 48px;
+  }
+
+  .node-type-page .l-topband {
+    position: static;
+    top: auto;
+    grid-row: 1;
+    grid-column: 1 / span 3;
+    height: 48px;
+  }
+
+  .node-type-page .l-navband {
+    position: static;
+    top: auto;
+    grid-row: 2;
+    grid-column: 1 / span 3;
+    height: 48px;
+  }
+
+  .node-type-page #header {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    height: 100px;
+  }
+
+  .node-type-page .l-main_menu {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+  }
+
+  .node-type-page .l-ad_strip {
+    grid-row: 5;
+    grid-column: 1 / span 3;
+  }
+
+  .node-type-page .l-contentbody {
+    grid-row: 6;
+    grid-column: 1 / span 3;
+    margin-right: 0;
+  }
+
+  .node-type-page aside.sidebar--two {
+    grid-row: 6;
+    grid-column: 3;
+    margin-right: 0;
+  }
+
+  .node-type-page .l-bottom_adstrip {
+    grid-row: 7;
+    grid-column: 1 / span 3;
+  }
+
+  .node-type-page #prefooter {
+    grid-row: 8;
+    grid-column: 1 / span 3;
+  }
+
+  .node-type-page #footer {
+    grid-row: 9;
+    grid-column: 1 / span 3;
+  }
+}
