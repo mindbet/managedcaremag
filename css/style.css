@@ -247,12 +247,12 @@ header {
   }
 }
 
-.l-contentbody .sidebar--two {
+.sidebar--two {
   /*   clear:both; */
   padding: 16px 16px 0 0;
 }
 @media (min-width: 768px) {
-  .l-contentbody .sidebar--two {
+  .sidebar--two {
     width: 41.02564%;
     float: right;
     margin-left: 0;
@@ -262,7 +262,7 @@ header {
   }
 }
 @media (min-width: 990px) {
-  .l-contentbody .sidebar--two {
+  .sidebar--two {
     padding: 0 0 0 0;
     width: 32.25806%;
     float: right;
@@ -272,7 +272,7 @@ header {
   }
 }
 @media (min-width: 1110px) {
-  .l-contentbody .sidebar--two {
+  .sidebar--two {
     padding: 0 0 0 0;
     width: 28.57143%;
     float: right;
@@ -333,12 +333,12 @@ header {
   }
 }
 
-.page-issue- .l-contentbody .sidebar--two {
+.page-issue- .sidebar--two {
   /*   clear:both; */
   padding: 16px 16px 0 16px;
 }
 @media (min-width: 768px) {
-  .page-issue- .l-contentbody .sidebar--two {
+  .page-issue- .sidebar--two {
     width: 41.02564%;
     float: right;
     margin-left: 0;
@@ -348,7 +348,7 @@ header {
   }
 }
 @media (min-width: 990px) {
-  .page-issue- .l-contentbody .sidebar--two {
+  .page-issue- .sidebar--two {
     padding: 0 0 0 0;
     width: 32.25806%;
     float: right;
@@ -358,7 +358,7 @@ header {
   }
 }
 @media (min-width: 1110px) {
-  .page-issue- .l-contentbody .sidebar--two {
+  .page-issue- .sidebar--two {
     padding: 0 0 0 0;
     width: 28.57143%;
     float: right;
@@ -452,12 +452,12 @@ header {
   }
 }
 
-.front .l-contentbody .sidebar--two {
+.front .sidebar--two {
   padding: 16px 16px 0 0;
   clear: both;
 }
 @media (min-width: 768px) {
-  .front .l-contentbody .sidebar--two {
+  .front .sidebar--two {
     padding: 16px 16px 0 0;
     width: 41.02564%;
     float: right;
@@ -467,7 +467,7 @@ header {
   }
 }
 @media (min-width: 990px) {
-  .front .l-contentbody .sidebar--two {
+  .front .sidebar--two {
     padding: 0;
     width: 31.25%;
     float: right;
@@ -477,7 +477,7 @@ header {
   }
 }
 @media (min-width: 1110px) {
-  .front .l-contentbody .sidebar--two {
+  .front .sidebar--two {
     width: 27.77778%;
     float: right;
     margin-left: 0;
@@ -5744,72 +5744,5 @@ Wire full node listing
 @media (min-width: 1110px) {
   .node-type-wire-feed main .field-name-field-pub-date {
     padding-left: 210px;
-  }
-}
-
-@supports (display: grid) {
-  body.node-type-page .l-page {
-    display: grid;
-    grid-template-columns: 180px 1fr 332px;
-    grid-template-rows: 48px 48px 100px 32px 112px min-content 112px min-content 48px;
-  }
-
-  .node-type-page .l-topband {
-    position: static;
-    top: auto;
-    grid-row: 1;
-    grid-column: 1 / span 3;
-    height: 48px;
-  }
-
-  .node-type-page .l-navband {
-    position: static;
-    top: auto;
-    grid-row: 2;
-    grid-column: 1 / span 3;
-    height: 48px;
-  }
-
-  .node-type-page #header {
-    grid-row: 3;
-    grid-column: 1 / span 3;
-    height: 100px;
-  }
-
-  .node-type-page .l-main_menu {
-    grid-row: 4;
-    grid-column: 1 / span 3;
-  }
-
-  .node-type-page .l-ad_strip {
-    grid-row: 5;
-    grid-column: 1 / span 3;
-  }
-
-  .node-type-page .l-contentbody {
-    grid-row: 6;
-    grid-column: 1 / span 3;
-    margin-right: 0;
-  }
-
-  .node-type-page aside.sidebar--two {
-    grid-row: 6;
-    grid-column: 3;
-    margin-right: 0;
-  }
-
-  .node-type-page .l-bottom_adstrip {
-    grid-row: 7;
-    grid-column: 1 / span 3;
-  }
-
-  .node-type-page #prefooter {
-    grid-row: 8;
-    grid-column: 1 / span 3;
-  }
-
-  .node-type-page #footer {
-    grid-row: 9;
-    grid-column: 1 / span 3;
   }
 }

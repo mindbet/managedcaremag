@@ -111,6 +111,7 @@
 <?php endif; ?>
 
 
+</div>
 
 
 
@@ -127,7 +128,6 @@
   </aside>
 <?php endif; ?>
 
-</div>
 
 
   <div class="l-bottom_adstrip">

@@ -46,9 +46,16 @@
 
   .node-type-page .l-contentbody {
     grid-row: 6;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     margin-right: 0;
   }
+
+
+  .node-type-page .l-contentbody main {
+   margin-right: 0;
+   width: 100%:
+   float: none;
+}
 
 
   .node-type-page aside.sidebar--two {

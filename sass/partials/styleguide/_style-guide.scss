@@ -226,7 +226,7 @@ header {
 }
 
 
-.l-contentbody .sidebar--two {
+.sidebar--two {
 /*   clear:both; */
   padding: 16px 16px 0 0;
 
@@ -310,7 +310,7 @@ header {
 }
 
 
-.page-issue- .l-contentbody .sidebar--two {
+.page-issue- .sidebar--two {
 /*   clear:both; */
   padding: 16px 16px 0 16px;
 
@@ -392,7 +392,7 @@ header {
 }
 }
 
-.front .l-contentbody .sidebar--two {
+.front .sidebar--two {
   padding: 16px 16px 0 0;
   clear: both;
   @include breakpoint($tab) {
