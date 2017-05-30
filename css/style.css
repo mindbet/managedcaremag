@@ -5084,6 +5084,7 @@ Read next -- recent popular stories
     float: left;
     /* LTR */
     width: 160px;
+    padding-right: 16px;
     position: relative;
   }
 }
@@ -5096,7 +5097,6 @@ Read next -- recent popular stories
   #block-views-recent-popular-block-1 .ds-2col-fluid > .group-right {
     float: right;
     /* LTR */
-    padding-left: 16px;
     width: calc(100% - 160px);
   }
 }
