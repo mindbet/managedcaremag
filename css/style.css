@@ -2940,11 +2940,18 @@ span.inlinefootnote {
   text-align: center;
 }
 
+.lazyadslot-mc_300x250_1_0,
+.lazyadslot-mc_300x250_2_0,
 .lazyadslot-mc_300x250_3_0,
 .lazyadslot-mc_300x250_4_0,
 .lazyadslot-mc_300x250_5_0,
 .lazyadslot-mc_300x600_0 {
   margin: 0 auto 2em auto;
+  text-align: center;
+}
+
+.lazyadslot-mc_banner_728x90_foot_0 {
+  margin: 0 auto 0 auto;
   text-align: center;
 }
 
@@ -4870,7 +4877,7 @@ Special for news headlines block on front
 }
 
 .block-latest-issue {
-  margin-top: 2em;
+  margin-top: 0;
 }
 
 .block-user h2 {
