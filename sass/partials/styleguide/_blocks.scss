@@ -546,8 +546,6 @@ logo
   @include breakpoint($smalltab) {
   @include grid-span (3, 1, 12);
   display: block;
-  padding-top:100px;
-  height: 158px;
   width: 210px;
   }
 }

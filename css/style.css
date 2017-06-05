@@ -95,7 +95,8 @@ header {
 }
 @media (min-width: 550px) {
   header {
-    height: 203px;
+    padding-top: 100px;
+    height: 103px;
   }
 }
 
@@ -2989,8 +2990,7 @@ span.inlinefootnote {
     display: block;
     float: right;
     background-color: white;
-    padding-top: 100px;
-    height: 203px;
+    height: 103px;
     overflow: hidden;
   }
 }
@@ -5229,8 +5229,6 @@ logo
     margin-left: 0;
     clear: none;
     display: block;
-    padding-top: 100px;
-    height: 158px;
     width: 210px;
   }
 }
@@ -5469,10 +5467,6 @@ Sidebar announcement block
 }
 
 /* newsletter */
-.node-type-newsletter header {
-  height: 0;
-}
-
 .node-type-newsletter .l-page {
   background-color: #f6f6f6;
 }
@@ -5495,11 +5489,11 @@ Sidebar announcement block
 }
 
 .node-type-newsletter .l-ad_strip {
-  display: none;
+  /*  display: none;  */
 }
 
 .node-type-newsletter header {
-  display: none;
+  /*  display: none;  */
 }
 
 .node-type-newsletter .node-unpublished {
@@ -5546,7 +5540,19 @@ Sidebar announcement block
 }
 
 .node-type-newsletter footer {
-  display: none;
+  /*  display: none;  */
+}
+
+.node-type-newsletter table {
+  border-collapse: collapse;
+}
+
+.node-type-newsletter table {
+  border: none;
+}
+
+.node-type-newsletter table td {
+  border: none;
 }
 
 /*

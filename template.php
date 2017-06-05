@@ -47,9 +47,13 @@ function mcmaurora_preprocess_html(&$vars) {
  * @param $vars
  *   An array of variables to pass to the theme template.
  */
-/* -- Delete this line if you want to use this function
-function mcmaurora_preprocess_page(&$vars) {
 
+function mcmaurora_preprocess_page(&$vars) {
+  if (isset($vars['node']->type)) {
+    // If the content type's machine name is "my_machine_name" the file
+    // name will be "page--my-machine-name.tpl.php".
+    $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
+  }
 }
 
 /**

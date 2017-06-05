@@ -71,7 +71,8 @@ $lightgray: #eeeeee;
 
 header {
   @include breakpoint($smalltab) {
-  height: 203px;
+  padding-top:100px;
+  height: 103px;
   }
   max-width: 1090px;
 }

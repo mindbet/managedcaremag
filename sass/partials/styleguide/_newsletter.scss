@@ -4,9 +4,6 @@
 
 
 
- .node-type-newsletter  header {
-    height: 0;
-  }
 
 
  .node-type-newsletter  .l-page {
@@ -33,13 +30,14 @@
   display: none;
 }
 
+
  .node-type-newsletter  .l-ad_strip {
-  display: none;
+/*  display: none;  */
   }
 
 
  .node-type-newsletter  header {
-  display: none;
+/*  display: none;  */
   }
 
 
@@ -100,11 +98,20 @@
 
 
 .node-type-newsletter footer {
-  display: none;
+/*  display: none;  */
 }
 
 
+ .node-type-newsletter table {
+   border-collapse: collapse;
+  }
 
+ .node-type-newsletter table {
+   border: none;
+  }
 
+ .node-type-newsletter table td {
+   border: none;
+  }
 
 

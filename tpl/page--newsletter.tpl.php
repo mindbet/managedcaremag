@@ -80,16 +80,16 @@
 
 <?php if ($page['header']): ?>
   <header id="header" role="banner">
-  <?php print hide($page['header']); ?>
+  <?php print render($page['header']); ?>
   </header>
 <?php endif; ?>
 
   <div class="l-main_menu">
-    <?php print hide($page['main_menu']); ?>
+    <?php print render($page['main_menu']); ?>
   </div>
 
   <div class="l-ad_strip">
-    <?php print hide($page['ad_strip']); ?>
+    <?php print render($page['ad_strip']); ?>
   </div>
 
 <?php if ($page['main_prefix']): ?>
@@ -130,21 +130,25 @@
 </div>
 
 
+<!--
   <div class="l-bottom_adstrip">
     <?php print hide($page['bottom_adstrip']); ?>
   </div>
+-->
 
 
 <?php if ($page['prefooter']): ?>
   <footer id="prefooter" role="contentinfo">
-  <?php print hide($page['prefooter']); ?>
+  <?php print render($page['prefooter']); ?>
   </footer>
 <?php endif; ?>
 
+<!--
 <?php if ($page['footer']): ?>
   <footer id="footer" role="contentinfo">
-  <?php print hide($page['footer']); ?>
+  <?php print render($page['footer']); ?>
   </footer>
 <?php endif; ?>
+-->
 
 </div>
