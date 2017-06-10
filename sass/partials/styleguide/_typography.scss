@@ -923,9 +923,6 @@ tr td:first-child {
 
 
 
-
-
-
 /*
 Subscripts and superscripts
 */
@@ -974,6 +971,7 @@ Sidebars in main story
 
 
 
+
 .node-type-story  main .sidebar h2 {
   font-family: $sanseriffont;
   padding-top: 0;
@@ -993,6 +991,16 @@ main .sidebar1 h2 {
   font-weight: 700;
   }
 
+
+main .sidebar1 h3 {
+  font-size: 1.23rem;
+  font-family: $seriffont;
+  padding-top: .5em;
+  padding-bottom: .25em;
+  font-weight: 700;
+  margin-left: 0;
+  color: $managedcarered;
+}
 
 
 

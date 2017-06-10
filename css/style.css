@@ -1300,6 +1300,16 @@ main .sidebar1 h2 {
   font-weight: 700;
 }
 
+main .sidebar1 h3 {
+  font-size: 1.23rem;
+  font-family: "PT Serif";
+  padding-top: .5em;
+  padding-bottom: .25em;
+  font-weight: 700;
+  margin-left: 0;
+  color: #b4193f;
+}
+
 .node-type-story main .sidebar p {
   font-family: "Noto Sans";
   font-size: .88rem;
