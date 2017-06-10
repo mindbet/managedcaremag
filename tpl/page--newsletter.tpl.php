@@ -88,9 +88,6 @@
     <?php print render($page['main_menu']); ?>
   </div>
 
-  <div class="l-ad_strip">
-    <?php print render($page['ad_strip']); ?>
-  </div>
 
 <?php if ($page['main_prefix']): ?>
   <div class="l-contenttop">
@@ -111,30 +108,10 @@
 <?php endif; ?>
 
 
-
-
-
-
-<?php if ($page['sidebar_second']): ?>
-  <aside class="sidebar--two" role="complementary">
-  <?php print hide($page['sidebar_second']); ?>
-  </aside>
-<?php endif; ?>
-
-<?php if ($page['sidebar_first']): ?>
-  <aside class="sidebar--one" role="complementary">
-  <?php print hide($page['sidebar_first']); ?>
-  </aside>
-<?php endif; ?>
-
 </div>
 
 
-<!--
-  <div class="l-bottom_adstrip">
-    <?php print hide($page['bottom_adstrip']); ?>
-  </div>
--->
+
 
 
 <?php if ($page['prefooter']): ?>
