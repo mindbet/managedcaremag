@@ -39,6 +39,26 @@ a:hover {
 }
 
 
+p {
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+
+/*
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+*/
+}
+
+
+
+
 p a:link {
   text-decoration: none;
   font-weight: bold;
@@ -63,6 +83,18 @@ b,strong {
 i,em {
   font-style: italic;
 }
+
+
+.color-emphasis {
+  color:$managedcarered;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+
 
 
 /*
@@ -251,6 +283,7 @@ h4 {
 .node-type-story main p {
   font-size: 1rem;
   margin-bottom: .5em;
+
  @include breakpoint($tab) {
   font-size: 1rem;
   }
@@ -447,13 +480,6 @@ Suppress display for legacy data in node body
 */
 
 
-h5.monthline {
-  display: none;
-}
-
-p.author {
-  display: none;
-}
 
 p.authorcred {
   display: none;
@@ -463,9 +489,6 @@ p.author2, p.author3, p.author4, p.author5, p.author6, p.author7, p.author8  {
   display: none;
 }
 
-p.author2cred, p.author3cred, p.author4cred, p.author5cred, p.author6cred, p.author7cred, p.author8cred {
-  display: none;
-}
 
 p.authorcred2, p.authorcred3, p.authorcred4, p.authorcred5, p.authorcred6, p.authorcred7, p.authorcred8 {
   display: none;
@@ -894,7 +917,7 @@ th  {
   font-weight: 700;
   border: solid 1px gray;
   padding: 3px;
-  text-align:center;
+  text-align:left;
   vertical-align: bottom;
 }
 
@@ -947,15 +970,6 @@ line-height:0;
 Sidebars in main story
 */
 
-.node-type-story main .sidebar {
-  padding:1em;
-  margin-left: $leftrailmargin;
-  background-color: #f7f7f7;
-  margin: 0 0 1em 0;
-   @include breakpoint($desk) {
-   padding-left: 0;
-   }
-  }
 
 .node-type-story main .sidebar1 {
   padding:1em;
@@ -972,14 +986,6 @@ Sidebars in main story
 
 
 
-.node-type-story  main .sidebar h2 {
-  font-family: $sanseriffont;
-  padding-top: 0;
-  margin-top: 0;
-  margin-left: 0;
-  font-size: 1.41rem;
-  font-weight: 700;
-  }
 
 
 main .sidebar1 h2 {
@@ -1005,15 +1011,6 @@ main .sidebar1 h3 {
 
 
 
-.node-type-story  main .sidebar p {
-  font-family: $sanseriffont;
-  font-size: .88rem;
- font-weight: 400;
- margin: 0 0 1em 0;
-   @include breakpoint($desk) {
-   padding-left: 0;
-   }
-}
 
 .node-type-story  main .sidebar1 p {
   font-family: $sanseriffont;
@@ -1043,12 +1040,6 @@ main .sidebar1 ol {
 
 
 
-.node-type-story  main .sidebar blockquote {
-  font-family: $sanseriffont;
-  font-size: .88rem;
-  margin: .5em 0 .25em .25em;
-  padding-left: 0;
-}
 
 .node-type-story  main .sidebar1 blockquote {
   font-family: $sanseriffont;
@@ -1061,12 +1052,6 @@ main .sidebar1 ol {
 
 
 
-.node-type-story  main .sidebar h4 {
-  font-family: $sanseriffont;
-  font-size: .88rem;
- font-weight: 700;
- margin: .5em 0 .25em 0;
-}
 
 .node-type-story  main .sidebar1 h4 {
   font-family: $sanseriffont;
@@ -1078,10 +1063,6 @@ main .sidebar1 ol {
 
 
 
-.node-type-story  main .sidebar ul {
-  font-family: $sanseriffont;
-  margin-left: 1em;
-}
 
 .node-type-story  main .sidebar1 ul {
   font-family: $sanseriffont;
@@ -1091,10 +1072,6 @@ main .sidebar1 ol {
 
 
 
-.node-type-story  main .sidebar ol {
-  font-family: $sanseriffont;
-  margin-left: 1em;
-}
 
 .node-type-story  main .sidebar1 ol {
   font-family: $sanseriffont;
@@ -1109,11 +1086,6 @@ main .sidebar1 ol {
 
 
 
-.node-type-story  main .sidebar li {
-  font-family: $sanseriffont;
-  font-size: .88rem;
-  margin-left: 0;
-}
 
 .node-type-story  main .sidebar1 li {
   font-family: $sanseriffont;
@@ -1309,138 +1281,15 @@ padding-top:.5em;
 
 
 .view-mode-full .field-name-field-author,
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-
-.view-mode-full .field-name-field-author2
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-.view-mode-full .field-name-field-author3
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-
-.view-mode-full .field-name-field-author4
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-
-.view-mode-full .field-name-field-author5
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-
-.view-mode-full .field-name-field-author6
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-
-.view-mode-full .field-name-field-author7
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-
-.view-mode-full .field-name-field-author8
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-.view-mode-full .field-name-field-author9
-{
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  font-weight: 700;
-  clear: both;
-  margin-top:.5em;
- @include breakpoint($desk) {
-  float: left;
-  clear: both;
-  width: $leftraillive;
-  }
-  }
-
-.view-mode-full .field-name-field-author10
+.view-mode-full .field-name-field-author2,
+.view-mode-full .field-name-field-author3,
+.view-mode-full .field-name-field-author4,
+.view-mode-full .field-name-field-author5,
+.view-mode-full .field-name-field-author6,
+.view-mode-full .field-name-field-author7,
+.view-mode-full .field-name-field-author8,
+.view-mode-full .field-name-field-author9,
+.view-mode-full .field-name-field-author10,
 {
   font-family: $sanseriffont;
   font-size: .82rem;
@@ -1470,10 +1319,8 @@ padding-top:.5em;
 .field-name-field-authorcred6,
 .field-name-field-authorcred7,
 .field-name-field-authorcred8,
-.field-name-field-authorcred9,
 .field-name-field-author9cred,
-.field-name-field-author10cred,
-.field-name-field-authorcred10
+.field-name-field-author10cred
 {
   font-family: $sanseriffont;
   font-size: .82rem;
@@ -1484,6 +1331,35 @@ padding-top:.5em;
   width: $leftraillive;
   }
   }
+
+
+p.authorcred,
+p.authorcred2,
+p.authorcred3,
+p.authorcred4,
+p.authorcred5,
+p.authorcred6,
+p.authorcred7,
+p.authorcred8,
+p.authorcred9,
+p.authorcred10,
+ {
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  clear: both;
+  @include breakpoint($desk) {
+  float: left;
+  clear: both;
+  width: $leftraillive;
+  }
+}
+
+
+
+
+
+
+
 
 
 .view-mode-full
@@ -2236,9 +2112,6 @@ Pages
 
 
 
-.page-node .field-name-body .sidebar dl {
-  padding-left: 0;
-}
 
 .page-node .field-name-body .sidebar1 dl {
   padding-left: 0;
@@ -2447,7 +2320,7 @@ padding-right: 8px;
 }
 
 
-.firstLetter{
+.firstLetter {
   font-size   : 45px;
   text-align:center;
   line-height : 0.8;
@@ -2763,12 +2636,6 @@ border-top: 0;
 }
 
 
-/* Inline footnote in text */
-
-span.inlinefootnote {
-  background-color: #cceffe;
-  font-size: 90%;
-}
 
 
 /* Remove extra spaces in lists of author names */
