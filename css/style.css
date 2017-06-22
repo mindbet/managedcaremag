@@ -5263,7 +5263,17 @@ logo
 .node-type-newsletter .field-name-body blockquote {
   width: 600px;
   font-family: Georgia, serif;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 40px 3.5% 0 3.5%;
+  font-weight: normal;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.node-type-newsletter .field-name-body ul {
+  width: 600px;
+  font-family: Georgia, serif;
   line-height: 1.5;
   padding: 40px 3.5% 0 3.5%;
   font-weight: normal;
@@ -5286,7 +5296,7 @@ logo
 .node-type-newsletter .field-name-event-block {
   margin: 0 auto 0 auto;
   font-family: Arial, san-serif;
-  font-size: 15px;
+  font-size: 14px;
   background-color: #ffffff;
   padding: 20px 3.5% 20px 3.5%;
 }
