@@ -149,11 +149,15 @@ Taxonomy page layout
 
 
 
-.field-name-taxonomy-vocabulary-5 {
+.field-type-taxonomy-term-reference {
   font-family: $sanseriffont;
   font-size: .82em;
-
-
+ @include breakpoint($desk) {
+    width: $leftraillive;
+    float: left;
+    position: relative;
+    bottom: 67px;
+  }
 }
 
 

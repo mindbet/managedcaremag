@@ -45,14 +45,12 @@ p {
   word-wrap: break-word;
 
   -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
 
-/*
   -ms-hyphens: auto;
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+/*
 */
 }
 
@@ -393,28 +391,6 @@ main ul {
 }
 
 
-
-
-
-
-
-main td ul {
-  padding-left: .5em;
- @include breakpoint($desk) {
-    margin-left: 0;
-  }
-}
-
-
-main td ol {
-  padding-left: .5em;
- @include breakpoint($desk) {
-    margin-left: 0;
-  }
-}
-
-
-
 main ul li {
   padding-left: 6px;
   margin-bottom: 0;
@@ -439,6 +415,35 @@ main ol li {
 
 
 
+
+
+main .view-viewpoints-all .group-right ul {
+  padding-left:17px;
+  margin-left: 0;
+}
+
+
+main .view-viewpoints-all .group-right ol {
+  padding-left:17px;
+  margin-left: 0;
+}
+
+
+
+main td ul {
+  padding-left: .5em;
+ @include breakpoint($desk) {
+    margin-left: 0;
+  }
+}
+
+
+main td ol {
+  padding-left: .5em;
+ @include breakpoint($desk) {
+    margin-left: 0;
+  }
+}
 
 
 
@@ -1135,6 +1140,19 @@ padding-top:.5em;
   padding-left: $leftrailmargin;
 }
 }
+
+
+
+.node-type-story main .sidebar1 p.authorbio {
+font-size: .82rem;
+font-family: $sanseriffont;
+margin-top: 1.5em;
+padding-top:.5em;
+border-top: solid 1px $managedcarered;
+padding-left: 0;
+}
+
+
 
 
 
@@ -2525,6 +2543,25 @@ color:#333;
   color:#333;
   padding-left: 0;
 }
+
+
+
+.l-contentbody .chartbundle--narrow ul {
+  margin-left: 0;
+  font-family: $sanseriffont;
+  margin-top: .5rem;
+  font-size:.8rem;
+  line-height:1.45;
+  font-weight: 400;
+  color:#333;
+  padding-left: 16px;
+}
+
+
+
+
+
+
 
 /* added specificity */
 
