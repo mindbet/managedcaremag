@@ -5856,6 +5856,34 @@ Taxonomy page layout
   padding: 0;
 }
 
+.field-type-taxonomy-term-reference {
+  margin-top: 16px;
+}
+@media (min-width: 1110px) {
+  .field-type-taxonomy-term-reference {
+    padding-left: 210px;
+  }
+}
+
+.field-type-taxonomy-term-reference .field-label {
+  font-family: "Noto Sans";
+  text-transform: uppercase;
+  font-size: .82em;
+  margin-right: 8px;
+  padding: 2px 0 8px 0;
+}
+
+.field-type-taxonomy-term-reference .field-item {
+  font-family: "Noto Sans";
+  font-size: .82em;
+  margin-right: 8px;
+  display: inline;
+  padding: 8px;
+  background-color: #dedede;
+}
+
+/*
+*/
 /*
 .field-type-taxonomy-term-reference {
   font-family: $sanseriffont;

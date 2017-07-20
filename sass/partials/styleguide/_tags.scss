@@ -148,6 +148,37 @@ Taxonomy page layout
 }
 
 
+.field-type-taxonomy-term-reference {
+  margin-top: 16px;
+ @include breakpoint($desk) {
+    padding-left: $leftrailmargin;
+  }
+}
+
+.field-type-taxonomy-term-reference .field-label {
+  font-family: $sanseriffont;
+  text-transform: uppercase;
+  font-size: .82em;
+  margin-right: 8px;
+  padding: 2px 0 8px 0;
+}
+
+
+.field-type-taxonomy-term-reference .field-item {
+  font-family: $sanseriffont;
+  font-size: .82em;
+  margin-right: 8px;
+  display: inline;
+  padding: 8px;
+  background-color: #dedede;
+}
+/*
+*/
+
+
+
+
+
 /*
 .field-type-taxonomy-term-reference {
   font-family: $sanseriffont;
