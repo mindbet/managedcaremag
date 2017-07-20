@@ -640,12 +640,12 @@ Title story for Story
 }
 @media (min-width: 768px) {
   .block-ds-extras .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .block-ds-extras .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -659,12 +659,12 @@ Title story for Story
 }
 @media (min-width: 768px) {
   .block-ds-extras .story-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .block-ds-extras .story-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -678,12 +678,12 @@ h1.story-title {
 }
 @media (min-width: 768px) {
   h1.story-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   h1.story-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -868,6 +868,8 @@ main .view-viewpoints-all .group-right ol {
 
 main td ul {
   padding-left: .5em;
+  font-size: .82rem;
+  margin-bottom: 0;
 }
 @media (min-width: 1110px) {
   main td ul {
@@ -877,6 +879,8 @@ main td ul {
 
 main td ol {
   padding-left: .5em;
+  font-size: .82rem;
+  margin-bottom: 0;
 }
 @media (min-width: 1110px) {
   main td ol {
@@ -1742,7 +1746,7 @@ p.authorcred10 {
 }
 @media (min-width: 768px) {
   .view-front-page-view .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
@@ -2134,12 +2138,12 @@ blog overview
 }
 @media (min-width: 768px) {
   .page-blog .node-teaser .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .page-blog .node-teaser .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -2153,12 +2157,12 @@ blog overview
 }
 @media (min-width: 768px) {
   .page-blog .node-teaser:first-of-type .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .page-blog .node-teaser:first-of-type .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -2185,12 +2189,12 @@ blog individual entries
 }
 @media (min-width: 768px) {
   .node-type-blog .l-contentbody .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .node-type-blog .l-contentbody .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -2270,12 +2274,12 @@ Pages
 }
 @media (min-width: 768px) {
   .page-node .l-contentbody .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .page-node .l-contentbody .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -2339,12 +2343,12 @@ Research listing page
 }
 @media (min-width: 768px) {
   .page-research .view-id-original_research .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .page-research .view-id-original_research .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -2523,93 +2527,61 @@ span.count {
   margin-top: .25rem;
 }
 
-a.a2a_button_facebook {
-  display: inline-block;
-  margin-right: 8px;
-  padding: 8px 0;
+span.a2a_kit {
+  display: block;
 }
 @media (min-width: 1110px) {
-  a.a2a_button_facebook {
-    padding-bottom: 0;
-    margin-top: 2rem;
-    float: left;
-    clear: both;
-    width: 32px;
+  span.a2a_kit {
+    margin-left: 210px;
   }
+}
+
+a.a2a_button_facebook {
+  margin-right: 16px;
+  display: inline-block;
+  padding: 8px 0;
+  width: 24px;
 }
 
 a.a2a_button_twitter {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-}
-@media (min-width: 1110px) {
-  a.a2a_button_twitter {
-    padding-bottom: 0;
-    margin-top: .5rem;
-    float: left;
-    clear: both;
-    width: 32px;
-  }
+  width: 24px;
 }
 
 a.a2a_button_linkedin {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-}
-@media (min-width: 1110px) {
-  a.a2a_button_linkedin {
-    padding-bottom: 0;
-    margin-top: .5rem;
-    float: left;
-    clear: both;
-    width: 32px;
-  }
+  width: 24px;
 }
 
 a.a2a_button_email {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-}
-@media (min-width: 1110px) {
-  a.a2a_button_email {
-    padding-bottom: 0;
-    margin-top: .5rem;
-    float: left;
-    clear: both;
-    width: 32px;
-  }
+  width: 24px;
 }
 
 a.a2a_dd {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-}
-@media (min-width: 1110px) {
-  a.a2a_dd {
-    padding-bottom: 0;
-    margin-top: .5rem;
-    float: left;
-    clear: both;
-    width: 32px;
-  }
+  width: 24px;
 }
 
 .field-name-field-pretitle p {
-  color: white;
-  text-transform: uppercase;
+  color: #b4193f;
+  font-family: "PT Serif";
+  font-style: italic;
   font-weight: 700;
-  background-color: #b4193f;
-  padding: 2px 6px 0 6px;
   margin-top: 24px;
-  font-size: 2em;
-  width: 48px;
-  text-align: center;
+  font-size: 19px;
 }
 
+/*
+*/
 /*
 Markup generated by theme_pager().
 */
@@ -3253,13 +3225,13 @@ ul.nice-menu li {
   .page-editorsdesk .l-contenttop .field-name-title,
   .node-type-editorsdesk .l-contenttop .field-name-title {
     margin-top: 1rem;
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .page-editorsdesk .l-contenttop .field-name-title,
   .node-type-editorsdesk .l-contenttop .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -3531,7 +3503,7 @@ Styles for the more block at the bottom
 @media (min-width: 1110px) {
   .page-pharmdcorner .l-contenttop .field-name-title,
   .node-type-pharmd-corner .l-contenttop .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -4001,7 +3973,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-tv .l-contenttop .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -4095,7 +4067,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-tv main .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -4254,7 +4226,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-focus .view-focus-rev .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -4347,7 +4319,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-topic main .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -4469,7 +4441,7 @@ News Story Title at top of page
   .node-type-daily-news .l-contenttop .field-name-title,
   .node-type-news-item .l-contenttop .field-name-title,
   .node-type-news-report .l-contenttop .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -5354,6 +5326,103 @@ logo
   }
 }
 
+/*
+data box
+*/
+.databox {
+  margin-right: 16px;
+  width: 180px;
+  background-color: #fff2ca;
+  padding: 16px;
+  float: left;
+  clear: both;
+  margin-top: 32px;
+}
+
+.databox__head {
+  text-align: center;
+  font-family: "Noto Sans";
+  color: #333333;
+  border-bottom: solid 1px #333333;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.databox__topic {
+  text-align: center;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 15px;
+  padding-bottom: 16px;
+}
+
+.databox__label {
+  font-size: 15px;
+  font-family: "Noto Sans";
+  color: #333333;
+  text-align: center;
+}
+
+.databox__data {
+  font-size: 28px;
+  font-family: "Noto Sans";
+  color: #b4193f;
+  text-align: center;
+  line-height: 30px;
+  padding-bottom: 14px;
+}
+
+.databox__source {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Noto Sans";
+  color: #333333;
+  text-align: left;
+}
+
+/*
+related content
+*/
+/*
+.block-inject-1 {
+  @include breakpoint($desk) {
+  width:180px;
+  float: left;
+  }
+}
+*/
+#block-views-similarterms-block {
+  clear: both;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+@media (min-width: 1110px) {
+  #block-views-similarterms-block {
+    padding-left: 210px;
+  }
+}
+
+#block-views-similarterms-block h2 {
+  text-align: left;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  color: #333333;
+  padding-bottom: 3px;
+  border-bottom: solid 1px #333333;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+#block-views-similarterms-block .views-field-title {
+  text-align: left;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 8px;
+  line-height: 140%;
+}
+
 /* Linkout pages
 */
 .page-linkout .l-contentbody .field-name-title {
@@ -5366,12 +5435,12 @@ logo
 }
 @media (min-width: 768px) {
   .page-linkout .l-contentbody .field-name-title {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
   .page-linkout .l-contentbody .field-name-title {
-    font-size: 1.76rem;
+    font-size: 30px;
   }
 }
 
@@ -5787,19 +5856,18 @@ Taxonomy page layout
   padding: 0;
 }
 
+/*
 .field-type-taxonomy-term-reference {
-  font-family: "Noto Sans";
+  font-family: $sanseriffont;
   font-size: .82em;
-}
-@media (min-width: 1110px) {
-  .field-type-taxonomy-term-reference {
-    width: 180px;
+ @include breakpoint($desk) {
+    width: $leftraillive;
     float: left;
     position: relative;
     bottom: 67px;
   }
 }
-
+*/
 /*
 Event calendar
 

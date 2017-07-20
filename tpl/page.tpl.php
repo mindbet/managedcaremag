@@ -107,6 +107,9 @@
   <?php print render($tabs); ?>
   <?php print render($page['help']); ?>
   <?php print render($page['content']); ?>
+<?php if ($page['main_suffix']): ?>
+  <?php print render($page['main_suffix']); ?>
+<?php endif; ?>
   </main>
 <?php endif; ?>
 

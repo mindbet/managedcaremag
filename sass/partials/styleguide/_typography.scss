@@ -168,7 +168,7 @@ Title story for Story
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -183,7 +183,7 @@ Title story for Story
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -198,7 +198,7 @@ h1.story-title {
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -432,6 +432,8 @@ main .view-viewpoints-all .group-right ol {
 
 main td ul {
   padding-left: .5em;
+  font-size: .82rem;
+  margin-bottom: 0;
  @include breakpoint($desk) {
     margin-left: 0;
   }
@@ -440,7 +442,9 @@ main td ul {
 
 main td ol {
   padding-left: .5em;
- @include breakpoint($desk) {
+  font-size: .82rem;
+  margin-bottom: 0;
+  @include breakpoint($desk) {
     margin-left: 0;
   }
 }
@@ -1918,7 +1922,7 @@ blog overview
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -1934,7 +1938,7 @@ blog overview
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -1978,7 +1982,7 @@ blog individual entries
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -2082,7 +2086,7 @@ Pages
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -2168,7 +2172,7 @@ Research listing page
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 
@@ -2378,95 +2382,68 @@ padding-right: 8px;
 
 
 
+span.a2a_kit {
+  display: block;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
 
 a.a2a_button_facebook  {
+  margin-right: 16px;
   display: inline-block;
-  margin-right: 8px;
   padding: 8px 0;
-  @include breakpoint($desk) {
-  padding-bottom: 0;
-  margin-top: 2rem;
-  float: left;
-  clear: both;
-  width: 32px;
-  }
+  width: 24px;
 }
 
 
 a.a2a_button_twitter  {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-  @include breakpoint($desk) {
-  padding-bottom: 0;
-  margin-top: .5rem;
-  float: left;
-  clear: both;
-  width: 32px;
-  }
+  width: 24px;
 }
 
 
 a.a2a_button_linkedin  {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-  @include breakpoint($desk) {
-  padding-bottom: 0;
-  margin-top: .5rem;
-  float: left;
-  clear: both;
-  width: 32px;
-  }
+  width: 24px;
 }
 
 
 a.a2a_button_email  {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-  @include breakpoint($desk) {
-  padding-bottom: 0;
-  margin-top: .5rem;
-  float: left;
-  clear: both;
-  width: 32px;
-  }
+  width: 24px;
 }
 
 
 a.a2a_dd  {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 16px;
   padding: 8px 0;
-  @include breakpoint($desk) {
-  padding-bottom: 0;
-  margin-top: .5rem;
-  float: left;
-  clear: both;
-  width: 32px;
-  }
+  width: 24px;
 }
-
 
 
 
 
 
 .field-name-field-pretitle p {
-  color: white;
-  text-transform: uppercase;
+  color: $managedcarered;
+  font-family: $seriffont;
+  font-style: italic;
   font-weight: 700;
-  background-color: #b4193f;
-  padding: 2px 6px 0 6px;
   margin-top: 24px;
-  font-size: 2em;
-  width: 48px;
-  text-align: center;
+  font-size: 19px;
 }
 
 
-
+/*
+*/
 
 
 

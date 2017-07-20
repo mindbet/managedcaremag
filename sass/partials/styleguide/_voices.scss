@@ -44,7 +44,7 @@
   font-size: 1.59rem;
   }
   @include breakpoint($desk) {
-  font-size: 1.76rem;
+  font-size: $headlinedesk;
   }
 }
 

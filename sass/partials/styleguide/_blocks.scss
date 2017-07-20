@@ -448,15 +448,122 @@ logo
 
 
 
+/*
+data box
+*/
 
 
 
+.databox {
+  margin-right: 16px;
+  width:180px;
+  background-color:#fff2ca;
+  padding:16px;
+  float:left;
+  clear:both;
+  margin-top: 32px;
+  @include breakpoint($desk) {
+  }
+}
 
 
 
+.databox__head {
+  text-align:center;
+  font-family:$sanseriffont;
+  color:#333333;
+  border-bottom: solid 1px #333333;
+  padding-bottom:3px;
+  text-transform:uppercase;
+}
+
+.databox__topic {
+  text-align:center;
+  font-family:$sanseriffont;
+  font-weight:700;
+  font-size:15px;
+  padding-bottom: 16px;
+  }
 
 
 
+.databox__label {
+  font-size:15px;
+  font-family:$sanseriffont;
+  color:#333333;
+  text-align:center;
+}
 
 
+.databox__data {
+  font-size:28px;
+  font-family:$sanseriffont;
+  color:$managedcarered;
+  text-align:center;
+  line-height: 30px;
+  padding-bottom: 14px;
+}
+
+
+.databox__source {
+  font-size:12px;
+  line-height: 16px;
+  font-family:$sanseriffont;
+  color:#333333;
+  text-align:left;
+}
+
+
+
+/*
+related content
+*/
+
+
+/*
+.block-inject-1 {
+  @include breakpoint($desk) {
+  width:180px;
+  float: left;
+  }
+}
+*/
+
+
+#block-views-similarterms-block {
+  clear:both;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  @include breakpoint($desk) {
+  padding-left: $leftrailmargin;
+  }
+}
+
+
+#block-views-similarterms-block h2 {
+  text-align:left;
+  font-family:$sanseriffont;
+  font-weight: 700;
+  color: #333333;
+  padding-bottom:3px;
+  border-bottom: solid 1px #333333;
+  padding-bottom:3px;
+  margin-bottom:3px;
+  text-transform:uppercase;
+  @include breakpoint($desk) {
+  }
+}
+
+
+
+#block-views-similarterms-block .views-field-title {
+  text-align:left;
+  font-family:$sanseriffont;
+  font-size: 14px;
+  color:#333333;
+  margin-bottom:8px;
+  line-height: 140%;
+  @include breakpoint($desk) {
+  }
+}
 
