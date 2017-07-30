@@ -5423,6 +5423,65 @@ related content
   line-height: 140%;
 }
 
+/*
+major source photo with display quote on right side
+*/
+.field-name-field-major-source {
+  background-color: #fcf0d3;
+  clear: both;
+  margin: 1em 0;
+}
+.field-name-field-major-source:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 550px) {
+  .field-name-field-major-source {
+    max-width: 512px;
+  }
+}
+@media (min-width: 1110px) {
+  .field-name-field-major-source {
+    margin-left: 210px;
+  }
+}
+
+.field-name-field-major-source img {
+  background-color: #fcf0d3;
+  padding: 0;
+  width: 100%;
+}
+@media (min-width: 550px) {
+  .field-name-field-major-source img {
+    max-width: 256px;
+    width: 50%;
+    float: left;
+  }
+}
+
+.l-contentbody .field-name-field-major-source blockquote {
+  background-color: #fcf0d3;
+  padding: 16px;
+  margin: 0;
+  width: 100%;
+}
+@media (min-width: 550px) {
+  .l-contentbody .field-name-field-major-source blockquote {
+    max-width: 256px;
+    width: 50%;
+    float: right;
+  }
+}
+
+.l-contentbody .field-name-field-major-source blockquote p {
+  padding: 0;
+  font-family: "Noto Sans";
+  font-size: 1 em;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
 /* Linkout pages
 */
 .page-linkout .l-contentbody .field-name-title {

@@ -567,3 +567,68 @@ related content
   }
 }
 
+
+
+
+/*
+major source photo with display quote on right side
+*/
+
+
+
+.field-name-field-major-source {
+  background-color:#fcf0d3;
+  clear:both;
+  margin: 1em 0;
+  @include clearfix;
+  @include breakpoint($smalltab) {
+  max-width:512px;
+}
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+.field-name-field-major-source img {
+  background-color:#fcf0d3;
+  padding:0;
+  width: 100%;
+  @include breakpoint($smalltab) {
+    max-width:256px;
+    width: 50%;
+    float:left;
+}
+  @include breakpoint($desk) {
+  }
+}
+
+
+.l-contentbody .field-name-field-major-source blockquote {
+  background-color:#fcf0d3;
+  padding:16px;
+  margin: 0;
+  width: 100%;
+  @include breakpoint($smalltab) {
+    max-width:256px;
+    width: 50%;
+    float:right;
+}
+  @include breakpoint($desk) {
+  }
+}
+
+
+
+.l-contentbody .field-name-field-major-source blockquote p {
+  padding: 0;
+  font-family: $sanseriffont;
+  font-size: 1 em;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+
+
+
+
