@@ -73,7 +73,7 @@
   font-family: $seriffont;
   margin-bottom: .5em;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -189,7 +189,7 @@
   margin-top: .5em;
   font-size: .82rem;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -206,7 +206,7 @@
   margin-bottom: .5em;
   font-weight: 700;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -217,7 +217,7 @@
   margin-top: 1.5em;
   margin-bottom: .5em;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -226,7 +226,7 @@
 .view-more-pharmd ul {
   padding-left: 0;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 

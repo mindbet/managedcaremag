@@ -77,7 +77,7 @@
   font-family: $seriffont;
   margin-bottom: .5em;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 /*
@@ -126,7 +126,7 @@
   margin-top: .5em;
   font-size: .82rem;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -136,7 +136,7 @@
   margin-bottom: .5em;
   font-weight: 700;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -221,7 +221,7 @@
   margin-top: 1.5em;
   margin-bottom: .5em;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -229,7 +229,7 @@
 .view-more-from-the-editors-desk ul {
   padding-left: 0;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -250,7 +250,7 @@ Styles for the more block at the bottom
 
 #block-views-editors-desk-one-entry-block-1 {
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 

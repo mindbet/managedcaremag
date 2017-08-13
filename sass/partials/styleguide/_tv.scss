@@ -23,7 +23,7 @@
   font-family: $seriffont;
   margin-bottom: .5em;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -32,7 +32,7 @@
   margin-top: .5em;
   font-size: .82rem;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -42,7 +42,7 @@
   margin-bottom: .5em;
   font-weight: 700;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -82,7 +82,7 @@
 .page-tv .embedded-video {
   padding-left: 0;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -122,7 +122,7 @@
   font-family: $seriffont;
   margin-bottom: .5em;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -131,7 +131,7 @@
   margin-top: .5em;
   font-size: .82rem;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -141,7 +141,7 @@
   margin-bottom: .5em;
   font-weight: 700;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 

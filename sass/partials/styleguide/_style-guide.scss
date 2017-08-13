@@ -24,8 +24,8 @@
 
 $mobile: 480px;
 $smalltab: 550px;
-$tab: 768px;
-$narrowdesk: 990px;
+$tab: 992px;
+$narrowdesk: 992px;
 $desk: 1110px;
 
 $headlinemobile: 21px;
@@ -197,7 +197,7 @@ header {
 
   @include add-gutter(1/2);
 
-  @include add-grid(11 8 at $tab);
+//  @include add-grid(11 8 at $tab);
   @include add-grid(10 5 at $narrowdesk);
   @include add-grid(12 5 at $desk);
 
@@ -211,10 +211,10 @@ header {
 
   padding: 0 0 0 0;
 
-  @include breakpoint($tab) {
-  padding: 0 0 0 0;
-  @include grid-span (1, 1);
-  }
+//  @include breakpoint($tab) {
+//  padding: 0 0 0 0;
+//  @include grid-span (1, 1);
+//  }
 
   @include breakpoint($narrowdesk) {
   padding: 0 16px 0 0;
@@ -233,10 +233,10 @@ header {
 /*   clear:both; */
   padding: 16px 16px 0 0;
 
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 16px 16px 0 0;
-}
+// @include breakpoint($tab) {
+//   @include grid-span (1, 2);
+//   padding: 16px 16px 0 0;
+// }
 
   @include breakpoint($narrowdesk) {
   padding: 0 0 0 0;
@@ -284,7 +284,7 @@ header {
 
   @include add-gutter(1/2);
 
-  @include add-grid(11 8 at $tab);
+//   @include add-grid(11 8 at $tab);
   @include add-grid(10 5 at $narrowdesk);
   @include add-grid(12 5 at $desk);
 
@@ -296,9 +296,9 @@ header {
 .page-issue- .l-contentbody main {
   padding: 0 16px 0 0;
 
-  @include breakpoint($tab) {
-  @include grid-span (1, 1);
-  }
+//   @include breakpoint($tab) {
+//   @include grid-span (1, 1);
+//   }
 
   @include breakpoint($narrowdesk) {
   padding: 0 16px 0 0;
@@ -317,10 +317,10 @@ header {
 /*   clear:both; */
   padding: 16px 16px 0 16px;
 
-@include breakpoint($tab) {
-  @include grid-span (1, 2);
-  padding: 0;
-}
+// @include breakpoint($tab) {
+//   @include grid-span (1, 2);
+//   padding: 0;
+// }
 
   @include breakpoint($narrowdesk) {
   padding: 0 0 0 0;

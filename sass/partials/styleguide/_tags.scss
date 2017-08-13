@@ -151,7 +151,7 @@ Taxonomy page layout
 .field-type-taxonomy-term-reference {
   margin-top: 16px;
  @include breakpoint($desk) {
-    padding-left: $leftrailmargin;
+    margin-left: $leftrailmargin;
   }
 }
 

@@ -46,7 +46,7 @@ Wire full node listing
   font-family: $sanseriffont;
   margin-bottom: .5em;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 

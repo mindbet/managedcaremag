@@ -83,7 +83,7 @@
 .page-search .embedded-video {
   padding-left: 0;
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 

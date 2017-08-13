@@ -130,11 +130,6 @@ Special for teaser compact
 .page-pain-management .field-name-body p {
   font-family: $seriffont;
   margin-bottom: .5em;
-/*
-  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
-  }
-*/
 }
 
 .page-pain-management .field-name-post-date {
@@ -142,7 +137,7 @@ Special for teaser compact
   margin-top: .5em;
   font-size: .82rem;
   @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 

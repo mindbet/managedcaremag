@@ -138,7 +138,7 @@ header {
     width: 100%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-topband {
     left: auto;
     max-width: 1080px;
@@ -161,7 +161,7 @@ header {
     padding: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-navband {
     left: auto;
     max-width: 1080px;
@@ -187,7 +187,7 @@ header {
 .l-ad_strip {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-ad_strip {
     height: 122px;
     display: block;
@@ -217,17 +217,7 @@ header {
 .l-contentbody main {
   padding: 0 0 0 0;
 }
-@media (min-width: 768px) {
-  .l-contentbody main {
-    padding: 0 0 0 0;
-    width: 56.41026%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-  }
-}
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   .l-contentbody main {
     padding: 0 16px 0 0;
     width: 64.51613%;
@@ -252,17 +242,7 @@ header {
   /*   clear:both; */
   padding: 16px 16px 0 0;
 }
-@media (min-width: 768px) {
-  .l-contentbody .sidebar--two {
-    width: 41.02564%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    padding: 16px 16px 0 0;
-  }
-}
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   .l-contentbody .sidebar--two {
     padding: 0 0 0 0;
     width: 32.25806%;
@@ -286,7 +266,7 @@ header {
 .l-bottom_adstrip {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-bottom_adstrip {
     clear: both;
     height: 122px;
@@ -304,16 +284,7 @@ header {
 .page-issue- .l-contentbody main {
   padding: 0 16px 0 0;
 }
-@media (min-width: 768px) {
-  .page-issue- .l-contentbody main {
-    width: 56.41026%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-  }
-}
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   .page-issue- .l-contentbody main {
     padding: 0 16px 0 0;
     width: 64.51613%;
@@ -338,17 +309,7 @@ header {
   /*   clear:both; */
   padding: 16px 16px 0 16px;
 }
-@media (min-width: 768px) {
-  .page-issue- .l-contentbody .sidebar--two {
-    width: 41.02564%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    padding: 0;
-  }
-}
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   .page-issue- .l-contentbody .sidebar--two {
     padding: 0 0 0 0;
     width: 32.25806%;
@@ -380,7 +341,7 @@ header {
 .front .l-contentbody .sidebar--one {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .front .l-contentbody .sidebar--one {
     display: block;
     /*
@@ -390,7 +351,7 @@ header {
     */
   }
 }
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   .front .l-contentbody .sidebar--one {
     width: 18.75%;
     float: left;
@@ -424,16 +385,16 @@ header {
   display: table;
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .front .l-contentbody main {
-    width: 56.41026%;
+    width: 18.75%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
   }
 }
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   .front .l-contentbody main {
     padding: 0;
     width: 43.75%;
@@ -457,17 +418,17 @@ header {
   padding: 16px 16px 0 0;
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .front .l-contentbody .sidebar--two {
     padding: 16px 16px 0 0;
-    width: 41.02564%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    width: 43.75%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 21.875%;
     clear: none;
   }
 }
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   .front .l-contentbody .sidebar--two {
     padding: 0;
     width: 31.25%;
@@ -624,7 +585,7 @@ h1 {
 /*
 Title story for Story
 */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .block-ds-extras {
     padding-top: 0;
   }
@@ -638,7 +599,7 @@ Title story for Story
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .block-ds-extras .field-name-title {
     font-size: 26px;
   }
@@ -657,7 +618,7 @@ Title story for Story
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .block-ds-extras .story-title {
     font-size: 26px;
   }
@@ -676,7 +637,7 @@ h1.story-title {
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   h1.story-title {
     font-size: 26px;
   }
@@ -743,7 +704,7 @@ h4 {
 
 .node-story h6 {
   font-family: "Noto Sans";
-  font-size: 1.0em;
+  font-size: 1em;
   padding-top: 1em;
   padding-bottom: .25em;
   font-weight: 700;
@@ -758,14 +719,14 @@ h4 {
   font-size: 1rem;
   margin-bottom: .5em;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .node-type-story main p {
     font-size: 1rem;
   }
 }
 @media (min-width: 1110px) {
   .node-type-story main p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -775,7 +736,7 @@ h4 {
 }
 @media (min-width: 1110px) {
   .page-node main pre {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -787,7 +748,7 @@ address {
 @media (min-width: 1110px) {
   main
   address {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -899,7 +860,7 @@ Node display
   line-height: 1.5;
   hyphens: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .field-name-field-deck {
     font-size: 1.06rem;
   }
@@ -1141,7 +1102,7 @@ figure.align-left figcaption {
   margin-bottom: .75rem;
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .field-name-monthline {
     padding-top: 12px;
   }
@@ -1155,7 +1116,7 @@ Other type styles for story mainbar
 }
 @media (min-width: 1110px) {
   .node-type-story dl {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1188,23 +1149,23 @@ Other type styles for story mainbar
 }
 
 /* Simple landing page */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-contentbody-simple .field-name-title {
     margin: 0 4em;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-contentbody-simple .field-name-title {
     margin: 0 14em;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-contentbody-simple .field-name-body {
     margin: 0 4em;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .l-contentbody-simple .field-name-body {
     margin: 0 14em;
   }
@@ -1302,7 +1263,7 @@ main .sidebar1 h2 {
 }
 
 main .sidebar1 h3 {
-  font-size: 1.23rem;
+  font-size: 1.24rem;
   font-family: "PT Serif";
   padding-top: .5em;
   padding-bottom: .25em;
@@ -1390,7 +1351,7 @@ Special elements
 }
 @media (min-width: 1110px) {
   .node-type-story main p.authorbio {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1412,7 +1373,7 @@ Special elements
 }
 @media (min-width: 1110px) {
   .page-node .field-name-body p.footnotelike {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1744,7 +1705,7 @@ p.authorcred10 {
   line-height: 1.35;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .view-front-page-view .field-name-title {
     font-size: 26px;
   }
@@ -1796,7 +1757,7 @@ p.authorcred10 {
   font-weight: 300;
   padding-top: 56px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .pagetitle {
     padding-top: 0;
   }
@@ -1812,7 +1773,7 @@ Table of Contents listings
   font-weight: 300;
   padding-top: 56px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .view-id-current_issue_r6 .pagetitle {
     padding-top: 0;
   }
@@ -1826,7 +1787,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .view-header {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1874,7 +1835,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .field-name-field-slug {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1889,7 +1850,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-slug {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1902,7 +1863,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .featureheadline {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1915,7 +1876,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-row-first .featureheadline {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1928,7 +1889,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 h2.deptheadline {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1939,7 +1900,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .field-name-field-deck {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1950,7 +1911,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-deck {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1963,7 +1924,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .group-author-string-list {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1974,7 +1935,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1985,7 +1946,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author2 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -1996,7 +1957,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author3 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2007,7 +1968,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author4 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2018,7 +1979,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author5 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2029,7 +1990,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author6 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2040,7 +2001,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author7 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2051,7 +2012,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author8 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2062,7 +2023,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author9 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2073,7 +2034,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .views-field-field-author10 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2084,7 +2045,7 @@ Table of Contents listings
 }
 @media (min-width: 1110px) {
   .view-id-current_issue_r6 .newsheadline {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2136,7 +2097,7 @@ blog overview
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-blog .node-teaser .field-name-title {
     font-size: 26px;
   }
@@ -2155,7 +2116,7 @@ blog overview
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-blog .node-teaser:first-of-type .field-name-title {
     font-size: 26px;
   }
@@ -2187,7 +2148,7 @@ blog individual entries
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .node-type-blog .l-contentbody .field-name-title {
     font-size: 26px;
   }
@@ -2202,11 +2163,6 @@ blog individual entries
 .node-blog.node-teaser .field-name-body p {
   font-family: "PT Serif";
   margin-bottom: .5em;
-  /*
-    @include breakpoint($desk) {
-    padding-left: $leftrailmargin;
-    }
-  */
 }
 
 .node-blog .field-name-post-date {
@@ -2216,7 +2172,7 @@ blog individual entries
 }
 @media (min-width: 1110px) {
   .node-blog .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2272,7 +2228,7 @@ Pages
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-node .l-contentbody .field-name-title {
     font-size: 26px;
   }
@@ -2289,7 +2245,7 @@ Pages
 }
 @media (min-width: 1110px) {
   .page-node .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2300,7 +2256,7 @@ Pages
 }
 @media (min-width: 1110px) {
   .page-node .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2322,7 +2278,7 @@ Pages
 }
 @media (min-width: 1110px) {
   .page-node .field-name-body dl {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -2341,7 +2297,7 @@ Research listing page
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-research .view-id-original_research .field-name-title {
     font-size: 26px;
   }
@@ -2818,7 +2774,7 @@ div.chartbundle + div.chartbundle {
 #block-dfp-mc-728x90-fixed {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #block-dfp-mc-728x90-fixed {
     background-color: #e7e7e7;
     bottom: 0;
@@ -2842,7 +2798,7 @@ div.chartbundle + div.chartbundle {
 #block-dfp-mc-banner-728x90-logo-side {
   display: none;
 }
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   #block-dfp-mc-banner-728x90-logo-side {
     display: block;
     float: right;
@@ -2861,7 +2817,7 @@ div.chartbundle + div.chartbundle {
     padding: 16px 0 16px 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #block-dfp-mc-topbanner-728x90-1 {
     padding: 16px 0 16px 0;
     margin: 0 auto 0 auto;
@@ -2888,7 +2844,7 @@ div.chartbundle + div.chartbundle {
     padding: 16px 0 16px 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #dfp-ad-mc_banner_728x90_foot {
     margin: 0 auto 0 auto;
   }
@@ -3221,7 +3177,7 @@ ul.nice-menu li {
   font-size: 21px;
   margin-top: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-editorsdesk .l-contenttop .field-name-title,
   .node-type-editorsdesk .l-contenttop .field-name-title {
     margin-top: 1rem;
@@ -3265,7 +3221,7 @@ ul.nice-menu li {
 @media (min-width: 1110px) {
   .page-editorsdesk .field-name-body p,
   .node-type-editorsdesk .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3314,7 +3270,7 @@ ul.nice-menu li {
 @media (min-width: 1110px) {
   .page-editorsdesk .field-name-post-date,
   .node-type-editorsdesk .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3327,7 +3283,7 @@ ul.nice-menu li {
 @media (min-width: 1110px) {
   .page-editorsdesk .field-name-node-link,
   .node-type-editorsdesk main .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3403,7 +3359,7 @@ ul.nice-menu li {
 }
 @media (min-width: 1110px) {
   .node-type-editorsdesk .block-views h2 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3412,7 +3368,7 @@ ul.nice-menu li {
 }
 @media (min-width: 1110px) {
   .view-more-from-the-editors-desk ul {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3430,7 +3386,7 @@ Styles for the more block at the bottom
 
 #block-views-editors-desk-one-entry-block-1 {
  @include breakpoint($desk) {
-  padding-left: $leftrailmargin;
+  margin-left: $leftrailmargin;
   }
 }
 
@@ -3494,7 +3450,7 @@ Styles for the more block at the bottom
   font-weight: 700;
   font-size: 1.26rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-pharmdcorner .l-contenttop .field-name-title,
   .node-type-pharmd-corner .l-contenttop .field-name-title {
     font-size: 1.41rem;
@@ -3515,7 +3471,7 @@ Styles for the more block at the bottom
 @media (min-width: 1110px) {
   .page-pharmdcorner .field-name-body p,
   .node-type-pharmd-corner .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3602,7 +3558,7 @@ Styles for the more block at the bottom
 @media (min-width: 1110px) {
   .page-pharmdcorner .field-name-post-date,
   .node-type-pharmd-corner .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3615,7 +3571,7 @@ Styles for the more block at the bottom
 @media (min-width: 1110px) {
   .page-pharmdcorner .field-name-node-link,
   .node-type-pharmd-corner .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3628,7 +3584,7 @@ Styles for the more block at the bottom
 }
 @media (min-width: 1110px) {
   .node-type-pharmd-corner .block-views h2 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3637,7 +3593,7 @@ Styles for the more block at the bottom
 }
 @media (min-width: 1110px) {
   .view-more-pharmd ul {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3656,7 +3612,7 @@ Special for teaser compact
 .view-viewpoints-all .ds-2col > .group-left {
   width: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .view-viewpoints-all .ds-2col > .group-left {
     float: left;
     /* LTR */
@@ -3667,7 +3623,7 @@ Special for teaser compact
 .view-viewpoints-all .ds-2col > .group-right {
   width: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .view-viewpoints-all .ds-2col > .group-right {
     float: right;
     /* LTR */
@@ -3755,7 +3711,7 @@ Special for teaser compact
   margin-bottom: .5em;
   /*
     @include breakpoint($desk) {
-    padding-left: $leftrailmargin;
+    margin-left: $leftrailmargin;
     }
   */
 }
@@ -3767,7 +3723,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .view-viewpoints-all .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3809,7 +3765,7 @@ Special for teaser compact
 .page-taxonomy-term .ds-2col > .group-left {
   width: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-taxonomy-term .ds-2col > .group-left {
     float: left;
     /* LTR */
@@ -3820,7 +3776,7 @@ Special for teaser compact
 .page-taxonomy-term .ds-2col > .group-right {
   width: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-taxonomy-term .ds-2col > .group-right {
     float: right;
     /* LTR */
@@ -3902,15 +3858,10 @@ Special for teaser compact
   margin-top: 8px;
 }
 
-/* blog pages */
+/* taxonomy pages */
 .page-taxonomy-term .field-name-body p {
   font-family: "PT Serif";
   margin-bottom: .5em;
-  /*
-    @include breakpoint($desk) {
-    padding-left: $leftrailmargin;
-    }
-  */
 }
 
 .page-taxonomy-term .field-name-post-date {
@@ -3920,7 +3871,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-taxonomy-term .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3966,7 +3917,7 @@ Special for teaser compact
   font-weight: 700;
   font-size: 1.26rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-tv .l-contenttop .field-name-title {
     font-size: 1.41rem;
   }
@@ -3983,7 +3934,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-tv .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -3994,7 +3945,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-tv .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4005,7 +3956,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-tv .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4043,7 +3994,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-tv .embedded-video {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4060,7 +4011,7 @@ Special for teaser compact
   font-weight: 700;
   font-size: 1.26rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .node-type-tv main .field-name-title {
     font-size: 1.41rem;
   }
@@ -4081,7 +4032,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-tv main .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4092,7 +4043,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-tv main .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4103,7 +4054,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-tv main .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4205,7 +4156,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-search .embedded-video {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4219,7 +4170,7 @@ Special for teaser compact
   font-weight: 700;
   font-size: 1.26rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-focus .view-focus-rev .field-name-title {
     font-size: 1.41rem;
   }
@@ -4236,7 +4187,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-focus .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4247,7 +4198,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-focus .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4258,7 +4209,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-focus .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4299,7 +4250,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-focus .field-name-continue-reading p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4312,7 +4263,7 @@ Special for teaser compact
   font-weight: 700;
   font-size: 1.26rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .node-type-topic main .field-name-title {
     font-size: 1.41rem;
   }
@@ -4333,7 +4284,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-topic main .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4344,7 +4295,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-topic main .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4355,7 +4306,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-topic main .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4366,7 +4317,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .node-type-topic main .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4411,7 +4362,7 @@ News Story Title at top of page
 .node-type-news-report .l-contenttop {
   padding: 56px 0 0 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .node-type-daily-news .l-contenttop,
   .node-type-news-item .l-contenttop,
   .node-type-news-report .l-contenttop {
@@ -4429,7 +4380,7 @@ News Story Title at top of page
   color: #333;
   font-size: 1.26rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .node-type-daily-news .l-contenttop .field-name-title,
   .node-type-news-item .l-contenttop .field-name-title,
   .node-type-news-report .l-contenttop .field-name-title {
@@ -4463,7 +4414,7 @@ News Story Title Body Text
 }
 @media (min-width: 1110px) {
   .node-type-news-item, .node-type-news-report main p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4486,7 +4437,7 @@ News Story Title Body Text
 /*
 news stories list page
 */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-news l-contentbody {
     padding-top: 0;
   }
@@ -4502,7 +4453,7 @@ news stories list page
   font-weight: 700;
   font-size: 18px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-news .view-id-news_reports_list h2 {
     font-size: 21px;
   }
@@ -4522,7 +4473,7 @@ news stories list page
   font-weight: 700;
   font-size: 18px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-news .view-id-news_reports_list .views-row-1 h2 {
     font-size: 21px;
     padding: 0 0 0 0;
@@ -4562,7 +4513,7 @@ News Story more headlines
 @media (min-width: 1110px) {
   .node-type-daily-news .view-id-news_reports_list .views-field-title,
   .node-type-news-report .view-id-news_reports_list .views-field-title {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4579,7 +4530,7 @@ News Story more headlines
 @media (min-width: 1110px) {
   .node-type-daily-news .view-id-news_reports_list .views-field-field-subtitle,
   .node-type-news-report .view-id-news_reports_list .views-field-field-subtitle {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4596,7 +4547,7 @@ News Story more headlines
 @media (min-width: 1110px) {
   .node-type-daily-news #block-views-news-reports-list-block-1 h2,
   .node-type-news-report #block-views-news-reports-list-block-1 h2 {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4669,7 +4620,7 @@ Special for teaser compact
 .page-pain-management .ds-2col > .group-left {
   width: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-pain-management .ds-2col > .group-left {
     float: left;
     /* LTR */
@@ -4680,7 +4631,7 @@ Special for teaser compact
 .page-pain-management .ds-2col > .group-right {
   width: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-pain-management .ds-2col > .group-right {
     float: right;
     /* LTR */
@@ -4772,11 +4723,6 @@ Special for teaser compact
 .page-pain-management .field-name-body p {
   font-family: "PT Serif";
   margin-bottom: .5em;
-  /*
-    @include breakpoint($desk) {
-    padding-left: $leftrailmargin;
-    }
-  */
 }
 
 .page-pain-management .field-name-post-date {
@@ -4786,7 +4732,7 @@ Special for teaser compact
 }
 @media (min-width: 1110px) {
   .page-pain-management .field-name-post-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -4898,26 +4844,6 @@ Special for teaser compact
   }
 
 */
-/* SOCIAL MEDIA LINKS */
-/*
-
-#header .block-social-media-links {
-  @include grid-span (2, 1);
-  @include breakpoint($tab) {
-  @include float-span (1, 2);
-  }
-  @include breakpoint($desk) {
-  @include grid-span (4, 13);
-  }
-}
-
-.block-social-media-links a {
-  font-family: $sanseriffont;
-  font-size: .82rem;
-  line-height: 1.4;
-  color: white;
-}
-*/
 .block-mostpopular {
   margin-bottom: 2em;
 }
@@ -4929,7 +4855,7 @@ Special for teaser compact
   margin-right: 0;
   clear: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #prefooter .block-social-media-links {
     width: 44.44444%;
     clear: right;
@@ -4968,7 +4894,7 @@ Special for teaser compact
   display: table;
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #prefooter .block-staff-contacts {
     width: 44.44444%;
     float: right;
@@ -5019,7 +4945,7 @@ Special for teaser compact
   display: table;
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #prefooter #block-menu-secondary-menu {
     width: 44.44444%;
     float: left;
@@ -5275,7 +5201,7 @@ Social media links at top
 .block-social-media-links-top {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .block-social-media-links-top {
     display: block;
     padding-top: 120px;
@@ -5391,17 +5317,23 @@ related content
   }
 }
 */
+.view-similarterms,
 #block-views-similarterms-block {
   clear: both;
   margin-top: 32px;
   margin-bottom: 32px;
+  padding: 16px 0 8px 0;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
 }
 @media (min-width: 1110px) {
+  .view-similarterms,
   #block-views-similarterms-block {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
+.view-similarterms h2,
 #block-views-similarterms-block h2 {
   text-align: left;
   font-family: "Noto Sans";
@@ -5414,6 +5346,7 @@ related content
   text-transform: uppercase;
 }
 
+.view-similarterms .views-field-title,
 #block-views-similarterms-block .views-field-title {
   text-align: left;
   font-family: "Noto Sans";
@@ -5477,7 +5410,7 @@ major source photo with display quote on right side
 .l-contentbody .field-name-field-major-source blockquote p {
   padding: 0;
   font-family: "Noto Sans";
-  font-size: 1 em;
+  font-size: 1em;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -5492,7 +5425,7 @@ major source photo with display quote on right side
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page-linkout .l-contentbody .field-name-title {
     font-size: 26px;
   }
@@ -5509,7 +5442,7 @@ major source photo with display quote on right side
 }
 @media (min-width: 1110px) {
   .page-linkout .field-name-body p {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -5520,7 +5453,7 @@ major source photo with display quote on right side
 }
 @media (min-width: 1110px) {
   .page-linkout .field-name-node-link {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -5542,7 +5475,7 @@ major source photo with display quote on right side
 }
 @media (min-width: 1110px) {
   .page-linkout .field-name-body dl {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -5631,7 +5564,7 @@ major source photo with display quote on right side
 }
 @media (min-width: 1110px) {
   .page-linkout main p.authorbio {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -5920,7 +5853,7 @@ Taxonomy page layout
 }
 @media (min-width: 1110px) {
   .field-type-taxonomy-term-reference {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
 
@@ -6016,7 +5949,7 @@ Wire full node listing
 .node-wire-feed h1.story-title {
   padding-top: 48px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .node-wire-feed h1.story-title {
     padding-top: 0;
   }
@@ -6029,6 +5962,6 @@ Wire full node listing
 }
 @media (min-width: 1110px) {
   .node-type-wire-feed main .field-name-field-pub-date {
-    padding-left: 210px;
+    margin-left: 210px;
   }
 }
