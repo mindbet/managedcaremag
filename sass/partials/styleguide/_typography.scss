@@ -164,7 +164,7 @@ Title story for Story
   line-height: 1.3;
   font-weight: 700;
   font-size: $headlinemobile;
-  @include breakpoint($tab) {
+  @include breakpoint($smalltab) {
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {

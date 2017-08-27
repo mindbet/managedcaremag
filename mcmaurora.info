@@ -33,13 +33,13 @@ stylesheets[print][] = 'css/print.css'
 ; Scripts
 ; ========================================
 
-; scripts[] = 'js/typekit_js_code.js'
 scripts[] = 'js/tablefix.js'
+scripts[] = 'js/adview-waypoint.js'
 
 ; ========================================
 ; Modernizr
 ; ========================================
 
-modernizr[tests][] = css_boxsizing
+; modernizr[tests][] = css_boxsizing
 
 

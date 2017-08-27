@@ -40,7 +40,7 @@
   font-weight: 700;
   font-size: $headlinemobile;
   margin-top: 0;
-  @include breakpoint($tab) {
+  @include breakpoint($smalltab) {
   margin-top: 1rem;
   font-size: $headlinetab;
   }
