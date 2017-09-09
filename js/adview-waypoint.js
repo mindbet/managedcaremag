@@ -20,11 +20,12 @@
   element: document.getElementById('block-mostpopular-1'),
   handler: function() {
 
-  googletag.pubads().display("/1039244/MC_300x250_3", [300, 250], "dfp-ad-mc_300x250_3");
+//  googletag.pubads().display("/1039244/MC_300x250_3", [300, 250], "dfp-ad-mc_300x250_3");
 //      googletag.slots["mc_300x250_3"] = googletag.defineSlot("/1039244/MC_300x250_3", [300, 250], "dfp-ad-mc_300x250_3").addService(googletag.pubads());
-//      googletag.cmd.push(googletag.pubads().refresh([googletag.slots["mc_300x250_3"]]));
+      googletag.cmd.push(googletag.pubads().refresh([googletag.slots["mc_300x250_3"]]));
       waypoint.disable();
-  }
+  },
+  offset: 'bottom-in-view'
 })
   }
 });

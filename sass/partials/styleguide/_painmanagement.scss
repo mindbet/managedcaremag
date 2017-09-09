@@ -42,10 +42,16 @@ Special for teaser compact
 
 .page-pain-management .story-title, .page-pain-management h2 {
   font-family: $headlinefont;
-  font-size: 1.41rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 8px;
+  font-size: $headlinemobile;
+  @include breakpoint($smalltab) {
+  font-size: $headlinetab;
+  }
+  @include breakpoint($desk) {
+  font-size: $headlinedesk;
+  }
 }
 
 

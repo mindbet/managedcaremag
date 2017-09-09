@@ -685,7 +685,7 @@ Title story for Story
   font-weight: 700;
   font-size: 21px;
 }
-@media (min-width: 880px) {
+@media (min-width: 550px) {
   .block-ds-extras .story-title {
     font-size: 26px;
   }
@@ -1195,23 +1195,24 @@ Other type styles for story mainbar
   padding-left: 1em;
 }
 
-.node-type-story .l-contentbody blockquote {
+.node-type-story .l-contentbody main blockquote {
   padding: 1rem;
-  font-size: .94rem;
+  font-size: 15px;
+  padding-left: 17px;
 }
 @media (min-width: 1110px) {
-  .node-type-story .l-contentbody blockquote {
-    padding: 1rem 1rem 1rem 227px;
+  .node-type-story .l-contentbody main blockquote {
+    margin-left: 210px;
   }
 }
 
-.node-type-story .l-contentbody blockquote p {
-  padding: 1em;
-  font-size: .94rem;
+.node-type-story .l-contentbody main blockquote p {
+  font-size: 15px;
 }
 @media (min-width: 1110px) {
-  .node-type-story .l-contentbody blockquote p {
-    padding: 1em 1em 1em 227px;
+  .node-type-story .l-contentbody main blockquote p {
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -1289,6 +1290,89 @@ td {
 
 tr td:first-child {
   text-align: left;
+}
+
+/* Table of covers for archives page */
+.page-covergrid table {
+  border: none;
+}
+
+.page-covergrid table td {
+  border: none;
+}
+
+.page-covergrid table td img {
+  padding-right: 24px;
+}
+
+.page-covergrid .view-year-overview .group-left {
+  width: 20%;
+}
+
+.page-covergrid .view-year-overview .group-right {
+  width: 80%;
+}
+
+.page-covergrid .view-year-overview .group-left ul {
+  margin: 5rem 0 0 0;
+  list-style-type: none;
+}
+
+.page-covergrid .view-year-overview .group-left ul li {
+  margin: 2px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.page-covergrid main .view-year-overview ul li a {
+  font-weight: 400;
+  font-family: "Noto Sans";
+  font-size: 15px;
+}
+
+/* No pictures of covers for archives page */
+.page-covergridnp .view-year-overview-nopix .group-left {
+  width: 20%;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-right {
+  width: 80%;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-left ul {
+  padding: 5rem 0 0 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-left ul li {
+  margin: 2px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.page-covergridnp main .view-year-overview-nopix .group-left ul li a {
+  font-weight: 400;
+  font-family: "Noto Sans";
+  font-size: 15px;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-right ul {
+  margin: 0 0 0 0;
+  padding: 14px 0 0 0;
+  list-style-type: none;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-right ul li {
+  margin: 2px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.page-covergridnp main .view-year-overview-nopix .group-right ul li a {
+  font-weight: 400;
+  font-family: "Noto Sans";
+  font-size: 17px;
 }
 
 /*
@@ -1715,13 +1799,14 @@ p.authorcred10 {
   /*  width: 100%; */
 }
 
-.field-name-field-full-width-hero-image blockquote.image-field-caption {
+.l-contentbody .field-name-field-full-width-hero-image blockquote.image-field-caption {
   font-family: "Noto Sans";
   padding: 6px 17px 16px 17px;
   margin-top: 0;
   margin-bottom: 16px;
   font-size: 15px;
   background-color: #eeeeee;
+  margin-left: 0;
 }
 
 .front .field-name-field-full-width-hero-image blockquote.image-field-caption {
@@ -1824,9 +1909,9 @@ p.authorcred10 {
   font-weight: 300;
   padding-top: 56px;
 }
-@media (min-width: 880px) {
+@media (min-width: 550px) {
   .pagetitle {
-    padding-top: 0;
+    padding-top: 1rem;
   }
 }
 
@@ -3722,7 +3807,7 @@ Special for teaser compact
 }
 @media (min-width: 550px) {
   .view-viewpoints-all .story-title, .view-viewpoints-all h2 {
-    font-size: 26px;
+    font-size: 21px;
   }
 }
 @media (min-width: 1110px) {
@@ -3878,10 +3963,20 @@ Special for teaser compact
 
 .page-taxonomy-term .story-title, .page-taxonomy-term h2 {
   font-family: "Oxygen";
-  font-size: 1.41rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 8px;
+  font-size: 21px;
+}
+@media (min-width: 550px) {
+  .page-taxonomy-term .story-title, .page-taxonomy-term h2 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1110px) {
+  .page-taxonomy-term .story-title, .page-taxonomy-term h2 {
+    font-size: 30px;
+  }
 }
 
 .page-taxonomy-term h2.story-title a {
@@ -3992,11 +4087,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26rem;
+  font-size: 21px;
 }
-@media (min-width: 880px) {
+@media (min-width: 550px) {
   .page-tv .l-contenttop .field-name-title {
-    font-size: 1.41rem;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
@@ -4086,11 +4181,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26rem;
+  font-size: 21px;
 }
-@media (min-width: 880px) {
+@media (min-width: 550px) {
   .node-type-tv main .field-name-title {
-    font-size: 1.41rem;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
@@ -4245,11 +4340,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26rem;
+  font-size: 21px;
 }
-@media (min-width: 880px) {
+@media (min-width: 550px) {
   .page-focus .view-focus-rev .field-name-title {
-    font-size: 1.41rem;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
@@ -4338,11 +4433,11 @@ Special for teaser compact
   padding-bottom: .25em;
   line-height: 1.3;
   font-weight: 700;
-  font-size: 1.26rem;
+  font-size: 21px;
 }
-@media (min-width: 880px) {
+@media (min-width: 550px) {
   .node-type-topic main .field-name-title {
-    font-size: 1.41rem;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
@@ -4455,14 +4550,14 @@ News Story Title at top of page
   font-weight: 700;
   line-height: 1.3;
   color: #333;
-  font-size: 1.26rem;
+  font-size: 21px;
 }
-@media (min-width: 880px) {
+@media (min-width: 550px) {
   .node-type-daily-news .l-contenttop .field-name-title,
   .node-type-news-item .l-contenttop .field-name-title,
   .node-type-news-report .l-contenttop .field-name-title {
     padding: 0;
-    font-size: 1.41rem;
+    font-size: 26px;
   }
 }
 @media (min-width: 1110px) {
@@ -4733,10 +4828,20 @@ Special for teaser compact
 
 .page-pain-management .story-title, .page-pain-management h2 {
   font-family: "Oxygen";
-  font-size: 1.41rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 8px;
+  font-size: 21px;
+}
+@media (min-width: 550px) {
+  .page-pain-management .story-title, .page-pain-management h2 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1110px) {
+  .page-pain-management .story-title, .page-pain-management h2 {
+    font-size: 30px;
+  }
 }
 
 .page-pain-management h2.story-title a {

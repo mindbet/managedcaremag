@@ -179,7 +179,7 @@ Title story for Story
   line-height: 1.3;
   font-weight: 700;
   font-size: $headlinemobile;
-  @include breakpoint($tab) {
+  @include breakpoint($smalltab) {
   font-size: $headlinetab;
   }
   @include breakpoint($desk) {
@@ -828,21 +828,28 @@ Other type styles for story mainbar
 
 
 
-.node-type-story .l-contentbody blockquote {
+.node-type-story .l-contentbody main blockquote {
   padding: 1rem;
-  font-size: .94rem;
+  font-size: 15px;
+  padding-left: 17px;
   @include breakpoint($desk) {
-  padding: 1rem 1rem 1rem 227px;
+  margin-left: 210px;
 }
 }
 
-.node-type-story .l-contentbody blockquote p {
-  padding: 1em;
-  font-size: .94rem;
+.node-type-story .l-contentbody main blockquote p {
+  font-size: 15px;
   @include breakpoint($desk) {
-  padding: 1em 1em 1em 227px;
+  margin: 0;
+  padding: 0;
 }
 }
+
+
+
+
+
+
 
 
 
@@ -946,8 +953,103 @@ tr td:first-child {
 
 
 
+/* Table of covers for archives page */
 
 
+.page-covergrid table {
+  border: none;
+}
+
+.page-covergrid table td {
+  border: none;
+}
+
+
+.page-covergrid table td img {
+  padding-right:24px;
+//  border: 1px solid #888888;
+}
+
+
+
+.page-covergrid .view-year-overview .group-left {
+   width: 20%;
+}
+
+
+.page-covergrid .view-year-overview .group-right {
+   width: 80%;
+}
+
+
+.page-covergrid .view-year-overview .group-left ul {
+   margin: 5rem 0 0 0;
+   list-style-type: none;
+}
+
+
+.page-covergrid .view-year-overview .group-left ul li {
+   margin: 2px 0 0 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.page-covergrid main .view-year-overview ul li a {
+   font-weight: 400;
+   font-family: $sanseriffont;
+   font-size: 15px;
+}
+
+
+
+/* No pictures of covers for archives page */
+
+
+.page-covergridnp .view-year-overview-nopix .group-left {
+   width: 20%;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-right {
+   width: 80%;
+}
+
+
+.page-covergridnp .view-year-overview-nopix .group-left ul {
+   padding: 5rem 0 0 0;
+   list-style-type: none;
+   margin: 0;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-left ul li {
+   margin: 2px 0 0 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.page-covergridnp main .view-year-overview-nopix .group-left ul li a {
+   font-weight: 400;
+   font-family: $sanseriffont;
+   font-size: 15px;
+}
+
+
+.page-covergridnp .view-year-overview-nopix .group-right ul {
+   margin: 0 0 0 0;
+   padding: 14px 0 0 0;
+   list-style-type: none;
+}
+
+.page-covergridnp .view-year-overview-nopix .group-right ul li {
+   margin: 2px 0 0 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.page-covergridnp main .view-year-overview-nopix .group-right ul li a {
+   font-weight: 400;
+   font-family: $sanseriffont;
+   font-size: 17px;
+}
 
 
 
@@ -1434,13 +1536,14 @@ p.authorcred10,
 
 
 
-.field-name-field-full-width-hero-image blockquote.image-field-caption {
+.l-contentbody .field-name-field-full-width-hero-image blockquote.image-field-caption {
     font-family: $sanseriffont;
     padding: 6px 17px 16px 17px;
     margin-top:0;
     margin-bottom: 16px;
     font-size: 15px;
     background-color: $lightgray;
+    margin-left: 0;
 }
 
 
@@ -1565,8 +1668,8 @@ p.authorcred10,
   font-size: 2rem;
   font-weight: 300;
   padding-top: 56px;
-  @include breakpoint($tab) {
-  padding-top: 0;
+  @include breakpoint($smalltab) {
+  padding-top: 1rem;
   }
 }
 
