@@ -210,7 +210,7 @@ Read next -- recent popular stories
   font-family: $sanseriffont;
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: #667667;
+  color: $warmgray;
   margin-bottom: 16px;
   padding-left: 0;
   margin-top: 0;
@@ -509,31 +509,28 @@ related content
 */
 
 
-.view-similarterms,
-#block-views-similarterms-block {
+
+
+.view-similarterms {
   clear:both;
-  margin-top: 32px;
   margin-bottom: 32px;
-  padding: 16px 0 8px 0;
-  border-top: 1px dotted gray;
+  padding: 0 0 8px 0;
+//  border-top: 1px dotted gray;
   border-bottom: 1px dotted gray;
-  @include breakpoint($desk) {
-  margin-left: $leftrailmargin;
-  }
 }
 
 
-.view-similarterms h2,
 #block-views-similarterms-block h2 {
+  margin-top: 32px;
   text-align:left;
   font-family:$sanseriffont;
   font-weight: 700;
-  color: #333333;
+  color: $warmgray;
   padding-bottom:3px;
   border-bottom: solid 1px #333333;
-  padding-bottom:3px;
-  margin-bottom:3px;
+  margin-bottom:8px;
   text-transform:uppercase;
+  letter-spacing: .06rem;
 }
 
 

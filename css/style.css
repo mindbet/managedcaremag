@@ -186,6 +186,8 @@ header {
 
 .l-ad_strip {
   display: none;
+  /*
+  */
 }
 @media (min-width: 748px) {
   .l-ad_strip {
@@ -299,7 +301,7 @@ header {
 @media (min-width: 880px) {
   .l-bottom_adstrip {
     clear: both;
-    height: 32px;
+    height: 92px;
     display: block;
     width: 100%;
     padding: 16px 0;
@@ -5251,7 +5253,7 @@ Read next -- recent popular stories
   font-family: "Noto Sans";
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: #667667;
+  color: #999999;
   margin-bottom: 16px;
   padding-left: 0;
   margin-top: 0;
@@ -5499,33 +5501,24 @@ related content
   }
 }
 */
-.view-similarterms,
-#block-views-similarterms-block {
+.view-similarterms {
   clear: both;
-  margin-top: 32px;
   margin-bottom: 32px;
-  padding: 16px 0 8px 0;
-  border-top: 1px dotted gray;
+  padding: 0 0 8px 0;
   border-bottom: 1px dotted gray;
 }
-@media (min-width: 1110px) {
-  .view-similarterms,
-  #block-views-similarterms-block {
-    margin-left: 210px;
-  }
-}
 
-.view-similarterms h2,
 #block-views-similarterms-block h2 {
+  margin-top: 32px;
   text-align: left;
   font-family: "Noto Sans";
   font-weight: 700;
-  color: #333333;
+  color: #999999;
   padding-bottom: 3px;
   border-bottom: solid 1px #333333;
-  padding-bottom: 3px;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   text-transform: uppercase;
+  letter-spacing: .06rem;
 }
 
 .view-similarterms .views-field-title,

@@ -164,6 +164,8 @@ header {
   padding-bottom: 32px;
   border-bottom: solid 1px #636363;
   }
+/*
+*/
 }
 
 
@@ -267,7 +269,7 @@ header {
   display: none;
   @include breakpoint($tab) {
   clear: both;
-  height: 32px;
+  height: 92px;
   display: block;
   width: 100%;
   padding: 16px 0;
