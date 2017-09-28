@@ -50,7 +50,7 @@ Special for teaser compact
   font-size: $headlinemobile;
   }
   @include breakpoint($desk) {
-  font-size: $headlinedesk;
+  font-size: $headlinetab;
   }
 }
 
