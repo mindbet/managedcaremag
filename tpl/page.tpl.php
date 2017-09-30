@@ -70,9 +70,6 @@
 
 <div class="l-page">
 
-  <div class="l-topband">
-    <?php print render($page['topband']); ?>
-  </div>
 
   <div class="l-navband">
     <?php print render($page['navband']); ?>

@@ -95,8 +95,8 @@ header {
 }
 @media (min-width: 550px) {
   header {
-    padding-top: 96px;
-    min-height: 202px;
+    padding-top: 56px;
+    min-height: 162px;
   }
 }
 
@@ -105,8 +105,12 @@ header {
 }
 
 #block-nice-menus-1 {
+  width: 74.57627%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
   clear: both;
-  width: 100%;
   max-width: 1080px;
   height: 30px;
   margin-bottom: 1em;
@@ -122,29 +126,6 @@ header {
   }
 }
 
-.l-topband {
-  display: none;
-}
-@media (min-width: 550px) {
-  .l-topband {
-    background-color: #515151;
-    height: 40px;
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    z-index: 1000300;
-    padding: 8px 5px;
-    width: 100%;
-  }
-}
-@media (min-width: 880px) {
-  .l-topband {
-    left: auto;
-    max-width: 1080px;
-  }
-}
-
 .l-navband {
   display: block;
   z-index: 1000300;
@@ -157,7 +138,6 @@ header {
 }
 @media (min-width: 550px) {
   .l-navband {
-    top: 40px;
     padding: 0;
   }
 }
@@ -184,21 +164,20 @@ header {
   }
 }
 
+/*
+
 .l-ad_strip {
   display: none;
-  /*
-  */
-}
-@media (min-width: 748px) {
-  .l-ad_strip {
-    height: 122px;
-    display: block;
-    width: 100%;
-    padding-bottom: 32px;
-    border-bottom: solid 1px #636363;
+  @include breakpoint(748px) {
+  height: 122px;
+  display: block;
+  width: 100%;
+  padding-bottom: 32px;
+  border-bottom: solid 1px #636363;
   }
 }
 
+*/
 .l-contenttop {
   clear: both;
 }
@@ -212,7 +191,7 @@ header {
 
 /* Story layout */
 .l-contentbody {
-  padding: 0 0 0 0;
+  padding: 24px 0 0 0;
   clear: both;
 }
 
@@ -3052,10 +3031,14 @@ ul.nice-menu li {
   border-top: 0;
   float: left;
   /* LTR */
+  margin: 0;
+  padding-left: 0;
+  /* LTR */
+  background-image: none;
 }
 
 ul.nice-menu ul {
-  top: 1.8em;
+  top: 40px;
   left: -1px;
   /* LTR */
   border: 0;
@@ -3073,11 +3056,9 @@ ul.nice-menu ul li {
 .l-navband ul.nice-menu a {
   color: white;
   font-size: 14px;
-}
-
-.l-navband ul.nice-menu a {
   padding: 9px 12px 9px 12px;
   font-family: "Noto Sans";
+  text-transform: uppercase;
 }
 
 /******************************
@@ -3131,150 +3112,46 @@ ul.nice-menu-down li.menuparent {
   /* LTR */
 }
 
-ul.nice-menu-down li.menuparent:hover {
-  background: #ababab url("../images/arrow-down.png") right center no-repeat;
-  /* LTR */
-}
-
-ul.nice-menu-down li li.menuparent {
-  background: #eee url("../images/arrow-right.png") right center no-repeat;
-  /* LTR */
-}
-
-ul.nice-menu-down li li.menuparent:hover {
-  background: #ccc url("../images/arrow-right.png") right center no-repeat;
-  /* LTR */
+ul.nice-menu-down li.menuparent li a {
+  color: #333333;
 }
 
 /**
  * HORIZONTAL (down) menus
  */
-.l-main_menu ul.nice-menu-down li ul li ul {
+.l-navband ul.nice-menu-down li ul li ul {
   left: 12.5em;
   /* LTR */
   top: -1px;
 }
 
-.l-main_menu ul.nice-menu-down li.menuparent {
-  background: #dedede url("../images/arrow-down.png") right center no-repeat;
+.l-navband ul.nice-menu-down li.menuparent {
+  background-color: #b4193f;
+  background-image: url("../images/downtriangle.svg");
+  background-size: 10px 10px;
+  background-position: right;
+}
+
+.l-navband ul.nice-menu-down li.menuparent ul li {
+  background-color: #f7b345;
   /* LTR */
 }
 
-.l-main_menu ul.nice-menu-down li.menuparent ul li {
-  background-color: #dedede;
-  /* LTR */
+.l-navband ul.nice-menu-down li.menuparent:hover {
+  background-color: #b4193f;
+  background-image: url("../images/downtriangle.svg");
+  background-size: 10px 10px;
+  background-position: right;
 }
 
-.l-main_menu ul.nice-menu-down li.menuparent:hover {
-  background: #ccc url("../images/arrow-down.png") right center no-repeat;
-  /* LTR */
-}
-
-.l-main_menu ul.nice-menu-down li li.menuparent {
+.l-navband ul.nice-menu-down li li.menuparent {
   background: #eee url("../images/arrow-right.png") right center no-repeat;
   /* LTR */
 }
 
-.l-main_menu ul.nice-menu-down li li.menuparent:hover {
+.l-navband ul.nice-menu-down li li.menuparent:hover {
   background: #ccc url("../images/arrow-right.png") right center no-repeat;
   /* LTR */
-}
-
-/******************************
- VERTICAL (left/right) menus
-******************************/
-/* This is the default width of all vertical menus. */
-ul.nice-menu-right,
-ul.nice-menu-left,
-ul.nice-menu-right li,
-ul.nice-menu-left li {
-  width: 12.5em;
-}
-
-/* VERTICAL menus where submenus pop RIGHT (default). */
-ul.nice-menu-right ul {
-  width: 12.5em;
-  left: 12.5em;
-  top: -1px;
-}
-
-ul.nice-menu-right ul ul {
-  width: 12.5em;
-  left: 12.5em;
-  top: -1px;
-}
-
-ul.nice-menu-right li.menuparent,
-ul.nice-menu-right li li.menuparent {
-  background: #eee url("../images/arrow-right.png") right center no-repeat;
-}
-
-ul.nice-menu-right li.menuparent:hover,
-ul.nice-menu-right li li.menuparent:hover {
-  background: #ccc url("../images/arrow-right.png") right center no-repeat;
-}
-
-/* VERTICAL menus where submenus pop LEFT. */
-ul.nice-menu-left li ul {
-  width: 12.5em;
-  left: -12.65em;
-  top: -1px;
-}
-
-ul.nice-menu-left li ul li ul {
-  width: 12.5em;
-  left: -12.65em;
-  top: -1px;
-}
-
-ul.nice-menu-left li.menuparent,
-ul.nice-menu-left li li.menuparent {
-  background: #eee url("../images/arrow-left.png") left center no-repeat;
-}
-
-ul.nice-menu-left li.menuparent:hover,
-ul.nice-menu-left li li.menuparent:hover {
-  background: #ccc url("../images/arrow-left.png") left center no-repeat;
-}
-
-ul.nice-menu-left a,
-ul.nice-menu-left ul a {
-  padding-left: 14px;
-}
-
-/******************************
- Garland-specific CSS
-******************************/
-/**
- * Global CSS for ALL menu types
- */
-ul.nice-menu li {
-  margin: 0;
-  padding-left: 0;
-  /* LTR */
-  background-image: none;
-}
-
-#header-region ul.nice-menu li {
-  margin: 0;
-  /* Padding rules are needed to deal with Garland's header line-height. */
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
-  background: #eee;
-}
-
-#header-region ul.nice-menu ul {
-  top: 1.8em;
-  left: -1px;
-  /* LTR */
-  border: 0;
-  /*  border-top: 1px solid #ccc; */
-  margin-right: 0;
-  /* LTR */
-}
-
-#header-region ul.nice-menu ul {
-  top: 1.7em;
 }
 
 /******************************
@@ -5353,26 +5230,15 @@ Read next -- recent popular stories
 Newsletter signups
 */
 .block-newsletter-signups {
-  display: none;
-}
-@media (min-width: 1110px) {
-  .block-newsletter-signups {
-    padding: 16px 0 0 32px;
-    font-size: 14px;
-    display: block;
-    width: 32.20339%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    font-family: "Noto Sans";
-    line-height: 1.4;
-  }
+  font-size: 14px;
+  display: block;
+  font-family: "Noto Sans";
+  line-height: 1.4;
 }
 
 .block-newsletter-signups li {
   font-size: 14px;
-  margin-bottom: 0;
+  margin-bottom: .25em;
 }
 
 .block-newsletter-signups a {
@@ -5432,8 +5298,13 @@ logo
     margin-right: 0;
     clear: none;
     display: block;
+    padding: 8px 8px 0 0;
     text-align: right;
   }
+}
+
+#block-search-form input[type="text"] {
+  width: 200px;
 }
 
 /*

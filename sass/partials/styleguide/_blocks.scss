@@ -355,20 +355,15 @@ Newsletter signups
 */
 
 .block-newsletter-signups {
-  display: none;
-  @include breakpoint($desk) {
-  padding: 16px 0 0 32px;
   font-size: 14px;
   display: block;
-  @include grid-span (4, 9, 12);
   font-family: $sanseriffont;
   line-height: 1.4;
-  }
 }
 
 .block-newsletter-signups li {
   font-size: 14px;
-  margin-bottom: 0;
+  margin-bottom: .25em;
 }
 
 
@@ -420,9 +415,16 @@ logo
   @include breakpoint($smalltab) {
   @include grid-span (3, 10, 12);
   display: block;
+  padding: 8px 8px 0 0;
   text-align: right;
   }
   }
+
+
+
+#block-search-form input[type="text"] {
+   width: 200px;
+}
 
 
 

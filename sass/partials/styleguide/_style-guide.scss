@@ -73,8 +73,8 @@ $lightgray: #eeeeee;
 
 header {
   @include breakpoint($smalltab) {
-  padding-top:96px;
-  min-height: 202px;
+  padding-top:56px;
+  min-height: 162px;
   }
   max-width: 1090px;
 }
@@ -87,8 +87,8 @@ header {
 
 
 #block-nice-menus-1 {
+  @include grid-span (9, 1, 12);
   clear: both;
-  width: 100%;
   max-width: 1080px;
   height: 30px;
   margin-bottom: 1em;
@@ -101,24 +101,6 @@ header {
 
 
 
-.l-topband {
-  display: none;
-  @include breakpoint($smalltab) {
-  background-color: #515151;
-  height: 40px;
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 1000300;
-  padding: 8px 5px;
-  width: 100%;
-  }
-  @include breakpoint($tab) {
-  left: auto;
-  max-width: 1080px;
-  }
-}
 
 
 .l-navband {
@@ -131,7 +113,6 @@ header {
   left: 0;
   width: 100%;
   @include breakpoint($smalltab) {
-  top: 40px;
   padding: 0;
   }
   @include breakpoint($tab) {
@@ -155,6 +136,9 @@ header {
 }
 
 
+
+/*
+
 .l-ad_strip {
   display: none;
   @include breakpoint(748px) {
@@ -164,10 +148,9 @@ header {
   padding-bottom: 32px;
   border-bottom: solid 1px #636363;
   }
-/*
-*/
 }
 
+*/
 
 
 
@@ -193,7 +176,7 @@ header {
 
 .l-contentbody {
 
-  padding: 0 0 0 0;
+  padding: 24px 0 0 0;
 
   clear: both;
 
