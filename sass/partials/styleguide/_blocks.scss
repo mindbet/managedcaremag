@@ -2,7 +2,9 @@
 
 .block-mostpopular {
   margin-bottom: 2em;
+ @include breakpoint($narrowdesk) {
   max-width: 300px;
+}
 }
 
 

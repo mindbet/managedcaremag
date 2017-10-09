@@ -4963,7 +4963,11 @@ Special for teaser compact
 */
 .block-mostpopular {
   margin-bottom: 2em;
-  max-width: 300px;
+}
+@media (min-width: 992px) {
+  .block-mostpopular {
+    max-width: 300px;
+  }
 }
 
 #prefooter .block-social-media-links {
@@ -5975,7 +5979,12 @@ Event calendar
   background-color: #fffae5;
   padding: 16px;
   margin-bottom: 2em;
-  max-width: 300px;
+}
+@media (min-width: 992px) {
+  #block-views-event-calendar-block-1 {
+    max-width: 300px;
+    margin: 0 auto 2em auto;
+  }
 }
 
 .view-event-calendar .views-field-title {

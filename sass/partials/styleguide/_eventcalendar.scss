@@ -11,7 +11,10 @@ Event calendar
   background-color: #fffae5;
   padding: 16px;
   margin-bottom: 2em;
+ @include breakpoint($narrowdesk) {
   max-width: 300px;
+ margin: 0 auto 2em auto;
+}
 }
 
 
