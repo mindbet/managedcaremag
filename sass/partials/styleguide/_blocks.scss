@@ -2,6 +2,7 @@
 
 .block-mostpopular {
   margin-bottom: 2em;
+  max-width: 300px;
 }
 
 
@@ -369,26 +370,6 @@ Newsletter signups
 
 .block-newsletter-signups a {
   text-decoration: none;
-}
-
-
-/*
-Social media links at top
-*/
-
-.block-social-media-links-top {
-  display: none;
-  @include breakpoint($tab) {
-  display: block;
-  padding-top:120px;
-  @include grid-span (3, 10, 12);
-  font-family: $sanseriffont;
-  font-size: .88rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1.4;
-  color: $warmgray;
-  }
 }
 
 

@@ -42,7 +42,8 @@ $leftshortrailmargin: 120px;
 $sanseriffont: 'Noto Sans';
 
 
-
+// $managedcarered: #cf102d;
+// $managedcarered: #CE1126;
 $managedcarered: #b4193f;
 $warmgray:  #999999;
 $lightgray: #eeeeee;
@@ -56,13 +57,12 @@ $lightgray: #eeeeee;
 
 
 .l-page {
-  $grids: 12;
   @include add-gutter(1/4);
   $output: 'isolation';
   margin: 0 auto;
   width:100%;
   background: white;
-  padding: 0px 16px 0 16px;
+  padding: 0px 20px 0 20px;
   @include breakpoint($tab) {
   }
   @include breakpoint($desk) {
@@ -159,7 +159,7 @@ header {
 .l-contenttop {
   clear: both;
   @include breakpoint($smalltab) {
-  border-bottom: solid 1px #999;
+  border-bottom: solid 1px $warmgray;
   padding: 0;
   margin-bottom: 8px;
 }
@@ -343,7 +343,7 @@ header {
 /* Frontpage layout */
 
 .front .l-contentbody {
-  padding-top: 16px;
+  padding-top: 32px;
 
 /*
   @include background-grid($color: blue);
@@ -353,7 +353,7 @@ header {
 
   @include add-grid(5 3 at $tab);
   @include add-grid(3 7 5 at $narrowdesk);
-  @include add-grid(3 9 5 at $desk);
+  @include add-grid(3 8 5 at $desk);
 }
 
 

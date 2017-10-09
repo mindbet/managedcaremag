@@ -8,6 +8,11 @@
 .page-editorsdesk .l-contenttop,
 .node-type-editorsdesk .l-contenttop {
   border-bottom: none;
+  @include breakpoint($smalltab) {
+  border-bottom: solid 1px $warmgray;
+  padding: 0;
+  margin-bottom: 8px;
+}
 }
 
 
@@ -20,7 +25,7 @@
   font-weight:700;
   font-family: $sanseriffont;
   font-size: .94rem;
-  color: #999;
+  color: $warmgray;
   letter-spacing: .02em;
   clear: both;
 }
@@ -214,7 +219,7 @@
   padding-left: 0;
 }
 
-.node-type-editorsdesk .block-views h2 {
+.node-type-editorsdesk main .block-views h2 {
   font-family: $sanseriffont;
   font-size: .88rem;
   font-weight: 700;
