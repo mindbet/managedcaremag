@@ -4,6 +4,7 @@
   margin-bottom: 2em;
  @include breakpoint($narrowdesk) {
   max-width: 300px;
+  margin: 0 auto 2em auto;
 }
 }
 
@@ -93,9 +94,11 @@
 }
 
 
+/*
 .block-user h2 {
   margin-top: 2em;
 }
+*/
 
 
 
@@ -207,7 +210,7 @@ Read next -- recent popular stories
 }
 
 
-#block-views-recent-popular-block-1 h2 {
+#block-views-recent-popular-block-1 h3 {
   font-size: 21px;
   font-weight: 700;
   font-family: $sanseriffont;
@@ -505,7 +508,7 @@ related content
 }
 
 
-#block-views-similarterms-block h2 {
+#block-views-similarterms-block h3 {
   margin-top: 32px;
   text-align:left;
   font-family:$sanseriffont;

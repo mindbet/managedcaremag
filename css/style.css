@@ -1407,18 +1407,27 @@ sub {
 /*
 Sidebars in main story
 */
-.node-type-story main .sidebar1 {
+main .sidebar1 {
   padding: 1em;
   background-color: #f7f7f7;
   margin: 0 0 1em 0;
 }
 @media (min-width: 1110px) {
-  .node-type-story main .sidebar1 {
+  main .sidebar1 {
     margin-left: 210px;
   }
 }
 
 main .sidebar1 h2 {
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 1.41rem;
+  font-weight: 700;
+  font-family: "Noto Sans";
+}
+
+main .sidebar1 h3 {
   font-family: "Noto Sans";
   padding-top: 0;
   margin-top: 0;
@@ -2218,7 +2227,7 @@ Table of Contents listings
 /*
 Second sidebar (right rail)
 */
-aside.sidebar--two h2 {
+aside.sidebar--two h3 {
   font-family: "Noto Sans";
   font-size: 20px;
   line-height: 1.3;
@@ -2226,7 +2235,10 @@ aside.sidebar--two h2 {
   text-transform: uppercase;
   letter-spacing: .05rem;
   color: #999999;
+  padding-top: 0;
+  margin-top: 0;
   margin-bottom: .25rem;
+  margin-left: 0;
 }
 
 aside.sidebar--two li {
@@ -2239,7 +2251,7 @@ aside.sidebar--two p {
   margin-left: 0;
 }
 
-#prefooter h2 {
+#prefooter h3 {
   font-family: "Noto Sans";
   font-size: 1.24rem;
   line-height: 1.3;
@@ -2248,6 +2260,7 @@ aside.sidebar--two p {
   letter-spacing: .06rem;
   color: #999999;
   margin-bottom: .5rem;
+  margin-left: 0;
 }
 
 /*
@@ -4967,6 +4980,7 @@ Special for teaser compact
 @media (min-width: 992px) {
   .block-mostpopular {
     max-width: 300px;
+    margin: 0 auto 2em auto;
   }
 }
 
@@ -5097,10 +5111,11 @@ Special for teaser compact
   margin-top: 0;
 }
 
+/*
 .block-user h2 {
   margin-top: 2em;
 }
-
+*/
 /*
 .block-menu {
   margin-top: 2em;
@@ -5185,7 +5200,7 @@ Read next -- recent popular stories
   background-color: #efefef;
 }
 
-#block-views-recent-popular-block-1 h2 {
+#block-views-recent-popular-block-1 h3 {
   font-size: 21px;
   font-weight: 700;
   font-family: "Noto Sans";
@@ -5416,7 +5431,7 @@ related content
   border-bottom: 1px dotted gray;
 }
 
-#block-views-similarterms-block h2 {
+#block-views-similarterms-block h3 {
   margin-top: 32px;
   text-align: left;
   font-family: "Noto Sans";
@@ -5574,7 +5589,7 @@ major source photo with display quote on right side
   }
 }
 
-.page-linkout main .sidebar1 h2 {
+.page-linkout main .sidebar1 h3 {
   font-family: "Noto Sans";
   padding-top: 0;
   margin-top: 0;
