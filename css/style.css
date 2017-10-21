@@ -532,7 +532,7 @@ header {
 html {
   font-family: "PT Serif";
   font-size: 17px;
-  color: #333;
+  color: #333333;
   line-height: 1.5;
   background-color: #f7f7f7;
 }
@@ -545,7 +545,7 @@ a:link {
 
 a:hover {
   text-decoration: underline;
-  color: blue;
+  color: #027ac6;
 }
 
 p {
@@ -563,13 +563,13 @@ p {
 p a:link {
   text-decoration: underline;
   font-weight: 400;
-  color: #326891;
+  color: #027ac6;
 }
 
 p a:visited {
   text-decoration: underline;
   font-weight: 400;
-  color: #326891;
+  color: #027ac6;
 }
 
 .block-staff-contacts a:link {
@@ -959,6 +959,12 @@ h3.deck {
 /*
 Special for front page of site
 */
+.view-front-page-view .view-mode-teaser {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 1em;
+}
+
 .view-front-page-view h5 {
   font-family: "Noto Sans";
   font-size: 1rem;
@@ -2590,7 +2596,7 @@ Miscellaneous
   font-family: "Noto Sans";
   font-size: .8em;
   line-height: 1.45;
-  color: #333;
+  color: #333333;
 }
 
 .page-node p.displayquote {
@@ -2774,7 +2780,7 @@ Figures
   font-size: 1.18em;
   line-height: 1.3;
   font-weight: 700;
-  color: #333;
+  color: #333333;
 }
 
 .l-contentbody .chartbundle--narrow p {
@@ -2784,7 +2790,7 @@ Figures
   font-size: .8rem;
   line-height: 1.45;
   font-weight: 400;
-  color: #333;
+  color: #333333;
   padding-left: 0;
 }
 
@@ -2795,7 +2801,7 @@ Figures
   font-size: .8rem;
   line-height: 1.45;
   font-weight: 400;
-  color: #333;
+  color: #333333;
   padding-left: 16px;
 }
 
@@ -2811,7 +2817,7 @@ Figures
   margin-top: .5em;
   font-size: .8em;
   line-height: 1.45;
-  color: #333;
+  color: #333333;
   padding-left: 0;
 }
 
@@ -2829,7 +2835,7 @@ Figures
   font-size: 1.18rem;
   line-height: 1.3;
   font-weight: 700;
-  color: #333;
+  color: #333333;
   margin-left: 0;
 }
 
@@ -2839,7 +2845,7 @@ Figures
   font-size: .88em;
   line-height: 1.45;
   font-weight: 400;
-  color: #333;
+  color: #333333;
   margin-left: 0;
   padding-left: 0;
 }
@@ -2855,7 +2861,7 @@ Figures
   margin-top: .5em;
   font-size: .8em;
   line-height: 1.45;
-  color: #333;
+  color: #333333;
   padding-left: 0;
 }
 
@@ -2911,7 +2917,7 @@ div.chartbundle + div.chartbundle {
   margin-top: .5em;
   font-size: .8em;
   line-height: 1.45;
-  color: #333;
+  color: #333333;
 }
 
 #block-dfp-mc-160x600-wideskyscraper {
@@ -3118,7 +3124,7 @@ ul.nice-menu ul li {
  Secondary nav menu
 ******************************/
 .l-main_menu ul.nice-menu a {
-  color: #333;
+  color: #333333;
   font-size: 14px;
 }
 
@@ -3210,11 +3216,16 @@ ul.nice-menu-down li.menuparent li a {
 /******************************
  AMGEN biosimilars menu tab
 ******************************/
-/*
+ul.nice-menu-down li.menu-path-nexusmanagedcaremagcom- {
+  background-color: #f3d619;
+}
 
- ul.nice-menu-down li.menu-20067 {
-   background-color: #f3d619;
- }
+ul.nice-menu-down li.menu-path-nexusmanagedcaremagcom- a {
+  height: 40px;
+  color: black;
+}
+
+/*
 
 
  ul.nice-menu-down li.menu-19166 {
@@ -3222,9 +3233,6 @@ ul.nice-menu-down li.menuparent li a {
  }
 
 
- ul.nice-menu-down li.menu-20067 a {
-   color: black;
- }
 
  ul.nice-menu-down li.menu-19166 a {
    color: black;
@@ -4497,7 +4505,7 @@ News Story Title at top of page
   margin-bottom: .25em;
   font-weight: 700;
   line-height: 1.3;
-  color: #333;
+  color: #333333;
   font-size: 21px;
 }
 @media (min-width: 550px) {
@@ -4523,7 +4531,7 @@ News Story Title at top of page
   padding-bottom: .5em;
   font-weight: 400;
   line-height: 1.3;
-  color: #333;
+  color: #333333;
 }
 
 /*
@@ -4645,7 +4653,7 @@ News Story more headlines
   padding-bottom: .5em;
   font-weight: 400;
   line-height: 1.3;
-  color: #333;
+  color: #333333;
 }
 @media (min-width: 1110px) {
   .node-type-daily-news .view-id-news_reports_list .views-field-field-subtitle,
@@ -4662,7 +4670,7 @@ News Story more headlines
   margin-bottom: .25em;
   font-weight: 700;
   line-height: 1.3;
-  color: #333;
+  color: #333333;
 }
 @media (min-width: 1110px) {
   .node-type-daily-news #block-views-news-reports-list-block-1 h2,
@@ -4697,7 +4705,7 @@ Special for news headlines block on front
 }
 
 .view-ptcomm-news-2 .views-field-title a {
-  color: #333;
+  color: #333333;
 }
 
 .view-ptcomm-news-2 .field-name-field-b-head, .views-field-field-subtitle {
@@ -4707,7 +4715,7 @@ Special for news headlines block on front
   padding-bottom: .5em;
   font-weight: 400;
   line-height: 1.4;
-  color: #333;
+  color: #333333;
 }
 
 .view-Supplements .ds-2col-stacked > .group-left {
@@ -4941,7 +4949,7 @@ Special for teaser compact
   font-family: $sanseriffont;
   font-size:.82rem;
   line-height: 17px;
-  color:#333;
+  color:#333333;
   }
 
 
@@ -5166,7 +5174,7 @@ Special for teaser compact
   color: #fff;
   font-size: 15px;
   position: fixed;
-  left: 16px;
+  left: 20px;
   top: 9px;
   cursor: pointer;
   height: 28px;
@@ -5344,7 +5352,7 @@ logo
 }
 @media (min-width: 550px) {
   #block-search-form {
-    width: 23.72881%;
+    width: 32.20339%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -5365,7 +5373,7 @@ data box
 .databox {
   margin-right: 16px;
   width: 180px;
-  background-color: #fff2ca;
+  background-color: #fcf0d3;
   padding: 16px;
   float: left;
   clear: both;
@@ -5782,8 +5790,8 @@ major source photo with display quote on right side
 
 .node-type-newsletter .field-name-body a {
   font-weight: normal;
-  color: #008dc8;
-  border-bottom: 1px solid #008dc8;
+  color: #027ac6;
+  border-bottom: 1px solid #027ac6;
   text-decoration: none;
 }
 
@@ -5839,7 +5847,7 @@ Taxonomy page layout
   font-family: "Noto Sans";
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: #667667;
+  color: #666666;
   margin-bottom: 16px;
   padding-left: 0;
   margin-top: 0;

@@ -18,7 +18,7 @@ $headlinefont: 'Oxygen';
 html {
   font-family: $seriffont;
   font-size: 17px;
-  color: #333;
+  color: #333333;
   line-height: 1.5;
   background-color: #f7f7f7;
 }
@@ -35,7 +35,7 @@ a:link {
 
 a:hover {
   text-decoration: underline;
-  color: blue;
+  color: #027ac6;
 }
 
 
@@ -60,7 +60,7 @@ p {
 p a:link {
   text-decoration: underline;
   font-weight: 400;
-  color: #326891;
+  color: #027ac6;
 }
 
 
@@ -68,7 +68,7 @@ p a:link {
 p a:visited {
   text-decoration: underline;
   font-weight: 400;
-  color: #326891;
+  color: #027ac6;
 }
 
 
@@ -556,6 +556,18 @@ h3.deck {
 /*
 Special for front page of site
 */
+
+
+
+
+.view-front-page-view .view-mode-teaser {
+  padding-bottom: 12px;
+  border-bottom: 1px solid $warmgray;
+  margin-bottom: 1em;
+}
+
+
+
 
 .view-front-page-view h5 {
   font-family: $sanseriffont;
@@ -2454,7 +2466,7 @@ Miscellaneous
   font-family: $sanseriffont;
   font-size:.8em;
   line-height:1.45;
-  color:#333;
+  color:#333333;
 }
 
 
@@ -2665,7 +2677,7 @@ margin-left: 0;
 font-size:1.18em;
 line-height:1.3;
 font-weight: 700;
-color:#333;
+color:#333333;
 }
 
 .l-contentbody .chartbundle--narrow p {
@@ -2675,7 +2687,7 @@ color:#333;
   font-size:.8rem;
   line-height:1.45;
   font-weight: 400;
-  color:#333;
+  color:#333333;
   padding-left: 0;
 }
 
@@ -2688,7 +2700,7 @@ color:#333;
   font-size:.8rem;
   line-height:1.45;
   font-weight: 400;
-  color:#333;
+  color:#333333;
   padding-left: 16px;
 }
 
@@ -2712,7 +2724,7 @@ width:96%;
   margin-top: .5em;
   font-size:.8em;
   line-height:1.45;
-  color:#333;
+  color:#333333;
   padding-left: 0;
 }
 
@@ -2737,7 +2749,7 @@ margin-left: 0;
 font-size:1.18rem;
 line-height:1.3;
 font-weight: 700;
-color:#333;
+color:#333333;
 margin-left: 0;
 }
 
@@ -2747,7 +2759,7 @@ margin-left: 0;
   font-size:.88em;
   line-height:1.45;
   font-weight: 400;
-  color:#333;
+  color:#333333;
   margin-left: 0;
   padding-left: 0;
 }
@@ -2763,7 +2775,7 @@ margin-left: 0;
   margin-top: .5em;
   font-size:.8em;
   line-height:1.45;
-  color:#333;
+  color:#333333;
   padding-left: 0;
 }
 
@@ -2835,7 +2847,7 @@ border-top: 0;
   margin-top: .5em;
   font-size:.8em;
   line-height:1.45;
-  color:#333;
+  color:#333333;
 }
 
 

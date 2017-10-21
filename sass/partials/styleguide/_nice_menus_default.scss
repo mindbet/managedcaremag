@@ -72,7 +72,7 @@ ul.nice-menu ul li {
 
 
 .l-main_menu ul.nice-menu a {
-  color: #333;
+  color: #333333;
   font-size: 14px;
 }
 
@@ -187,11 +187,16 @@ ul.nice-menu-down li.menuparent li a {
  AMGEN biosimilars menu tab
 ******************************/
 
-/*
-
- ul.nice-menu-down li.menu-20067 {
+ ul.nice-menu-down li.menu-path-nexusmanagedcaremagcom- {
    background-color: #f3d619;
  }
+
+ ul.nice-menu-down li.menu-path-nexusmanagedcaremagcom- a {
+   height: 40px;
+   color: black;
+ }
+
+/*
 
 
  ul.nice-menu-down li.menu-19166 {
@@ -199,9 +204,6 @@ ul.nice-menu-down li.menuparent li a {
  }
 
 
- ul.nice-menu-down li.menu-20067 a {
-   color: black;
- }
 
  ul.nice-menu-down li.menu-19166 a {
    color: black;

@@ -166,7 +166,7 @@
   color: #fff;
   font-size: 15px;
   position: fixed;
-  left: 16px;
+  left: 20px;
   top: 9px;
   cursor: pointer;
   height: 28px;
@@ -399,7 +399,7 @@ logo
 #block-search-form {
   display: none;
   @include breakpoint($smalltab) {
-  @include grid-span (3, 10, 12);
+  @include grid-span (4, 9, 12);
   display: block;
   padding: 8px 8px 0 0;
   text-align: right;
@@ -424,7 +424,7 @@ data box
 .databox {
   margin-right: 16px;
   width:180px;
-  background-color:#fff2ca;
+  background-color:#fcf0d3;
   padding:16px;
   float:left;
   clear:both;
