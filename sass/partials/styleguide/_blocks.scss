@@ -438,8 +438,8 @@ data box
 .databox__head {
   text-align:center;
   font-family:$sanseriffont;
-  color:#333333;
-  border-bottom: solid 1px #333333;
+  color:$typecolor;
+  border-bottom: solid 1px $typecolor;
   padding-bottom:3px;
   text-transform:uppercase;
 }
@@ -457,7 +457,7 @@ data box
 .databox__label {
   font-size:15px;
   font-family:$sanseriffont;
-  color:#333333;
+  color:$typecolor;
   text-align:center;
 }
 
@@ -476,7 +476,7 @@ data box
   font-size:12px;
   line-height: 16px;
   font-family:$sanseriffont;
-  color:#333333;
+  color:$typecolor;
   text-align:left;
 }
 
@@ -515,7 +515,7 @@ related content
   font-weight: 700;
   color: $warmgray;
   padding-bottom:3px;
-  border-bottom: solid 1px #333333;
+  border-bottom: solid 1px $typecolor;
   margin-bottom:8px;
   text-transform:uppercase;
   letter-spacing: .06rem;
@@ -528,7 +528,7 @@ related content
   text-align:left;
   font-family:$sanseriffont;
   font-size: 14px;
-  color:#333333;
+  color:$typecolor;
   margin-bottom:8px;
   line-height: 140%;
 }

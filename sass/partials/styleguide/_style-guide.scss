@@ -47,6 +47,7 @@ $sanseriffont: 'Noto Sans';
 $managedcarered: #b4193f;
 $warmgray:  #999999;
 $lightgray: #eeeeee;
+$typecolor: #333333;
 
 
 /*
@@ -252,10 +253,8 @@ header {
   display: none;
   @include breakpoint($tab) {
   clear: both;
-  height: 92px;
   display: block;
   width: 100%;
-  padding: 16px 0;
   }
 }
 

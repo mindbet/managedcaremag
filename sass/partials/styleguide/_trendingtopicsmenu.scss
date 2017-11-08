@@ -9,7 +9,7 @@
 #block-menu-menu-trending-topics h2 {
   font-family: $sanseriffont;
   font-size: .82rem;
-  color: #333333;
+  color: $typecolor;
   line-height: 1.4;
   font-weight: 700;
   float: left;
@@ -39,6 +39,6 @@
 #block-menu-menu-trending-topics li a {
   font-family: $sanseriffont;
   font-size: .82rem;
-  color: #333333;
+  color: $typecolor;
   line-height: 1.4;
 }

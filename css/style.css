@@ -280,10 +280,8 @@ header {
 @media (min-width: 880px) {
   .l-bottom_adstrip {
     clear: both;
-    height: 92px;
     display: block;
     width: 100%;
-    padding: 16px 0;
   }
 }
 
@@ -2946,21 +2944,6 @@ div.chartbundle + div.chartbundle {
   text-align: center;
 }
 
-.lazyadslot-mc_300x250_1_0,
-.lazyadslot-mc_300x250_2_0,
-.lazyadslot-mc_300x250_3_0,
-.lazyadslot-mc_300x250_4_0,
-.lazyadslot-mc_300x250_5_0,
-.lazyadslot-mc_300x600_0 {
-  margin: 0 auto 2em auto;
-  text-align: center;
-}
-
-.lazyadslot-mc_banner_728x90_foot_0 {
-  margin: 0 auto 0 auto;
-  text-align: center;
-}
-
 /*
 */
 #block-dfp-mc-728x90-fixed {
@@ -3033,6 +3016,7 @@ div.chartbundle + div.chartbundle {
 }
 @media (min-width: 550px) {
   #dfp-ad-mc_banner_728x90_foot {
+    height: 92px;
     padding: 16px 0 16px 0;
   }
 }
@@ -4949,7 +4933,7 @@ Special for teaser compact
   font-family: $sanseriffont;
   font-size:.82rem;
   line-height: 17px;
-  color:#333333;
+  color:$typecolor;
   }
 
 
