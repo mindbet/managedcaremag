@@ -32,8 +32,8 @@ stylesheets[print][] = 'css/print.css'
 ; Scripts
 ; ========================================
 
-scripts[] = 'js/tablefix.js'
-scripts[] = 'js/adview-waypoint.js'
+; scripts[] = 'js/tablefix.js'
+; scripts[] = 'js/adview-waypoint.js'
 
 ; ========================================
 ; Modernizr

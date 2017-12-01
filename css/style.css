@@ -1791,6 +1791,10 @@ p.authorcred10 {
   }
 }
 
+.view-mode-teaser {
+  margin-bottom: 1.5em;
+}
+
 .view-mode-full
 .field-name-field-pdf-version {
   font-family: "Noto Sans";
@@ -1939,292 +1943,6 @@ p.authorcred10 {
 @media (min-width: 550px) {
   .pagetitle {
     padding-top: 1rem;
-  }
-}
-
-/*
-Table of Contents listings
-*/
-/* Section headers (Month name and year) */
-.view-id-current_issue_r6 .pagetitle {
-  font-family: "Oxygen";
-  font-size: 2rem;
-  font-weight: 300;
-  padding-top: 56px;
-}
-@media (min-width: 880px) {
-  .view-id-current_issue_r6 .pagetitle {
-    padding-top: 0;
-  }
-}
-
-/* Section headers (Features, departments, etc) */
-.view-id-current_issue_r6 .view-header {
-  font-family: "PT Serif";
-  font-style: italic;
-  font-weight: 400;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .view-header {
-    margin-left: 210px;
-  }
-}
-
-/* Cover image */
-.view-id-current_issue_r6 .views-field-field-issuecovername {
-  float: none;
-  width: 180px;
-  clear: both;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-issuecovername {
-    float: left;
-    margin-bottom: 1rem;
-  }
-}
-
-/* Digital edition link */
-.view-id-current_issue_r6 .views-field-field-digital-edition {
-  float: none;
-  font-family: "Noto Sans";
-  width: 180px;
-  clear: both;
-  font-size: 14px;
-  margin-bottom: 1rem;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-digital-edition {
-    float: left;
-    margin-bottom: 1rem;
-  }
-}
-
-.view-mode-teaser {
-  margin-bottom: 1.5em;
-}
-
-.view-id-current_issue_r6 .field-name-field-slug {
-  font-weight: 700;
-  font-family: "Noto Sans";
-  font-size: .82rem;
-  text-transform: uppercase;
-  margin-top: 1.5em;
-  color: #999999;
-  margin-bottom: 0;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .field-name-field-slug {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-slug {
-  font-weight: 700;
-  font-family: "Noto Sans";
-  font-size: .82rem;
-  text-transform: uppercase;
-  margin-top: 1.5em;
-  color: #999999;
-  margin-bottom: 0;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-slug {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .featureheadline {
-  font-family: "Noto Sans";
-  font-size: 1.18rem;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-top: 1em;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .featureheadline {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-row-first .featureheadline {
-  font-family: "Noto Sans";
-  font-size: 1.18rem;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-top: 0;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-row-first .featureheadline {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 h2.deptheadline {
-  font-family: "Noto Sans";
-  font-size: 1.18rem;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-top: .25em;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 h2.deptheadline {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .field-name-field-deck {
-  font-size: 1rem;
-  font-family: "PT Serif";
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .field-name-field-deck {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-deck {
-  font-size: 1rem;
-  font-family: "PT Serif";
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-deck {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .group-author-string-list {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-  margin-top: .25em;
-  margin-bottom: 1em;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .group-author-string-list {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author2 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author2 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author3 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author3 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author4 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author4 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author5 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author5 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author6 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author6 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author7 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author7 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author8 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author8 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author9 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author9 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .views-field-field-author10 {
-  font-family: "Noto Sans";
-  font-size: .88rem;
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .views-field-field-author10 {
-    margin-left: 210px;
-  }
-}
-
-.view-id-current_issue_r6 .newsheadline {
-  font-size: 1rem;
-  font-family: "PT Serif";
-  line-height: 1.4;
-}
-@media (min-width: 1110px) {
-  .view-id-current_issue_r6 .newsheadline {
-    margin-left: 210px;
   }
 }
 
@@ -5751,12 +5469,12 @@ major source photo with display quote on right side
   background-color: #ffffff;
 }
 
-.node-type-newsletter .field-name-body blockquote {
+.node-type-newsletter .field-name-body blockquote p {
   width: 600px;
   font-family: Georgia, serif;
   font-size: 15px;
   line-height: 1.5;
-  padding: 40px 3.5% 0 3.5%;
+  padding: 20px 3.5% 0 10.5%;
   font-weight: normal;
   margin: 0 auto;
   background-color: #ffffff;
@@ -5814,6 +5532,570 @@ major source photo with display quote on right side
 
 .node-type-newsletter .field-name-field-newsletter-top-banner table {
   margin: 0;
+}
+
+/*
+Table of Contents listings
+*/
+/* Section headers (Month name and year) */
+.view-id-current_issue_r6 .pagetitle {
+  font-family: "Oxygen";
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 56px;
+}
+@media (min-width: 880px) {
+  .view-id-current_issue_r6 .pagetitle {
+    padding-top: 0;
+  }
+}
+
+/* Section headers (Features, departments, etc) */
+.view-id-current_issue_r6 .view-header {
+  font-family: "PT Serif";
+  font-style: italic;
+  font-weight: 400;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .view-header {
+    margin-left: 210px;
+  }
+}
+
+/* Cover image */
+.view-id-current_issue_r6 .views-field-field-issuecovername {
+  float: none;
+  width: 180px;
+  clear: both;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-issuecovername {
+    float: left;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Digital edition link */
+.view-id-current_issue_r6 .views-field-field-digital-edition {
+  float: none;
+  font-family: "Noto Sans";
+  width: 180px;
+  clear: both;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-digital-edition {
+    float: left;
+    margin-bottom: 1rem;
+  }
+}
+
+.view-id-current_issue_r6 .field-name-field-slug {
+  font-weight: 700;
+  font-family: "Noto Sans";
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: #999999;
+  margin-bottom: 0;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .field-name-field-slug {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-slug {
+  font-weight: 700;
+  font-family: "Noto Sans";
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: #999999;
+  margin-bottom: 0;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-slug {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .featureheadline {
+  font-family: "Noto Sans";
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 1em;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .featureheadline {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-row-first .featureheadline {
+  font-family: "Noto Sans";
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-row-first .featureheadline {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 h2.deptheadline {
+  font-family: "Noto Sans";
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: .25em;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 h2.deptheadline {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .field-name-field-deck {
+  font-size: 1rem;
+  font-family: "PT Serif";
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .field-name-field-deck {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-deck {
+  font-size: 1rem;
+  font-family: "PT Serif";
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-deck {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .group-author-string-list {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+  margin-top: .25em;
+  margin-bottom: 1em;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .group-author-string-list {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author2 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author2 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author3 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author3 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author4 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author4 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author5 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author5 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author6 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author6 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author7 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author7 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author8 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author8 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author9 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author9 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-author10 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .views-field-field-author10 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-current_issue_r6 .newsheadline {
+  font-size: 1rem;
+  font-family: "PT Serif";
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-current_issue_r6 .newsheadline {
+    margin-left: 210px;
+  }
+}
+
+/*
+Table of Contents listings unpublished issue
+*/
+/* Section headers (Month name and year) */
+.view-id-unpublished_issue .pagetitle {
+  font-family: "Oxygen";
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 56px;
+}
+@media (min-width: 880px) {
+  .view-id-unpublished_issue .pagetitle {
+    padding-top: 0;
+  }
+}
+
+/* Section headers (Features, departments, etc) */
+.view-id-unpublished_issue .view-header {
+  font-family: "PT Serif";
+  font-style: italic;
+  font-weight: 400;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .view-header {
+    margin-left: 210px;
+  }
+}
+
+/* Cover image */
+.view-id-unpublished_issue .views-field-field-issuecovername {
+  float: none;
+  width: 180px;
+  clear: both;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-issuecovername {
+    float: left;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Digital edition link */
+.view-id-unpublished_issue .views-field-field-digital-edition {
+  float: none;
+  font-family: "Noto Sans";
+  width: 180px;
+  clear: both;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-digital-edition {
+    float: left;
+    margin-bottom: 1rem;
+  }
+}
+
+.view-id-unpublished_issue .field-name-field-slug {
+  font-weight: 700;
+  font-family: "Noto Sans";
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: #999999;
+  margin-bottom: 0;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .field-name-field-slug {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-slug {
+  font-weight: 700;
+  font-family: "Noto Sans";
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: #999999;
+  margin-bottom: 0;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-slug {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .featureheadline {
+  font-family: "Noto Sans";
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 1em;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .featureheadline {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-row-first .featureheadline {
+  font-family: "Noto Sans";
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-row-first .featureheadline {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue h2.deptheadline {
+  font-family: "Noto Sans";
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: .25em;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue h2.deptheadline {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .field-name-field-deck {
+  font-size: 1rem;
+  font-family: "PT Serif";
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .field-name-field-deck {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-deck {
+  font-size: 1rem;
+  font-family: "PT Serif";
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-deck {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .group-author-string-list {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+  margin-top: .25em;
+  margin-bottom: 1em;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .group-author-string-list {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author2 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author2 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author3 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author3 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author4 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author4 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author5 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author5 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author6 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author6 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author7 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author7 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author8 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author8 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author9 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author9 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-author10 {
+  font-family: "Noto Sans";
+  font-size: .88rem;
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .views-field-field-author10 {
+    margin-left: 210px;
+  }
+}
+
+.view-id-unpublished_issue .newsheadline {
+  font-size: 1rem;
+  font-family: "PT Serif";
+  line-height: 1.4;
+}
+@media (min-width: 1110px) {
+  .view-id-unpublished_issue .newsheadline {
+    margin-left: 210px;
+  }
 }
 
 /*

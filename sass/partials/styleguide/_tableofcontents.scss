@@ -1,0 +1,581 @@
+/*
+Table of Contents listings
+*/
+
+
+
+
+/* Section headers (Month name and year) */
+
+.view-id-current_issue_r6 .pagetitle {
+  font-family: $headlinefont;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 56px;
+  @include breakpoint($tab) {
+  padding-top: 0;
+  }
+}
+
+
+
+
+
+/* Section headers (Features, departments, etc) */
+
+.view-id-current_issue_r6 .view-header {
+  font-family: $seriffont;
+  font-style: italic;
+  font-weight: 400;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+/* Cover image */
+
+.view-id-current_issue_r6 .views-field-field-issuecovername {
+  float:none;
+  width: $leftraillive;
+  clear:both;
+  @include breakpoint($desk) {
+  float: left;
+  margin-bottom: 1rem;
+  }
+  }
+
+
+/* Digital edition link */
+
+.view-id-current_issue_r6 .views-field-field-digital-edition {
+  float:none;
+  font-family: $sanseriffont;
+  width: $leftraillive;
+  clear:both;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  @include breakpoint($desk) {
+  float: left;
+  margin-bottom: 1rem;
+  }
+  }
+
+
+
+
+.view-id-current_issue_r6 .field-name-field-slug {
+  font-weight: 700;
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: $warmgray;
+  margin-bottom: 0;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+.view-id-current_issue_r6 .views-field-field-slug {
+  font-weight: 700;
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: $warmgray;
+  margin-bottom: 0;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+
+.view-id-current_issue_r6 .featureheadline {
+  font-family: $sanseriffont;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 1em;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+.view-id-current_issue_r6 .views-row-first .featureheadline {
+  font-family: $sanseriffont;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+
+
+
+
+
+.view-id-current_issue_r6 h2.deptheadline {
+  font-family: $sanseriffont;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: .25em;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+
+
+
+
+
+.view-id-current_issue_r6 .field-name-field-deck {
+  font-size: 1rem;
+  font-family: $seriffont;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+.view-id-current_issue_r6 .views-field-field-deck {
+  font-size: 1rem;
+  font-family: $seriffont;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+
+
+.view-id-current_issue_r6 .group-author-string-list {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  margin-top: .25em;
+  margin-bottom: 1em;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+.view-id-current_issue_r6 .views-field-field-author {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author2 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author3 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author4 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author5 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author6 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author7 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author8 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author9 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-current_issue_r6 .views-field-field-author10 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+
+
+
+.view-id-current_issue_r6 .newsheadline {
+  font-size: 1rem;
+  font-family: $seriffont;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+
+
+
+
+
+/*
+Table of Contents listings unpublished issue
+*/
+
+
+
+
+/* Section headers (Month name and year) */
+
+.view-id-unpublished_issue .pagetitle {
+  font-family: $headlinefont;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 56px;
+  @include breakpoint($tab) {
+  padding-top: 0;
+  }
+}
+
+
+
+
+
+/* Section headers (Features, departments, etc) */
+
+.view-id-unpublished_issue .view-header {
+  font-family: $seriffont;
+  font-style: italic;
+  font-weight: 400;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+/* Cover image */
+
+.view-id-unpublished_issue .views-field-field-issuecovername {
+  float:none;
+  width: $leftraillive;
+  clear:both;
+  @include breakpoint($desk) {
+  float: left;
+  margin-bottom: 1rem;
+  }
+  }
+
+
+/* Digital edition link */
+
+.view-id-unpublished_issue .views-field-field-digital-edition {
+  float:none;
+  font-family: $sanseriffont;
+  width: $leftraillive;
+  clear:both;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  @include breakpoint($desk) {
+  float: left;
+  margin-bottom: 1rem;
+  }
+  }
+
+
+
+
+.view-id-unpublished_issue .field-name-field-slug {
+  font-weight: 700;
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: $warmgray;
+  margin-bottom: 0;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+.view-id-unpublished_issue .views-field-field-slug {
+  font-weight: 700;
+  font-family: $sanseriffont;
+  font-size: .82rem;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: $warmgray;
+  margin-bottom: 0;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+
+.view-id-unpublished_issue .featureheadline {
+  font-family: $sanseriffont;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 1em;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+.view-id-unpublished_issue .views-row-first .featureheadline {
+  font-family: $sanseriffont;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 0;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+
+
+
+
+
+.view-id-unpublished_issue h2.deptheadline {
+  font-family: $sanseriffont;
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: .25em;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+
+
+
+
+
+.view-id-unpublished_issue .field-name-field-deck {
+  font-size: 1rem;
+  font-family: $seriffont;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+.view-id-unpublished_issue .views-field-field-deck {
+  font-size: 1rem;
+  font-family: $seriffont;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+
+
+.view-id-unpublished_issue .group-author-string-list {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  margin-top: .25em;
+  margin-bottom: 1em;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+.view-id-unpublished_issue .views-field-field-author {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+
+
+.view-id-unpublished_issue .views-field-field-author2 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author3 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author4 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author5 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author6 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author7 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author8 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author9 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+.view-id-unpublished_issue .views-field-field-author10 {
+  font-family: $sanseriffont;
+  font-size: .88rem;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+  }
+
+
+
+
+
+.view-id-unpublished_issue .newsheadline {
+  font-size: 1rem;
+  font-family: $seriffont;
+  line-height: 1.4;
+  @include breakpoint($desk) {
+  margin-left: $leftrailmargin;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
